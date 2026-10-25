@@ -80,14 +80,16 @@ function initCategoryPills() {
   const container = document.getElementById('category-pills-wrap');
   if (!container) return;
 
-  // Extract unique categories
-  const categories = [
+  // Extract categories dynamically from loaded books
+  const dynamicCategories = [
     { id: 'all', name: 'அனைத்தும் (All Books)' },
-    { id: 'historical-fiction', name: 'வரலாற்று நாவல் (History)' },
-    { id: 'literature', name: 'இலக்கியம் (Literature)' },
-    { id: 'self-help', name: 'சுயமுன்னேற்றம் (Self Help)' },
-    { id: 'poetry', name: 'கவிதை (Poetry)' }
+    { id: 'police', name: 'போலீஸ் (Police / SI)' },
+    { id: 'tet', name: 'ஆசிரியர் தகுதி (TET)' },
+    { id: 'tnpsc', name: 'TNPSC' },
+    { id: 'school', name: 'பள்ளிப் பாடங்கள் (6 - 12)' },
+    { id: 'gk', name: 'பொது அறிவு (GK)' }
   ];
+  const categories = dynamicCategories;
 
   container.innerHTML = categories.map(cat => {
     const count = cat.id === 'all' 

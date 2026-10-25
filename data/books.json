@@ -1,483 +1,3070 @@
 [
   {
-    "id": "ponniyin-selvan-complete-set",
-    "title": "பொன்னியின் செல்வன் (5 பாகங்கள் முழுத் தொகுப்பு)",
-    "titleEn": "Ponniyin Selvan - Complete 5 Volumes Set",
-    "author": "கல்கி கிருஷ்ணமூர்த்தி",
-    "authorEn": "Kalki Krishnamurthy",
-    "category": "historical-fiction",
-    "categoryName": "வரலாற்று நாவல் / Historical Novel",
-    "price": 1250,
-    "originalPrice": 1600,
-    "discountPercent": 22,
+    "id": "raj-book-1-book",
+    "sNo": 1,
+    "sku": "10001",
+    "title": "காவலர் தமிழ்",
+    "titleEn": "காவலர் தமிழ்",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "police",
+    "categoryName": "போலீஸ் / காவலர் (Police)",
+    "price": 630,
+    "originalPrice": 900,
+    "discountPercent": 30,
     "inStock": true,
     "featured": true,
-    "badge": "BESTSELLER",
-    "rating": 4.9,
-    "reviewCount": 184,
+    "badge": "30% OFFER",
+    "rating": 4.7,
+    "reviewCount": 47,
     "images": {
-      "front": "assets/images/books/ponniyin-selvan-front.svg",
-      "back": "assets/images/books/ponniyin-selvan-back.svg",
-      "inside": "assets/images/books/ponniyin-selvan-inside.svg"
+      "front": "assets/images/books/raj-book-1-cover.svg",
+      "back": "assets/images/books/raj-book-1-cover.svg",
+      "inside": "assets/images/books/raj-book-1-cover.svg"
+    },
+    "isbn": "9788196596538",
+    "pages": 455,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": "1150 g",
+    "dimensions": "28 x 20 x 2.2 cm",
+    "shortDescription": "காவலர் தமிழ் - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "காவலர் தமிழ் புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "காவலர் தமிழ் புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "காவலர் தமிழ் புத்தகத்தை சிறப்பு சலுகை விலையான ₹630-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "காவலர் தமிழ், raj publication, tamil competitive exam books, buy books online"
     },
     "gallery": [
       {
-        "url": "assets/images/books/ponniyin-selvan-front.svg",
+        "url": "assets/images/books/raj-book-1-cover.svg",
         "title": "முன் அட்டை / Front Cover",
-        "description": "நேர்த்தியான கோல்டன் எம்பாஸ் செய்யப்பட்ட முன் அட்டை வடிவமைப்பு"
-      },
-      {
-        "url": "assets/images/books/ponniyin-selvan-back.svg",
-        "title": "பின் அட்டை / Back Cover",
-        "description": "நூல் அறிமுக சுருக்கம் மற்றும் பாராட்டுரைகளுடன் கூடிய பின் அட்டை"
-      },
-      {
-        "url": "assets/images/books/ponniyin-selvan-inside.svg",
-        "title": "உள் பக்க மாதிரி / Sample Inside Pages",
-        "description": "கண்களுக்கு சோர்வு தராத உயர்தர காகித அச்சு & நேர்த்தியான எழுத்துருக்கள்"
+        "description": "காவலர் தமிழ் - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
       }
-    ],
-    "isbn": "978-81-8368-101-0",
-    "pages": 2240,
-    "language": "தமிழ் (Tamil)",
-    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
-    "edition": "2026 புதிய பிரீமியம் பதிப்பு",
-    "binding": "ஹார்ட்கவர் (Hardcover Box Set)",
-    "weight": "1.85 kg",
-    "dimensions": "22.5 x 14.8 x 9.2 cm",
-    "shortDescription": "தமிழின் ஆகச்சிறந்த வரலாற்று நாவலான பொன்னியின் செல்வனின் 5 பாகங்களும் அடங்கிய சிறப்பு பதிப்பு.",
-    "fullDescription": "கல்கி எழுதிய மாபெரும் காவியமான பொன்னியின் செல்வன், சோழ சாம்ராஜ்யத்தின் பொற்கால வரலாற்றையும், அருள்மொழிவர்மனின் வீர சாகசங்களையும் கண்முன்னே நிறுத்தும் ஒப்பற்ற காவியம். ராஜராஜ சோழனின் இளமைக் கால வாழ்வு, அரசியல் சூழ்ச்சிகள், வந்தியத்தேவனின் சாகசப் பயணங்கள், நந்தினியின் மர்மங்கள், குந்தவையின் ராஜதந்திரங்கள் என வாசகர்களை மெய்சிலிர்க்க வைக்கும் நாவல். ராஜ் பப்ளிகேஷன் பெருமையுடன் வழங்கும் இந்த புதிய பதிப்பில் உயர்தர பைண்டிங் மற்றும் தெளிவான பெரிய எழுத்துக்கள் இடம்பெற்றுள்ளன.",
-    "highlights": [
-      "5 பாகங்களும் அடங்கிய முழுமையான பிரீமியம் பாக்ஸ் செட்",
-      "உயர்தர 70 GSM கண்குளிரும் மேப்லித்தோ காகித அச்சு",
-      "நீண்ட காலம் உழைக்கும் கெட்டி அட்டை (Hardcover) பைண்டிங்",
-      "சோழ நாடு மற்றும் ஈழ வரைபடம் இலவச இணைப்பு",
-      "வாட்ஸ்அப் மூலம் ஆர்டர் செய்து வீட்டில் பெற்றுக்கொள்ளுங்கள்"
-    ],
-    "seo": {
-      "metaTitle": "பொன்னியின் செல்வன் 5 பாகங்கள் முழுத் தொகுப்பு புத்தகம் வாங்க | Raj Publication",
-      "metaDescription": "கல்கியின் பொன்னியின் செல்வன் முழு நாவல் தொகுப்பை சிறந்த சலுகை விலையில் வாட்ஸ்அப் மூலம் வாங்கவும். தமிழகம் முழுவதும் விரைவான ஹோம் டெலிவரி.",
-      "keywords": "பொன்னியின் செல்வன், ponniyin selvan book, kalki novels, tamil historical books, raj publication, buy tamil books online"
-    }
+    ]
   },
   {
-    "id": "sivagamiyin-sabatham",
-    "title": "சிவகாமியின் சபதம் (முழுத் தொகுப்பு)",
-    "titleEn": "Sivagamiyin Sabatham - Complete Edition",
-    "author": "கல்கி கிருஷ்ணமூர்த்தி",
-    "authorEn": "Kalki Krishnamurthy",
-    "category": "historical-fiction",
-    "categoryName": "வரலாற்று நாவல் / Historical Novel",
-    "price": 680,
-    "originalPrice": 850,
-    "discountPercent": 20,
+    "id": "raj-book-2-tn-tet-paper-i",
+    "sNo": 2,
+    "sku": "10027",
+    "title": "TN - TET PAPER - I தமிழ்",
+    "titleEn": "TN - TET PAPER - I தமிழ்",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "tet",
+    "categoryName": "ஆசிரியர் தகுதித் தேர்வு (TET / TRB)",
+    "price": 735,
+    "originalPrice": 1050,
+    "discountPercent": 30,
     "inStock": true,
     "featured": true,
-    "badge": "CLASSIC",
+    "badge": "30% OFFER",
     "rating": 4.8,
+    "reviewCount": 54,
+    "images": {
+      "front": "assets/images/books/raj-book-2-cover.svg",
+      "back": "assets/images/books/raj-book-2-cover.svg",
+      "inside": "assets/images/books/raj-book-2-cover.svg"
+    },
+    "isbn": "9788199832855",
+    "pages": 527,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": null,
+    "dimensions": "28 x 20 x 2.5 cm",
+    "shortDescription": "TN - TET PAPER - I தமிழ் - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "TN - TET PAPER - I தமிழ் புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "TN - TET PAPER - I தமிழ் புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "TN - TET PAPER - I தமிழ் புத்தகத்தை சிறப்பு சலுகை விலையான ₹735-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "TN - TET PAPER - I தமிழ், raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-2-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "TN - TET PAPER - I தமிழ் - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-3-tn-tet-paper-ii",
+    "sNo": 3,
+    "sku": "10028",
+    "title": "TN - TET PAPER - II தமிழ்",
+    "titleEn": "TN - TET PAPER - II தமிழ்",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "tet",
+    "categoryName": "ஆசிரியர் தகுதித் தேர்வு (TET / TRB)",
+    "price": 980,
+    "originalPrice": 1400,
+    "discountPercent": 30,
+    "inStock": true,
+    "featured": true,
+    "badge": "30% OFFER",
+    "rating": 4.8,
+    "reviewCount": 61,
+    "images": {
+      "front": "assets/images/books/raj-book-3-cover.svg",
+      "back": "assets/images/books/raj-book-3-cover.svg",
+      "inside": "assets/images/books/raj-book-3-cover.svg"
+    },
+    "isbn": "9788199832824",
+    "pages": 685,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": null,
+    "dimensions": "28 x 20 x 3.3 cm",
+    "shortDescription": "TN - TET PAPER - II தமிழ் - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "TN - TET PAPER - II தமிழ் புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "TN - TET PAPER - II தமிழ் புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "TN - TET PAPER - II தமிழ் புத்தகத்தை சிறப்பு சலுகை விலையான ₹980-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "TN - TET PAPER - II தமிழ், raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-3-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "TN - TET PAPER - II தமிழ் - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-4-6-10-sslc-std-tamil",
+    "sNo": 4,
+    "sku": "10029",
+    "title": "6 - 10 தமிழ் (SSLC STD TAMIL)",
+    "titleEn": "6 - 10 தமிழ் (SSLC STD TAMIL)",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "school",
+    "categoryName": "பள்ளிப் பாடங்கள் (School 6-12)",
+    "price": 630,
+    "originalPrice": 900,
+    "discountPercent": 30,
+    "inStock": true,
+    "featured": true,
+    "badge": "30% OFFER",
+    "rating": 4.9,
+    "reviewCount": 68,
+    "images": {
+      "front": "assets/images/books/raj-book-4-cover.svg",
+      "back": "assets/images/books/raj-book-4-cover.svg",
+      "inside": "assets/images/books/raj-book-4-cover.svg"
+    },
+    "isbn": "9788168605367",
+    "pages": 460,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": null,
+    "dimensions": "28 x 20 x 2.2 cm",
+    "shortDescription": "6 - 10 தமிழ் (SSLC STD TAMIL) - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "6 - 10 தமிழ் (SSLC STD TAMIL) புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "6 - 10 தமிழ் (SSLC STD TAMIL) புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "6 - 10 தமிழ் (SSLC STD TAMIL) புத்தகத்தை சிறப்பு சலுகை விலையான ₹630-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "6 - 10 தமிழ் (SSLC STD TAMIL), raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-4-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "6 - 10 தமிழ் (SSLC STD TAMIL) - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-5-6-12",
+    "sNo": 5,
+    "sku": "10002",
+    "title": "6 - 12 தமிழ்",
+    "titleEn": "6 - 12 தமிழ்",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "school",
+    "categoryName": "பள்ளிப் பாடங்கள் (School 6-12)",
+    "price": 980,
+    "originalPrice": 1400,
+    "discountPercent": 30,
+    "inStock": true,
+    "featured": true,
+    "badge": "30% OFFER",
+    "rating": 4.6,
+    "reviewCount": 75,
+    "images": {
+      "front": "assets/images/books/raj-book-5-cover.svg",
+      "back": "assets/images/books/raj-book-5-cover.svg",
+      "inside": "assets/images/books/raj-book-5-cover.svg"
+    },
+    "isbn": "9788199720404",
+    "pages": 705,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": "1600 g",
+    "dimensions": "28 x 20 x 3.5 cm",
+    "shortDescription": "6 - 12 தமிழ் - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "6 - 12 தமிழ் புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "6 - 12 தமிழ் புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "6 - 12 தமிழ் புத்தகத்தை சிறப்பு சலுகை விலையான ₹980-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "6 - 12 தமிழ், raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-5-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "6 - 12 தமிழ் - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-6-tnusrb-si",
+    "sNo": 6,
+    "sku": "10030",
+    "title": "TNUSRB - SI தமிழ்",
+    "titleEn": "TNUSRB - SI தமிழ்",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "police",
+    "categoryName": "போலீஸ் / காவலர் (Police)",
+    "price": 1085,
+    "originalPrice": 1550,
+    "discountPercent": 30,
+    "inStock": true,
+    "featured": true,
+    "badge": "30% OFFER",
+    "rating": 4.7,
+    "reviewCount": 82,
+    "images": {
+      "front": "assets/images/books/raj-book-6-cover.svg",
+      "back": "assets/images/books/raj-book-6-cover.svg",
+      "inside": "assets/images/books/raj-book-6-cover.svg"
+    },
+    "isbn": "9788168605381",
+    "pages": 775,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": null,
+    "dimensions": "28 x 20 x 3.7 cm",
+    "shortDescription": "TNUSRB - SI தமிழ் - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "TNUSRB - SI தமிழ் புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "TNUSRB - SI தமிழ் புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "TNUSRB - SI தமிழ் புத்தகத்தை சிறப்பு சலுகை விலையான ₹1085-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "TNUSRB - SI தமிழ், raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-6-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "TNUSRB - SI தமிழ் - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-7-police-tet-tnpsc-sslc-std",
+    "sNo": 7,
+    "sku": "10003",
+    "title": "POLICE – TET – TNPSC அறிவியல் (SSLC STD)",
+    "titleEn": "POLICE – TET – TNPSC அறிவியல் (SSLC STD)",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "police",
+    "categoryName": "போலீஸ் / காவலர் (Police)",
+    "price": 1090,
+    "originalPrice": 1558,
+    "discountPercent": 30,
+    "inStock": true,
+    "featured": true,
+    "badge": "30% OFFER",
+    "rating": 4.8,
+    "reviewCount": 89,
+    "images": {
+      "front": "assets/images/books/raj-book-7-cover.svg",
+      "back": "assets/images/books/raj-book-7-cover.svg",
+      "inside": "assets/images/books/raj-book-7-cover.svg"
+    },
+    "isbn": "9788196596576",
+    "pages": 729,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": "1500 g",
+    "dimensions": "28 x 20 x 3.5 cm",
+    "shortDescription": "POLICE – TET – TNPSC அறிவியல் (SSLC STD) - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "POLICE – TET – TNPSC அறிவியல் (SSLC STD) புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "POLICE – TET – TNPSC அறிவியல் (SSLC STD) புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "POLICE – TET – TNPSC அறிவியல் (SSLC STD) புத்தகத்தை சிறப்பு சலுகை விலையான ₹1090-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "POLICE – TET – TNPSC அறிவியல் (SSLC STD), raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-7-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "POLICE – TET – TNPSC அறிவியல் (SSLC STD) - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-8-police-sslc-std",
+    "sNo": 8,
+    "sku": "10031",
+    "title": "POLICE அறிவியல் (SSLC STD)",
+    "titleEn": "POLICE அறிவியல் (SSLC STD)",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "police",
+    "categoryName": "போலீஸ் / காவலர் (Police)",
+    "price": 940,
+    "originalPrice": 1454,
+    "discountPercent": 35,
+    "inStock": true,
+    "featured": true,
+    "badge": "35% OFFER",
+    "rating": 4.8,
+    "reviewCount": 96,
+    "images": {
+      "front": "assets/images/books/raj-book-8-cover.svg",
+      "back": "assets/images/books/raj-book-8-cover.svg",
+      "inside": "assets/images/books/raj-book-8-cover.svg"
+    },
+    "isbn": "9788168605398",
+    "pages": 677,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": "1500 g",
+    "dimensions": "28 x 20 x 3.2 cm",
+    "shortDescription": "POLICE அறிவியல் (SSLC STD) - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "POLICE அறிவியல் (SSLC STD) புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "POLICE அறிவியல் (SSLC STD) புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "POLICE அறிவியல் (SSLC STD) புத்தகத்தை சிறப்பு சலுகை விலையான ₹940-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "POLICE அறிவியல் (SSLC STD), raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-8-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "POLICE அறிவியல் (SSLC STD) - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-9-tn-tet-paper-i",
+    "sNo": 9,
+    "sku": "10032",
+    "title": "TN - TET PAPER – I அறிவியல்",
+    "titleEn": "TN - TET PAPER – I அறிவியல்",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "tet",
+    "categoryName": "ஆசிரியர் தகுதித் தேர்வு (TET / TRB)",
+    "price": 940,
+    "originalPrice": 1464,
+    "discountPercent": 36,
+    "inStock": true,
+    "featured": true,
+    "badge": "36% OFFER",
+    "rating": 4.9,
+    "reviewCount": 103,
+    "images": {
+      "front": "assets/images/books/raj-book-9-cover.svg",
+      "back": "assets/images/books/raj-book-9-cover.svg",
+      "inside": "assets/images/books/raj-book-9-cover.svg"
+    },
+    "isbn": "9788199832817",
+    "pages": 682,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": null,
+    "dimensions": "28 x 20 x 3.3 cm",
+    "shortDescription": "TN - TET PAPER – I அறிவியல் - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "TN - TET PAPER – I அறிவியல் புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "TN - TET PAPER – I அறிவியல் புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "TN - TET PAPER – I அறிவியல் புத்தகத்தை சிறப்பு சலுகை விலையான ₹940-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "TN - TET PAPER – I அறிவியல், raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-9-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "TN - TET PAPER – I அறிவியல் - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-10-tn-tet-paper-ii",
+    "sNo": 10,
+    "sku": "10033",
+    "title": "TN - TET PAPER – II அறிவியல்",
+    "titleEn": "TN - TET PAPER – II அறிவியல்",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "tet",
+    "categoryName": "ஆசிரியர் தகுதித் தேர்வு (TET / TRB)",
+    "price": 940,
+    "originalPrice": 1464,
+    "discountPercent": 36,
+    "inStock": true,
+    "featured": true,
+    "badge": "36% OFFER",
+    "rating": 4.6,
+    "reviewCount": 110,
+    "images": {
+      "front": "assets/images/books/raj-book-10-cover.svg",
+      "back": "assets/images/books/raj-book-10-cover.svg",
+      "inside": "assets/images/books/raj-book-10-cover.svg"
+    },
+    "isbn": "9788199832893",
+    "pages": 682,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": null,
+    "dimensions": "28 x 20 x 3.3 cm",
+    "shortDescription": "TN - TET PAPER – II அறிவியல் - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "TN - TET PAPER – II அறிவியல் புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "TN - TET PAPER – II அறிவியல் புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "TN - TET PAPER – II அறிவியல் புத்தகத்தை சிறப்பு சலுகை விலையான ₹940-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "TN - TET PAPER – II அறிவியல், raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-10-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "TN - TET PAPER – II அறிவியல் - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-11-police-tet-tnpsc-sslc-std",
+    "sNo": 11,
+    "sku": "10004",
+    "title": "POLICE – TET – TNPSC சமூக அறிவியல் (SSLC STD)",
+    "titleEn": "POLICE – TET – TNPSC சமூக அறிவியல் (SSLC STD)",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "police",
+    "categoryName": "போலீஸ் / காவலர் (Police)",
+    "price": 882,
+    "originalPrice": 1260,
+    "discountPercent": 30,
+    "inStock": true,
+    "featured": true,
+    "badge": "30% OFFER",
+    "rating": 4.7,
+    "reviewCount": 117,
+    "images": {
+      "front": "assets/images/books/raj-book-11-cover.svg",
+      "back": "assets/images/books/raj-book-11-cover.svg",
+      "inside": "assets/images/books/raj-book-11-cover.svg"
+    },
+    "isbn": "9788196596569",
+    "pages": 630,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": "1500 g",
+    "dimensions": "28 x 20 x 3 cm",
+    "shortDescription": "POLICE – TET – TNPSC சமூக அறிவியல் (SSLC STD) - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "POLICE – TET – TNPSC சமூக அறிவியல் (SSLC STD) புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "POLICE – TET – TNPSC சமூக அறிவியல் (SSLC STD) புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "POLICE – TET – TNPSC சமூக அறிவியல் (SSLC STD) புத்தகத்தை சிறப்பு சலுகை விலையான ₹882-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "POLICE – TET – TNPSC சமூக அறிவியல் (SSLC STD), raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-11-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "POLICE – TET – TNPSC சமூக அறிவியல் (SSLC STD) - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-12-tn-tet-paper-i",
+    "sNo": 12,
+    "sku": "10034",
+    "title": "TN - TET Paper – I சமூக அறிவியல்",
+    "titleEn": "TN - TET Paper – I சமூக அறிவியல்",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "tet",
+    "categoryName": "ஆசிரியர் தகுதித் தேர்வு (TET / TRB)",
+    "price": 980,
+    "originalPrice": 1400,
+    "discountPercent": 30,
+    "inStock": true,
+    "featured": true,
+    "badge": "30% OFFER",
+    "rating": 4.8,
+    "reviewCount": 124,
+    "images": {
+      "front": "assets/images/books/raj-book-12-cover.svg",
+      "back": "assets/images/books/raj-book-12-cover.svg",
+      "inside": "assets/images/books/raj-book-12-cover.svg"
+    },
+    "isbn": "9788168605305",
+    "pages": 695,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": null,
+    "dimensions": "28 x 20 x 3.3 cm",
+    "shortDescription": "TN - TET Paper – I சமூக அறிவியல் - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "TN - TET Paper – I சமூக அறிவியல் புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "TN - TET Paper – I சமூக அறிவியல் புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "TN - TET Paper – I சமூக அறிவியல் புத்தகத்தை சிறப்பு சலுகை விலையான ₹980-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "TN - TET Paper – I சமூக அறிவியல், raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-12-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "TN - TET Paper – I சமூக அறிவியல் - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-13-tn-tet-paper-ii",
+    "sNo": 13,
+    "sku": "10035",
+    "title": "TN - TET Paper – II சமூக அறிவியல்",
+    "titleEn": "TN - TET Paper – II சமூக அறிவியல்",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "tet",
+    "categoryName": "ஆசிரியர் தகுதித் தேர்வு (TET / TRB)",
+    "price": 980,
+    "originalPrice": 1400,
+    "discountPercent": 30,
+    "inStock": true,
+    "featured": true,
+    "badge": "30% OFFER",
+    "rating": 4.8,
+    "reviewCount": 131,
+    "images": {
+      "front": "assets/images/books/raj-book-13-cover.svg",
+      "back": "assets/images/books/raj-book-13-cover.svg",
+      "inside": "assets/images/books/raj-book-13-cover.svg"
+    },
+    "isbn": "9788168605343",
+    "pages": 695,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": null,
+    "dimensions": "28 x 20 x 3.3 cm",
+    "shortDescription": "TN - TET Paper – II சமூக அறிவியல் - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "TN - TET Paper – II சமூக அறிவியல் புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "TN - TET Paper – II சமூக அறிவியல் புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "TN - TET Paper – II சமூக அறிவியல் புத்தகத்தை சிறப்பு சலுகை விலையான ₹980-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "TN - TET Paper – II சமூக அறிவியல், raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-13-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "TN - TET Paper – II சமூக அறிவியல் - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-14-tnpsc-sslc-std",
+    "sNo": 14,
+    "sku": "10036",
+    "title": "TNPSC சமூக அறிவியல் (SSLC STD)",
+    "titleEn": "TNPSC சமூக அறிவியல் (SSLC STD)",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "tnpsc",
+    "categoryName": "டி.என்.பி.எஸ்.சி (TNPSC)",
+    "price": 882,
+    "originalPrice": 1260,
+    "discountPercent": 30,
+    "inStock": true,
+    "featured": true,
+    "badge": "30% OFFER",
+    "rating": 4.9,
+    "reviewCount": 138,
+    "images": {
+      "front": "assets/images/books/raj-book-14-cover.svg",
+      "back": "assets/images/books/raj-book-14-cover.svg",
+      "inside": "assets/images/books/raj-book-14-cover.svg"
+    },
+    "isbn": "9788168605329",
+    "pages": 630,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": null,
+    "dimensions": "28 x 20 x 3 cm",
+    "shortDescription": "TNPSC சமூக அறிவியல் (SSLC STD) - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "TNPSC சமூக அறிவியல் (SSLC STD) புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "TNPSC சமூக அறிவியல் (SSLC STD) புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "TNPSC சமூக அறிவியல் (SSLC STD) புத்தகத்தை சிறப்பு சலுகை விலையான ₹882-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "TNPSC சமூக அறிவியல் (SSLC STD), raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-14-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "TNPSC சமூக அறிவியல் (SSLC STD) - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-15-police-sslc-std",
+    "sNo": 15,
+    "sku": "10037",
+    "title": "POLICE சமூக அறிவியல் (SSLC STD)",
+    "titleEn": "POLICE சமூக அறிவியல் (SSLC STD)",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "police",
+    "categoryName": "போலீஸ் / காவலர் (Police)",
+    "price": 882,
+    "originalPrice": 1260,
+    "discountPercent": 30,
+    "inStock": true,
+    "featured": true,
+    "badge": "30% OFFER",
+    "rating": 4.6,
+    "reviewCount": 145,
+    "images": {
+      "front": "assets/images/books/raj-book-15-cover.svg",
+      "back": "assets/images/books/raj-book-15-cover.svg",
+      "inside": "assets/images/books/raj-book-15-cover.svg"
+    },
+    "isbn": "9788168605312",
+    "pages": 630,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": null,
+    "dimensions": "28 x 20 x 3 cm",
+    "shortDescription": "POLICE சமூக அறிவியல் (SSLC STD) - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "POLICE சமூக அறிவியல் (SSLC STD) புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "POLICE சமூக அறிவியல் (SSLC STD) புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "POLICE சமூக அறிவியல் (SSLC STD) புத்தகத்தை சிறப்பு சலுகை விலையான ₹882-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "POLICE சமூக அறிவியல் (SSLC STD), raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-15-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "POLICE சமூக அறிவியல் (SSLC STD) - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-16-tnpsc",
+    "sNo": 16,
+    "sku": "10005",
+    "title": "TNPSC கணிதம்",
+    "titleEn": "TNPSC கணிதம்",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "tnpsc",
+    "categoryName": "டி.என்.பி.எஸ்.சி (TNPSC)",
+    "price": 630,
+    "originalPrice": 900,
+    "discountPercent": 30,
+    "inStock": true,
+    "featured": true,
+    "badge": "30% OFFER",
+    "rating": 4.7,
+    "reviewCount": 152,
+    "images": {
+      "front": "assets/images/books/raj-book-16-cover.svg",
+      "back": "assets/images/books/raj-book-16-cover.svg",
+      "inside": "assets/images/books/raj-book-16-cover.svg"
+    },
+    "isbn": "9788196596514",
+    "pages": 460,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": "1250 g",
+    "dimensions": "28 x 20 x 2.2 cm",
+    "shortDescription": "TNPSC கணிதம் - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "TNPSC கணிதம் புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "TNPSC கணிதம் புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "TNPSC கணிதம் புத்தகத்தை சிறப்பு சலுகை விலையான ₹630-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "TNPSC கணிதம், raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-16-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "TNPSC கணிதம் - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-17-tn-tet-paper-i",
+    "sNo": 17,
+    "sku": "10038",
+    "title": "TN - TET PAPER - I கணிதம்",
+    "titleEn": "TN - TET PAPER - I கணிதம்",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "tet",
+    "categoryName": "ஆசிரியர் தகுதித் தேர்வு (TET / TRB)",
+    "price": 840,
+    "originalPrice": 1200,
+    "discountPercent": 30,
+    "inStock": true,
+    "featured": true,
+    "badge": "30% OFFER",
+    "rating": 4.8,
+    "reviewCount": 159,
+    "images": {
+      "front": "assets/images/books/raj-book-17-cover.svg",
+      "back": "assets/images/books/raj-book-17-cover.svg",
+      "inside": "assets/images/books/raj-book-17-cover.svg"
+    },
+    "isbn": "9788168605336",
+    "pages": 572,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": null,
+    "dimensions": "28 x 20 x 2.7 cm",
+    "shortDescription": "TN - TET PAPER - I கணிதம் - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "TN - TET PAPER - I கணிதம் புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "TN - TET PAPER - I கணிதம் புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "TN - TET PAPER - I கணிதம் புத்தகத்தை சிறப்பு சலுகை விலையான ₹840-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "TN - TET PAPER - I கணிதம், raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-17-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "TN - TET PAPER - I கணிதம் - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-18-tn-tet-paper-ii",
+    "sNo": 18,
+    "sku": "10039",
+    "title": "TN - TET PAPER - II கணிதம்",
+    "titleEn": "TN - TET PAPER - II கணிதம்",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "tet",
+    "categoryName": "ஆசிரியர் தகுதித் தேர்வு (TET / TRB)",
+    "price": 840,
+    "originalPrice": 1200,
+    "discountPercent": 30,
+    "inStock": true,
+    "featured": true,
+    "badge": "30% OFFER",
+    "rating": 4.8,
+    "reviewCount": 166,
+    "images": {
+      "front": "assets/images/books/raj-book-18-cover.svg",
+      "back": "assets/images/books/raj-book-18-cover.svg",
+      "inside": "assets/images/books/raj-book-18-cover.svg"
+    },
+    "isbn": "9788168605374",
+    "pages": 580,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": null,
+    "dimensions": "28 x 20 x 2.8 cm",
+    "shortDescription": "TN - TET PAPER - II கணிதம் - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "TN - TET PAPER - II கணிதம் புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "TN - TET PAPER - II கணிதம் புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "TN - TET PAPER - II கணிதம் புத்தகத்தை சிறப்பு சலுகை விலையான ₹840-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "TN - TET PAPER - II கணிதம், raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-18-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "TN - TET PAPER - II கணிதம் - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-19-tnusrb-si",
+    "sNo": 19,
+    "sku": "10040",
+    "title": "TNUSRB SI உளவியல்",
+    "titleEn": "TNUSRB SI உளவியல்",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "police",
+    "categoryName": "போலீஸ் / காவலர் (Police)",
+    "price": 742,
+    "originalPrice": 1060,
+    "discountPercent": 30,
+    "inStock": true,
+    "featured": true,
+    "badge": "30% OFFER",
+    "rating": 4.9,
+    "reviewCount": 173,
+    "images": {
+      "front": "assets/images/books/raj-book-19-cover.svg",
+      "back": "assets/images/books/raj-book-19-cover.svg",
+      "inside": "assets/images/books/raj-book-19-cover.svg"
+    },
+    "isbn": "9788168675308",
+    "pages": 530,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": null,
+    "dimensions": "28 x 20 x 2.5 cm",
+    "shortDescription": "TNUSRB SI உளவியல் - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "TNUSRB SI உளவியல் புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "TNUSRB SI உளவியல் புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "TNUSRB SI உளவியல் புத்தகத்தை சிறப்பு சலுகை விலையான ₹742-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "TNUSRB SI உளவியல், raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-19-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "TNUSRB SI உளவியல் - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-20-police",
+    "sNo": 20,
+    "sku": "10006",
+    "title": "POLICE உளவியல்",
+    "titleEn": "POLICE உளவியல்",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "police",
+    "categoryName": "போலீஸ் / காவலர் (Police)",
+    "price": 742,
+    "originalPrice": 1060,
+    "discountPercent": 30,
+    "inStock": true,
+    "featured": true,
+    "badge": "30% OFFER",
+    "rating": 4.6,
+    "reviewCount": 180,
+    "images": {
+      "front": "assets/images/books/raj-book-20-cover.svg",
+      "back": "assets/images/books/raj-book-20-cover.svg",
+      "inside": "assets/images/books/raj-book-20-cover.svg"
+    },
+    "isbn": "9788196596552",
+    "pages": 530,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": "1250 g",
+    "dimensions": "28 x 20 x 2.5 cm",
+    "shortDescription": "POLICE உளவியல் - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "POLICE உளவியல் புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "POLICE உளவியல் புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "POLICE உளவியல் புத்தகத்தை சிறப்பு சலுகை விலையான ₹742-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "POLICE உளவியல், raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-20-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "POLICE உளவியல் - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-21-tnpsc-new-syll-2025",
+    "sNo": 21,
+    "sku": "10007 (10009 AMZON)",
+    "title": "TNPSC தமிழ் NEW Syll - 2025",
+    "titleEn": "TNPSC தமிழ் NEW Syll - 2025",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "tnpsc",
+    "categoryName": "டி.என்.பி.எஸ்.சி (TNPSC)",
+    "price": 700,
+    "originalPrice": 1000,
+    "discountPercent": 30,
+    "inStock": true,
+    "featured": true,
+    "badge": "30% OFFER",
+    "rating": 4.7,
+    "reviewCount": 187,
+    "images": {
+      "front": "assets/images/books/raj-book-21-cover.svg",
+      "back": "assets/images/books/raj-book-21-cover.svg",
+      "inside": "assets/images/books/raj-book-21-cover.svg"
+    },
+    "isbn": "9788196596521",
+    "pages": 490,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": null,
+    "dimensions": "28 x 20 x 2.3 cm",
+    "shortDescription": "TNPSC தமிழ் NEW Syll - 2025 - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "TNPSC தமிழ் NEW Syll - 2025 புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "TNPSC தமிழ் NEW Syll - 2025 புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "TNPSC தமிழ் NEW Syll - 2025 புத்தகத்தை சிறப்பு சலுகை விலையான ₹700-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "TNPSC தமிழ் NEW Syll - 2025, raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-21-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "TNPSC தமிழ் NEW Syll - 2025 - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-22-gk-1",
+    "sNo": 22,
+    "sku": "10008",
+    "title": "G.K – 1",
+    "titleEn": "G.K – 1",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "gk",
+    "categoryName": "பொது அறிவு (General Knowledge)",
+    "price": 588,
+    "originalPrice": 840,
+    "discountPercent": 30,
+    "inStock": true,
+    "featured": true,
+    "badge": "30% OFFER",
+    "rating": 4.8,
+    "reviewCount": 194,
+    "images": {
+      "front": "assets/images/books/raj-book-22-cover.svg",
+      "back": "assets/images/books/raj-book-22-cover.svg",
+      "inside": "assets/images/books/raj-book-22-cover.svg"
+    },
+    "isbn": "9788196596507",
+    "pages": 420,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": "1000 g",
+    "dimensions": "28 x 20 x 2 cm",
+    "shortDescription": "G.K – 1 - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "G.K – 1 புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "G.K – 1 புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "G.K – 1 புத்தகத்தை சிறப்பு சலுகை விலையான ₹588-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "G.K – 1, raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-22-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "G.K – 1 - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-23-gk-2",
+    "sNo": 23,
+    "sku": "10009",
+    "title": "G.K – 2",
+    "titleEn": "G.K – 2",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "gk",
+    "categoryName": "பொது அறிவு (General Knowledge)",
+    "price": 855,
+    "originalPrice": 1222,
+    "discountPercent": 30,
+    "inStock": true,
+    "featured": true,
+    "badge": "30% OFFER",
+    "rating": 4.8,
+    "reviewCount": 201,
+    "images": {
+      "front": "assets/images/books/raj-book-23-cover.svg",
+      "back": "assets/images/books/raj-book-23-cover.svg",
+      "inside": "assets/images/books/raj-book-23-cover.svg"
+    },
+    "isbn": "9788199720411",
+    "pages": 611,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": "1500 g",
+    "dimensions": "28 x 20 x 2.9 cm",
+    "shortDescription": "G.K – 2 - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "G.K – 2 புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "G.K – 2 புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "G.K – 2 புத்தகத்தை சிறப்பு சலுகை விலையான ₹855-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "G.K – 2, raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-23-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "G.K – 2 - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-24-tnusrb-si-gk-book",
+    "sNo": 24,
+    "sku": "10010",
+    "title": "TNUSRB S.I G.K BOOK",
+    "titleEn": "TNUSRB S.I G.K BOOK",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "police",
+    "categoryName": "போலீஸ் / காவலர் (Police)",
+    "price": 996,
+    "originalPrice": 1424,
+    "discountPercent": 30,
+    "inStock": true,
+    "featured": true,
+    "badge": "30% OFFER",
+    "rating": 4.9,
+    "reviewCount": 208,
+    "images": {
+      "front": "assets/images/books/raj-book-24-cover.svg",
+      "back": "assets/images/books/raj-book-24-cover.svg",
+      "inside": "assets/images/books/raj-book-24-cover.svg"
+    },
+    "isbn": "9788196596590",
+    "pages": 712,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": null,
+    "dimensions": "28 x 20 x 3.4 cm",
+    "shortDescription": "TNUSRB S.I G.K BOOK - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "TNUSRB S.I G.K BOOK புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "TNUSRB S.I G.K BOOK புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "TNUSRB S.I G.K BOOK புத்தகத்தை சிறப்பு சலுகை விலையான ₹996-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "TNUSRB S.I G.K BOOK, raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-24-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "TNUSRB S.I G.K BOOK - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-25-6-10-book-back-questions",
+    "sNo": 25,
+    "sku": "10011",
+    "title": "6 - 10 Book Back Questions",
+    "titleEn": "6 - 10 Book Back Questions",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "school",
+    "categoryName": "பள்ளிப் பாடங்கள் (School 6-12)",
+    "price": 700,
+    "originalPrice": 1000,
+    "discountPercent": 30,
+    "inStock": true,
+    "featured": true,
+    "badge": "30% OFFER",
+    "rating": 4.6,
+    "reviewCount": 215,
+    "images": {
+      "front": "assets/images/books/raj-book-25-cover.svg",
+      "back": "assets/images/books/raj-book-25-cover.svg",
+      "inside": "assets/images/books/raj-book-25-cover.svg"
+    },
+    "isbn": "9788196596583",
+    "pages": 500,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": "1200 g",
+    "dimensions": "28 x 20 x 2.4 cm",
+    "shortDescription": "6 - 10 Book Back Questions - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "6 - 10 Book Back Questions புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "6 - 10 Book Back Questions புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "6 - 10 Book Back Questions புத்தகத்தை சிறப்பு சலுகை விலையான ₹700-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "6 - 10 Book Back Questions, raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-25-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "6 - 10 Book Back Questions - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-26-11-12-book-back-questions-bank",
+    "sNo": 26,
+    "sku": "10012",
+    "title": "11 - 12 Book Back Questions BANK",
+    "titleEn": "11 - 12 Book Back Questions BANK",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "school",
+    "categoryName": "பள்ளிப் பாடங்கள் (School 6-12)",
+    "price": 840,
+    "originalPrice": 1200,
+    "discountPercent": 30,
+    "inStock": true,
+    "featured": true,
+    "badge": "30% OFFER",
+    "rating": 4.7,
+    "reviewCount": 42,
+    "images": {
+      "front": "assets/images/books/raj-book-26-cover.svg",
+      "back": "assets/images/books/raj-book-26-cover.svg",
+      "inside": "assets/images/books/raj-book-26-cover.svg"
+    },
+    "isbn": "9788199720428",
+    "pages": 580,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": "1400 g",
+    "dimensions": "28 x 20 x 2.8 cm",
+    "shortDescription": "11 - 12 Book Back Questions BANK - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "11 - 12 Book Back Questions BANK புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "11 - 12 Book Back Questions BANK புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "11 - 12 Book Back Questions BANK புத்தகத்தை சிறப்பு சலுகை விலையான ₹840-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "11 - 12 Book Back Questions BANK, raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-26-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "11 - 12 Book Back Questions BANK - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-27-comman-gk",
+    "sNo": 27,
+    "sku": "10013",
+    "title": "COMMAN G.K",
+    "titleEn": "COMMAN G.K",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "gk",
+    "categoryName": "பொது அறிவு (General Knowledge)",
+    "price": 700,
+    "originalPrice": 1000,
+    "discountPercent": 30,
+    "inStock": true,
+    "featured": true,
+    "badge": "30% OFFER",
+    "rating": 4.8,
+    "reviewCount": 49,
+    "images": {
+      "front": "assets/images/books/raj-book-27-cover.svg",
+      "back": "assets/images/books/raj-book-27-cover.svg",
+      "inside": "assets/images/books/raj-book-27-cover.svg"
+    },
+    "isbn": "9788196596545",
+    "pages": 560,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": "1400 g",
+    "dimensions": "28 x 20 x 2.8 cm",
+    "shortDescription": "COMMAN G.K - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "COMMAN G.K புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "COMMAN G.K புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "COMMAN G.K புத்தகத்தை சிறப்பு சலுகை விலையான ₹700-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "COMMAN G.K, raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-27-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "COMMAN G.K - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-28-tnpsc-priliminary-grp-i",
+    "sNo": 28,
+    "sku": "10014",
+    "title": "TNPSC Priliminary (Grp - I)",
+    "titleEn": "TNPSC Priliminary (Grp - I)",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "tnpsc",
+    "categoryName": "டி.என்.பி.எஸ்.சி (TNPSC)",
+    "price": 910,
+    "originalPrice": 1300,
+    "discountPercent": 30,
+    "inStock": true,
+    "featured": true,
+    "badge": "30% OFFER",
+    "rating": 4.8,
+    "reviewCount": 56,
+    "images": {
+      "front": "assets/images/books/raj-book-28-cover.svg",
+      "back": "assets/images/books/raj-book-28-cover.svg",
+      "inside": "assets/images/books/raj-book-28-cover.svg"
+    },
+    "isbn": "9788199720459",
+    "pages": 660,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": "1500 g",
+    "dimensions": "28 x 20 x 3.1 cm",
+    "shortDescription": "TNPSC Priliminary (Grp - I) - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "TNPSC Priliminary (Grp - I) புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "TNPSC Priliminary (Grp - I) புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "TNPSC Priliminary (Grp - I) புத்தகத்தை சிறப்பு சலுகை விலையான ₹910-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "TNPSC Priliminary (Grp - I), raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-28-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "TNPSC Priliminary (Grp - I) - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-29-tnpsc-priliminary-grp-ii",
+    "sNo": 29,
+    "sku": "10015",
+    "title": "TNPSC Priliminary (Grp - II)",
+    "titleEn": "TNPSC Priliminary (Grp - II)",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "tnpsc",
+    "categoryName": "டி.என்.பி.எஸ்.சி (TNPSC)",
+    "price": 910,
+    "originalPrice": 1300,
+    "discountPercent": 30,
+    "inStock": true,
+    "featured": true,
+    "badge": "30% OFFER",
+    "rating": 4.9,
+    "reviewCount": 63,
+    "images": {
+      "front": "assets/images/books/raj-book-29-cover.svg",
+      "back": "assets/images/books/raj-book-29-cover.svg",
+      "inside": "assets/images/books/raj-book-29-cover.svg"
+    },
+    "isbn": "9788199720480",
+    "pages": 660,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": "1400 g",
+    "dimensions": "28 x 20 x 2.1 cm",
+    "shortDescription": "TNPSC Priliminary (Grp - II) - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "TNPSC Priliminary (Grp - II) புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "TNPSC Priliminary (Grp - II) புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "TNPSC Priliminary (Grp - II) புத்தகத்தை சிறப்பு சலுகை விலையான ₹910-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "TNPSC Priliminary (Grp - II), raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-29-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "TNPSC Priliminary (Grp - II) - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-30-tnpsc-priliminary-grp-iii-amazon-gk-i-book-isbn-interchange",
+    "sNo": 30,
+    "sku": "10016",
+    "title": "TNPSC Priliminary (Grp - III) – AMAZON GK – I BOOK ISBN INTERCHANGE",
+    "titleEn": "TNPSC Priliminary (Grp - III) – AMAZON GK – I BOOK ISBN INTERCHANGE",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "tnpsc",
+    "categoryName": "டி.என்.பி.எஸ்.சி (TNPSC)",
+    "price": 720,
+    "originalPrice": 900,
+    "discountPercent": 20,
+    "inStock": true,
+    "featured": false,
+    "badge": null,
+    "rating": 4.6,
+    "reviewCount": 70,
+    "images": {
+      "front": "assets/images/books/raj-book-30-cover.svg",
+      "back": "assets/images/books/raj-book-30-cover.svg",
+      "inside": "assets/images/books/raj-book-30-cover.svg"
+    },
+    "isbn": "9788199832879",
+    "pages": 570,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": "1400 g",
+    "dimensions": "28 x 20 x 2.8 cm",
+    "shortDescription": "TNPSC Priliminary (Grp - III) – AMAZON GK – I BOOK ISBN INTERCHANGE - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "TNPSC Priliminary (Grp - III) – AMAZON GK – I BOOK ISBN INTERCHANGE புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "TNPSC Priliminary (Grp - III) – AMAZON GK – I BOOK ISBN INTERCHANGE புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "TNPSC Priliminary (Grp - III) – AMAZON GK – I BOOK ISBN INTERCHANGE புத்தகத்தை சிறப்பு சலுகை விலையான ₹720-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "TNPSC Priliminary (Grp - III) – AMAZON GK – I BOOK ISBN INTERCHANGE, raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-30-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "TNPSC Priliminary (Grp - III) – AMAZON GK – I BOOK ISBN INTERCHANGE - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-31-oa-posting-book",
+    "sNo": 31,
+    "sku": "10017",
+    "title": "O.A Posting BOOK",
+    "titleEn": "O.A Posting BOOK",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "tnpsc",
+    "categoryName": "டி.என்.பி.எஸ்.சி (TNPSC)",
+    "price": 840,
+    "originalPrice": 1200,
+    "discountPercent": 30,
+    "inStock": true,
+    "featured": true,
+    "badge": "30% OFFER",
+    "rating": 4.7,
+    "reviewCount": 77,
+    "images": {
+      "front": "assets/images/books/raj-book-31-cover.svg",
+      "back": "assets/images/books/raj-book-31-cover.svg",
+      "inside": "assets/images/books/raj-book-31-cover.svg"
+    },
+    "isbn": "9788199720497",
+    "pages": 701,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": "1600 g",
+    "dimensions": "28 x 20 x 3.3 cm",
+    "shortDescription": "O.A Posting BOOK - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "O.A Posting BOOK புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "O.A Posting BOOK புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "O.A Posting BOOK புத்தகத்தை சிறப்பு சலுகை விலையான ₹840-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "O.A Posting BOOK, raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-31-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "O.A Posting BOOK - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-32-police-sslc-std",
+    "sNo": 32,
+    "sku": "10041",
+    "title": "POLICE அறிவியல் வினா - வங்கி (SSLC STD)",
+    "titleEn": "POLICE அறிவியல் வினா - வங்கி (SSLC STD)",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "police",
+    "categoryName": "போலீஸ் / காவலர் (Police)",
+    "price": 714,
+    "originalPrice": 1020,
+    "discountPercent": 30,
+    "inStock": true,
+    "featured": true,
+    "badge": "30% OFFER",
+    "rating": 4.8,
+    "reviewCount": 84,
+    "images": {
+      "front": "assets/images/books/raj-book-32-cover.svg",
+      "back": "assets/images/books/raj-book-32-cover.svg",
+      "inside": "assets/images/books/raj-book-32-cover.svg"
+    },
+    "isbn": "9788168675315",
+    "pages": 510,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": null,
+    "dimensions": "28 x 20 x 2.4 cm",
+    "shortDescription": "POLICE அறிவியல் வினா - வங்கி (SSLC STD) - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "POLICE அறிவியல் வினா - வங்கி (SSLC STD) புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "POLICE அறிவியல் வினா - வங்கி (SSLC STD) புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "POLICE அறிவியல் வினா - வங்கி (SSLC STD) புத்தகத்தை சிறப்பு சலுகை விலையான ₹714-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "POLICE அறிவியல் வினா - வங்கி (SSLC STD), raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-32-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "POLICE அறிவியல் வினா - வங்கி (SSLC STD) - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-33-tn-tet-paper-i-",
+    "sNo": 33,
+    "sku": "10042",
+    "title": "TN - TET Paper – I அறிவியல் வினா - வங்கி",
+    "titleEn": "TN - TET Paper – I அறிவியல் வினா - வங்கி",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "tet",
+    "categoryName": "ஆசிரியர் தகுதித் தேர்வு (TET / TRB)",
+    "price": 770,
+    "originalPrice": 1100,
+    "discountPercent": 30,
+    "inStock": true,
+    "featured": true,
+    "badge": "30% OFFER",
+    "rating": 4.8,
+    "reviewCount": 91,
+    "images": {
+      "front": "assets/images/books/raj-book-33-cover.svg",
+      "back": "assets/images/books/raj-book-33-cover.svg",
+      "inside": "assets/images/books/raj-book-33-cover.svg"
+    },
+    "isbn": "9788168675322",
+    "pages": 552,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": null,
+    "dimensions": "28 x 20 x 2.6 cm",
+    "shortDescription": "TN - TET Paper – I அறிவியல் வினா - வங்கி - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "TN - TET Paper – I அறிவியல் வினா - வங்கி புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "TN - TET Paper – I அறிவியல் வினா - வங்கி புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "TN - TET Paper – I அறிவியல் வினா - வங்கி புத்தகத்தை சிறப்பு சலுகை விலையான ₹770-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "TN - TET Paper – I அறிவியல் வினா - வங்கி, raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-33-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "TN - TET Paper – I அறிவியல் வினா - வங்கி - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-34-tn-tet-paper-ii-",
+    "sNo": 34,
+    "sku": "10043",
+    "title": "TN - TET Paper – II அறிவியல் வினா - வங்கி",
+    "titleEn": "TN - TET Paper – II அறிவியல் வினா - வங்கி",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "tet",
+    "categoryName": "ஆசிரியர் தகுதித் தேர்வு (TET / TRB)",
+    "price": 770,
+    "originalPrice": 1100,
+    "discountPercent": 30,
+    "inStock": true,
+    "featured": true,
+    "badge": "30% OFFER",
+    "rating": 4.9,
+    "reviewCount": 98,
+    "images": {
+      "front": "assets/images/books/raj-book-34-cover.svg",
+      "back": "assets/images/books/raj-book-34-cover.svg",
+      "inside": "assets/images/books/raj-book-34-cover.svg"
+    },
+    "isbn": "9788168675339",
+    "pages": 552,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": null,
+    "dimensions": "28 x 20 x 2.6 cm",
+    "shortDescription": "TN - TET Paper – II அறிவியல் வினா - வங்கி - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "TN - TET Paper – II அறிவியல் வினா - வங்கி புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "TN - TET Paper – II அறிவியல் வினா - வங்கி புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "TN - TET Paper – II அறிவியல் வினா - வங்கி புத்தகத்தை சிறப்பு சலுகை விலையான ₹770-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "TN - TET Paper – II அறிவியல் வினா - வங்கி, raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-34-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "TN - TET Paper – II அறிவியல் வினா - வங்கி - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-35-tnpsc-sslc-std",
+    "sNo": 35,
+    "sku": "10044",
+    "title": "TNPSC அறிவியல் வினா - வங்கி (SSLC STD)",
+    "titleEn": "TNPSC அறிவியல் வினா - வங்கி (SSLC STD)",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "tnpsc",
+    "categoryName": "டி.என்.பி.எஸ்.சி (TNPSC)",
+    "price": 714,
+    "originalPrice": 1020,
+    "discountPercent": 30,
+    "inStock": true,
+    "featured": true,
+    "badge": "30% OFFER",
+    "rating": 4.6,
+    "reviewCount": 105,
+    "images": {
+      "front": "assets/images/books/raj-book-35-cover.svg",
+      "back": "assets/images/books/raj-book-35-cover.svg",
+      "inside": "assets/images/books/raj-book-35-cover.svg"
+    },
+    "isbn": "9788168675346",
+    "pages": 510,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": null,
+    "dimensions": "28 x 20 x 2.4 cm",
+    "shortDescription": "TNPSC அறிவியல் வினா - வங்கி (SSLC STD) - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "TNPSC அறிவியல் வினா - வங்கி (SSLC STD) புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "TNPSC அறிவியல் வினா - வங்கி (SSLC STD) புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "TNPSC அறிவியல் வினா - வங்கி (SSLC STD) புத்தகத்தை சிறப்பு சலுகை விலையான ₹714-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "TNPSC அறிவியல் வினா - வங்கி (SSLC STD), raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-35-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "TNPSC அறிவியல் வினா - வங்கி (SSLC STD) - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-36-police-tet-tnpsc-sslc-std",
+    "sNo": 36,
+    "sku": "10018",
+    "title": "POLICE – TET – TNPSC அறிவியல் வினா - வங்கி (SSLC STD)",
+    "titleEn": "POLICE – TET – TNPSC அறிவியல் வினா - வங்கி (SSLC STD)",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "police",
+    "categoryName": "போலீஸ் / காவலர் (Police)",
+    "price": 700,
+    "originalPrice": 1000,
+    "discountPercent": 30,
+    "inStock": true,
+    "featured": true,
+    "badge": "30% OFFER",
+    "rating": 4.7,
     "reviewCount": 112,
     "images": {
-      "front": "assets/images/books/sivagamiyin-sabatham-front.svg",
-      "back": "assets/images/books/sivagamiyin-sabatham-back.svg",
-      "inside": "assets/images/books/sivagamiyin-sabatham-inside.svg"
+      "front": "assets/images/books/raj-book-36-cover.svg",
+      "back": "assets/images/books/raj-book-36-cover.svg",
+      "inside": "assets/images/books/raj-book-36-cover.svg"
+    },
+    "isbn": "9788199720473",
+    "pages": 552,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": "1200 g",
+    "dimensions": "28 x 20 x 2.6 cm",
+    "shortDescription": "POLICE – TET – TNPSC அறிவியல் வினா - வங்கி (SSLC STD) - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "POLICE – TET – TNPSC அறிவியல் வினா - வங்கி (SSLC STD) புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "POLICE – TET – TNPSC அறிவியல் வினா - வங்கி (SSLC STD) புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "POLICE – TET – TNPSC அறிவியல் வினா - வங்கி (SSLC STD) புத்தகத்தை சிறப்பு சலுகை விலையான ₹700-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "POLICE – TET – TNPSC அறிவியல் வினா - வங்கி (SSLC STD), raj publication, tamil competitive exam books, buy books online"
     },
     "gallery": [
       {
-        "url": "assets/images/books/sivagamiyin-sabatham-front.svg",
+        "url": "assets/images/books/raj-book-36-cover.svg",
         "title": "முன் அட்டை / Front Cover",
-        "description": "பல்லவ காலத்து சிற்பக்கலையை பிரதிபலிக்கும் முகப்பு வடிவமைப்பு"
-      },
-      {
-        "url": "assets/images/books/sivagamiyin-sabatham-back.svg",
-        "title": "பின் அட்டை / Back Cover",
-        "description": "நாவலின் வரலாற்று முக்கியத்துவம் விவரிக்கும் பின்னட்டை"
-      },
-      {
-        "url": "assets/images/books/sivagamiyin-sabatham-inside.svg",
-        "title": "உள் பக்க மாதிரி / Sample Inside Pages",
-        "description": "தெளிவான வாசிப்பு வசதியளிக்கும் எழுத்து அமைப்புகள்"
+        "description": "POLICE – TET – TNPSC அறிவியல் வினா - வங்கி (SSLC STD) - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
       }
-    ],
-    "isbn": "978-81-8368-102-7",
-    "pages": 1180,
-    "language": "தமிழ் (Tamil)",
-    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
-    "edition": "2026 செம்மைப் பதிப்பு",
-    "binding": "ஹார்ட்கவர் (Hardcover)",
-    "weight": "1.1 kg",
-    "dimensions": "21.5 x 14.0 x 5.5 cm",
-    "shortDescription": "பல்லவ பேரரசின் புகழையும், மாமல்லபுர சிற்பங்களின் பிறப்பையும், சிவகாமியின் சபதத்தையும் பேசும் உன்னத வரலாற்று நாவல்.",
-    "fullDescription": "மாமல்ல நரசிம்ம பல்லவனின் வீரமும், நாட்டியத் தாரகை சிவகாமியின் தூய காதலும், வாதாபி புலிகேசியின் படையெடுப்பும் பின்னணியாகக் கொண்ட கல்கியின் மிகச்சிறந்த படைப்பு. மாமல்லபுரத்து கற்சிற்பங்கள் எப்படி உயிர்பெற்றன என்பதை காட்டும் வரலாற்றுப் பொக்கிஷம்.",
-    "highlights": [
-      "4 பாகங்களும் அடங்கிய ஒரே கெட்டி அட்டை முழுத் தொகுதி",
-      "மகாபலிபுரம் வரலாற்று சிற்பங்கள் பற்றிய விரிவான குறிப்புகள்",
-      "சுலபமான வாசிப்புக்கு உகந்த தரமான அச்சு",
-      "வாட்ஸ்அப் நேரடி ஆர்டர் சேவை"
-    ],
-    "seo": {
-      "metaTitle": "சிவகாமியின் சபதம் முழுத் தொகுப்பு புத்தகம் | Raj Publication",
-      "metaDescription": "கல்கியின் சிவகாமியின் சபதம் வரலாற்று நாவலை சலுகை விலையில் பெற வாட்ஸ்அப் மூலம் உடனடியாக ஆர்டர் செய்யுங்கள்.",
-      "keywords": "சிவகாமியின் சபதம், sivagamiyin sabatham book, kalki books, tamil historical novel, raj publication"
-    }
+    ]
   },
   {
-    "id": "thirukkural-thelivurai",
-    "title": "திருக்குறள் எளிய உரை (1330 குறள்கள் விரிவுரை)",
-    "titleEn": "Thirukkural - Simple Comprehensive Commentary",
-    "author": "திருவள்ளுவர் (உரை: அறிஞர் குழு)",
-    "authorEn": "Thiruvalluvar (Raj Publication Scholars)",
-    "category": "literature",
-    "categoryName": "செவ்விலக்கியம் / Tamil Classics",
-    "price": 390,
-    "originalPrice": 500,
-    "discountPercent": 22,
+    "id": "raj-book-37-police-sslc-std",
+    "sNo": 37,
+    "sku": "10045",
+    "title": "POLICE சமூக அறிவியல் வினா - வங்கி (SSLC STD)",
+    "titleEn": "POLICE சமூக அறிவியல் வினா - வங்கி (SSLC STD)",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "police",
+    "categoryName": "போலீஸ் / காவலர் (Police)",
+    "price": 714,
+    "originalPrice": 1020,
+    "discountPercent": 30,
     "inStock": true,
     "featured": true,
-    "badge": "MUST HAVE",
-    "rating": 5.0,
-    "reviewCount": 240,
-    "images": {
-      "front": "assets/images/books/thirukkural-front.svg",
-      "back": "assets/images/books/thirukkural-back.svg",
-      "inside": "assets/images/books/thirukkural-inside.svg"
-    },
-    "gallery": [
-      {
-        "url": "assets/images/books/thirukkural-front.svg",
-        "title": "முன் அட்டை / Front Cover",
-        "description": "வள்ளுவர் பெருமானின் கம்பீர சித்திரம் தாங்கிய முகப்பு"
-      },
-      {
-        "url": "assets/images/books/thirukkural-back.svg",
-        "title": "பின் அட்டை / Back Cover",
-        "description": "அறம், பொருள், இன்பம் பற்றிய வழிகாட்டல் குறிப்புகள்"
-      },
-      {
-        "url": "assets/images/books/thirukkural-inside.svg",
-        "title": "உள் பக்க மாதிரி / Sample Inside Pages",
-        "description": "குறள், பொருள், ஆங்கில மொழிபெயர்ப்பு அடங்கிய முப்பரிமாண வடிவம்"
-      }
-    ],
-    "isbn": "978-81-8368-103-4",
-    "pages": 640,
-    "language": "தமிழ் & English",
-    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
-    "edition": "2026 புதுப்பிக்கப்பட்ட உரை",
-    "binding": "சாஃப்ட்கவர் (Perfect Paperback)",
-    "weight": "0.65 kg",
-    "dimensions": "21.0 x 14.0 x 3.2 cm",
-    "shortDescription": "1330 குறள்களுக்கும் எளிய தமிழ் விளக்கமும், ஆங்கில மொழிபெயர்ப்பும் கொண்ட வாழ்வியல் வழிகாட்டி நூல்.",
-    "fullDescription": "மனித குலத்திற்கு பொதுமறையாக விளங்கும் உலகப் பொதுமறை திருக்குறள். அத்தனை குறள்களுக்கும் இன்றைய தலைமுறை எளிதாக புரிந்துகொள்ளும் நவீன தமிழ் உரையும், ஒவ்வொரு குறளுக்கும் தகுந்த ஆங்கில மொழிபெயர்ப்பும் இதில் வழங்கப்பட்டுள்ளன. மாணவர்கள், அறிஞர்கள், குடும்பங்கள் அனைவருக்கும் அவசியமான நூல்.",
-    "highlights": [
-      "133 அதிகாரங்கள் மற்றும் 1330 குறள்களும் முழுமையாக அடங்கியது",
-      "சுலபமான தமிழ் விளக்க உரை + எளிய ஆங்கில மொழிபெயர்ப்பு",
-      "தேர்வுகள் மற்றும் அன்றாட வாழ்வுக்கு பயனுள்ள அகரவரிசை அட்டவணை",
-      "அன்பளிப்பு செய்வதற்கு ஏற்ற உயர்தர அச்சு"
-    ],
-    "seo": {
-      "metaTitle": "திருக்குறள் எளிய உரை புத்தகம் வாங்க | Raj Publication Tamil Store",
-      "metaDescription": "1330 திருக்குறள் எளிய உரை மற்றும் ஆங்கில விளக்கத்துடன் கூடிய அரிய புத்தகம். வாட்ஸ்அப்பில் நேரிடையாக ஆர்டர் செய்யுங்கள்.",
-      "keywords": "திருக்குறள் புத்தகம், thirukkural book online, thiruvalluvar, tamil moral book, raj publication"
-    }
-  },
-  {
-    "id": "anup-pazhakkangal-atomic-habits",
-    "title": "அணுப் பழக்கங்கள் (Atomic Habits - தமிழ் வடிவம்)",
-    "titleEn": "Atomic Habits (Tamil Edition)",
-    "author": "ஜேம்ஸ் கிளியர் (தமிழில்: க. அரவிந்த்)",
-    "authorEn": "James Clear (Translated into Tamil)",
-    "category": "self-help",
-    "categoryName": "சுயமுன்னேற்றம் / Self Improvement",
-    "price": 380,
-    "originalPrice": 450,
-    "discountPercent": 15,
-    "inStock": true,
-    "featured": true,
-    "badge": "TRENDING",
-    "rating": 4.9,
-    "reviewCount": 165,
-    "images": {
-      "front": "assets/images/books/atomic-habits-front.svg",
-      "back": "assets/images/books/atomic-habits-back.svg",
-      "inside": "assets/images/books/atomic-habits-inside.svg"
-    },
-    "gallery": [
-      {
-        "url": "assets/images/books/atomic-habits-front.svg",
-        "title": "முன் அட்டை / Front Cover",
-        "description": "சர்வதேச விற்பனையில் முதலிடம் பிடித்த நூலின் தமிழ் அட்டை"
-      },
-      {
-        "url": "assets/images/books/atomic-habits-back.svg",
-        "title": "பின் அட்டை / Back Cover",
-        "description": "வாழ்க்கையை மாற்றும் 4 முக்கிய சூத்திரங்கள்"
-      },
-      {
-        "url": "assets/images/books/atomic-habits-inside.svg",
-        "title": "உள் பக்க மாதிரி / Sample Inside Pages",
-        "description": "வரைபடங்கள் மற்றும் நடைமுறை பயிற்சிகளுடன் கூடிய அச்சு"
-      }
-    ],
-    "isbn": "978-81-8368-104-1",
-    "pages": 312,
-    "language": "தமிழ் (Tamil)",
-    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
-    "edition": "2026 பதிப்பு",
-    "binding": "சாஃப்ட்கவர் (Paperback)",
-    "weight": "0.42 kg",
-    "dimensions": "20.5 x 13.5 x 2.2 cm",
-    "shortDescription": "சிறிய மாற்றங்கள் மூலம் வாழ்க்கையில் மகத்தான வெற்றிகளை அடையும் வழிமுறைகளைக் கூறும் சர்வதேச பெஸ்ட்செல்லர் நூல்.",
-    "fullDescription": "ஒவ்வொரு நாளும் வெறும் 1% முன்னேற்றம் அடைவதன் மூலம் உங்கள் வாழ்க்கையை எவ்வாறு முழுமையாக மாற்றியமைக்கலாம் என்பதை அறிவியல் பூர்வமாக விளக்கும் நூல். கெட்ட பழக்கங்களை சுலபமாக விடுவதும், நல்ல பழக்கங்களை இயல்பாக வளர்த்துக் கொள்வதும் எப்படி என்று இந்த புத்தகம் கற்றுத்தருகிறது.",
-    "highlights": [
-      "உலகப் புகழ்பெற்ற நூலின் நேர்த்தியான தூய தமிழ் மொழிபெயர்ப்பு",
-      "நடைமுறை வாழ்க்கைக்கு உடனடியாக உதவக்கூடிய அறிவியல் பயிற்சிகள்",
-      "மாணவர்கள், தொழில்முனைவோர் மற்றும் அனைவருக்கும் ஏற்ற வழிகாட்டி",
-      "வாட்ஸ்அப் வழி உடனடி ஆர்டர்"
-    ],
-    "seo": {
-      "metaTitle": "அணுப் பழக்கங்கள் (Atomic Habits Tamil) புத்தகம் | Raj Publication",
-      "metaDescription": "ஜேம்ஸ் கிளியரின் அணுப் பழக்கங்கள் (Atomic Habits) தமிழ் பதிப்பை சிறந்த விலையில் வாட்ஸ்அப் மூலம் ஆர்டர் செய்யுங்கள்.",
-      "keywords": "அணுப் பழக்கங்கள், atomic habits tamil, james clear tamil, self help books tamil, raj publication"
-    }
-  },
-  {
-    "id": "alchemist-tamil",
-    "title": "ஆல்கெமிஸ்ட் (The Alchemist - தமிழ் பதிப்பு)",
-    "titleEn": "The Alchemist (Tamil Edition)",
-    "author": "பாவ்லோ கொய்லோ (தமிழில்: நாகலட்சுமி)",
-    "authorEn": "Paulo Coelho (Translated to Tamil)",
-    "category": "self-help",
-    "categoryName": "சுயமுன்னேற்றம் / Inspirational Fiction",
-    "price": 280,
-    "originalPrice": 350,
-    "discountPercent": 20,
-    "inStock": true,
-    "featured": false,
-    "badge": "POPULAR",
+    "badge": "30% OFFER",
     "rating": 4.8,
-    "reviewCount": 94,
+    "reviewCount": 119,
     "images": {
-      "front": "assets/images/books/alchemist-front.svg",
-      "back": "assets/images/books/alchemist-back.svg",
-      "inside": "assets/images/books/alchemist-inside.svg"
+      "front": "assets/images/books/raj-book-37-cover.svg",
+      "back": "assets/images/books/raj-book-37-cover.svg",
+      "inside": "assets/images/books/raj-book-37-cover.svg"
+    },
+    "isbn": "9788168675353",
+    "pages": 510,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": null,
+    "dimensions": "28 x 20 x 2.4 cm",
+    "shortDescription": "POLICE சமூக அறிவியல் வினா - வங்கி (SSLC STD) - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "POLICE சமூக அறிவியல் வினா - வங்கி (SSLC STD) புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "POLICE சமூக அறிவியல் வினா - வங்கி (SSLC STD) புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "POLICE சமூக அறிவியல் வினா - வங்கி (SSLC STD) புத்தகத்தை சிறப்பு சலுகை விலையான ₹714-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "POLICE சமூக அறிவியல் வினா - வங்கி (SSLC STD), raj publication, tamil competitive exam books, buy books online"
     },
     "gallery": [
       {
-        "url": "assets/images/books/alchemist-front.svg",
+        "url": "assets/images/books/raj-book-37-cover.svg",
         "title": "முன் அட்டை / Front Cover",
-        "description": "எகிப்திய பிரமிடுகள் மற்றும் பாலைவன பயணம் சித்தரிக்கும் அட்டை"
-      },
-      {
-        "url": "assets/images/books/alchemist-back.svg",
-        "title": "பின் அட்டை / Back Cover",
-        "description": "உலக அளவில் 8 கோடிப்பேரை கவர்ந்த நூலின் முன்னுரை"
-      },
-      {
-        "url": "assets/images/books/alchemist-inside.svg",
-        "title": "உள் பக்க மாதிரி / Sample Inside Pages",
-        "description": "கவித்துவமான தமிழ் மொழிபெயர்ப்பு பக்கங்கள்"
+        "description": "POLICE சமூக அறிவியல் வினா - வங்கி (SSLC STD) - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
       }
-    ],
-    "isbn": "978-81-8368-105-8",
-    "pages": 208,
-    "language": "தமிழ் (Tamil)",
-    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
-    "edition": "2026 பதிப்பு",
-    "binding": "சாஃப்ட்கவர் (Paperback)",
-    "weight": "0.30 kg",
-    "dimensions": "19.5 x 13.0 x 1.8 cm",
-    "shortDescription": "உங்கள் இதயத்தின் கனவுகளைத் தொடர்ந்து பயணித்து வெற்றி பெறுவதை கற்பிக்கும் மாபெரும் உலகளாவிய உத்வேகப் புத்தகம்.",
-    "fullDescription": "ஒரு ஆட்டிடையன் தன் கனவை நோக்கி எகிப்திய பிரமிடுகளை தேடிப் போகும் பயணம். 'நீங்கள் ஒன்றை மனதார விரும்பினால், இந்த பிரபஞ்சமே அதை அடைவதற்கு உங்களுக்கு உதவி செய்யத் தொடங்கும்' என்ற புகழ்பெற்ற தத்துவத்தை எளிய கதையின் மூலம் உணர்த்தும் அற்புதம்.",
-    "highlights": [
-      "கோடிக்கணக்கான வாசகர்களின் மனதை வென்ற மந்திரக் கதை",
-      "இளைய தலைமுறைக்கு மாபெரும் தன்னம்பிக்கை ஊட்டும் படைப்பு",
-      "எளிய மொழிநடை & மனதை வருடும் தமிழ் வடிவம்",
-      "வாட்ஸ்அப் மூலம் உடனடியாக டோர் டெலிவரி"
-    ],
-    "seo": {
-      "metaTitle": "ஆல்கெமிஸ்ட் தமிழ் புத்தகம் (The Alchemist Tamil) | Raj Publication",
-      "metaDescription": "பாவ்லோ கொய்லோவின் ஆல்கெமிஸ்ட் தமிழ் பதிப்பை வாட்ஸ்அப் மூலம் இப்போதே ஆர்டர் செய்யுங்கள். அதிவேக விநியோகம்.",
-      "keywords": "ஆல்கெமிஸ்ட் புத்தகம், alchemist tamil book, paulo coelho tamil, inspirational novels, raj publication"
-    }
+    ]
   },
   {
-    "id": "parthiban-kanavu",
-    "title": "பார்த்திபன் கனவு (முழு நாவல்)",
-    "titleEn": "Parthiban Kanavu (Full Novel)",
-    "author": "கல்கி கிருஷ்ணமூர்த்தி",
-    "authorEn": "Kalki Krishnamurthy",
-    "category": "historical-fiction",
-    "categoryName": "வரலாற்று நாவல் / Historical Novel",
-    "price": 320,
-    "originalPrice": 400,
-    "discountPercent": 20,
-    "inStock": true,
-    "featured": false,
-    "badge": "CLASSIC",
-    "rating": 4.7,
-    "reviewCount": 78,
-    "images": {
-      "front": "assets/images/books/parthiban-kanavu-front.svg",
-      "back": "assets/images/books/parthiban-kanavu-back.svg",
-      "inside": "assets/images/books/parthiban-kanavu-inside.svg"
-    },
-    "gallery": [
-      {
-        "url": "assets/images/books/parthiban-kanavu-front.svg",
-        "title": "முன் அட்டை / Front Cover",
-        "description": "சோழ வம்ச வாள் மற்றும் சிங்க முத்திரை தாங்கிய முகப்பு"
-      },
-      {
-        "url": "assets/images/books/parthiban-kanavu-back.svg",
-        "title": "பின் அட்டை / Back Cover",
-        "description": "பார்த்திப மகாராஜாவின் கனவும் விக்ரமனின் வீரமும்"
-      },
-      {
-        "url": "assets/images/books/parthiban-kanavu-inside.svg",
-        "title": "உள் பக்க மாதிரி / Sample Inside Pages",
-        "description": "உயர்தர வாசிப்பு அனுபவம் தரும் அச்சு பக்கங்கள்"
-      }
-    ],
-    "isbn": "978-81-8368-106-5",
-    "pages": 440,
-    "language": "தமிழ் (Tamil)",
-    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
-    "edition": "2026 மறுபதிப்பு",
-    "binding": "சாஃப்ட்கவர் (Paperback)",
-    "weight": "0.45 kg",
-    "dimensions": "21.0 x 14.0 x 2.6 cm",
-    "shortDescription": "சோழ தேசத்தின் விடுதலைக்காக பார்த்திபன் கண்ட கனவை அவன் மகன் விக்ரமன் நனவாக்கும் வரலாற்றுப் புதினம்.",
-    "fullDescription": "பல்லவ பேரரசின் ஆதிக்கத்தில் இருந்த சோழ நாடு தன் சுயமரியாதையையும் சுதந்திரத்தையும் மீட்க போராடும் கதை. நரசிம்ம பல்லவனின் பரந்த மனப்பான்மை, சிவந்த கன்னத்து சுந்தரரின் மர்மம், குந்தவையின் காதல் என விறுவிறுப்பு நிறைந்த கல்கியின் காலத்தால் அழியாத நாவல்.",
-    "highlights": [
-      "முழுமையான அத்தியாயங்களுடன் கூடிய தடையற்ற வாசிப்பு",
-      "வரலாற்றுப் பின்னணி மற்றும் பாத்திரங்களின் விவரக் குறிப்புகள்",
-      "மாணவர்களுக்கும் வரலாற்று ஆர்வலர்களுக்கும் சிறந்த நூல்",
-      "நேரடி வாட்ஸ்அப் ஆர்டர் முறை"
-    ],
-    "seo": {
-      "metaTitle": "பார்த்திபன் கனவு புத்தகம் வாங்க | Raj Publication",
-      "metaDescription": "கல்கியின் பார்த்திபன் கனவு நாவலை சலுகை விலையில் வாட்ஸ்அப் மூலம் வாங்கவும். தமிழகம் முழுவதும் டெலிவரி.",
-      "keywords": "பார்த்திபன் கனவு, parthiban kanavu book, kalki historical books, raj publication"
-    }
-  },
-  {
-    "id": "aram-jeyamohan",
-    "title": "அறம் (சிறுகதைத் தொகுப்பு)",
-    "titleEn": "Aram - Short Stories Collection",
-    "author": "ஜெயமோகன்",
-    "authorEn": "B. Jeyamohan",
-    "category": "literature",
-    "categoryName": "நவீன இலக்கியம் / Modern Literature",
-    "price": 420,
-    "originalPrice": 490,
-    "discountPercent": 14,
+    "id": "raj-book-38-tn-tet-paper-i-ii-sslc-std",
+    "sNo": 38,
+    "sku": "10046",
+    "title": "TN - TET PAPER I & II சமூக அறிவியல் வினா - வங்கி (SSLC STD)",
+    "titleEn": "TN - TET PAPER I & II சமூக அறிவியல் வினா - வங்கி (SSLC STD)",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "tet",
+    "categoryName": "ஆசிரியர் தகுதித் தேர்வு (TET / TRB)",
+    "price": 728,
+    "originalPrice": 1040,
+    "discountPercent": 30,
     "inStock": true,
     "featured": true,
-    "badge": "CRITICS CHOICE",
-    "rating": 5.0,
-    "reviewCount": 142,
+    "badge": "30% OFFER",
+    "rating": 4.8,
+    "reviewCount": 126,
     "images": {
-      "front": "assets/images/books/aram-front.svg",
-      "back": "assets/images/books/aram-back.svg",
-      "inside": "assets/images/books/aram-inside.svg"
+      "front": "assets/images/books/raj-book-38-cover.svg",
+      "back": "assets/images/books/raj-book-38-cover.svg",
+      "inside": "assets/images/books/raj-book-38-cover.svg"
+    },
+    "isbn": "9788168675360",
+    "pages": 520,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": null,
+    "dimensions": "28 x 20 x 2.5 cm",
+    "shortDescription": "TN - TET PAPER I & II சமூக அறிவியல் வினா - வங்கி (SSLC STD) - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "TN - TET PAPER I & II சமூக அறிவியல் வினா - வங்கி (SSLC STD) புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "TN - TET PAPER I & II சமூக அறிவியல் வினா - வங்கி (SSLC STD) புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "TN - TET PAPER I & II சமூக அறிவியல் வினா - வங்கி (SSLC STD) புத்தகத்தை சிறப்பு சலுகை விலையான ₹728-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "TN - TET PAPER I & II சமூக அறிவியல் வினா - வங்கி (SSLC STD), raj publication, tamil competitive exam books, buy books online"
     },
     "gallery": [
       {
-        "url": "assets/images/books/aram-front.svg",
+        "url": "assets/images/books/raj-book-38-cover.svg",
         "title": "முன் அட்டை / Front Cover",
-        "description": "மனித அறத்தின் பெருமையை உணர்த்தும் கலைநயமிக்க அட்டை"
-      },
-      {
-        "url": "assets/images/books/aram-back.svg",
-        "title": "பின் அட்டை / Back Cover",
-        "description": "யானை டாக்டர், நூறு நாற்காலிகள் கதைகளின் குறிப்புகள்"
-      },
-      {
-        "url": "assets/images/books/aram-inside.svg",
-        "title": "உள் பக்க மாதிரி / Sample Inside Pages",
-        "description": "நேர்த்தியான எழுத்துருக்கள் மற்றும் பக்க அமைப்பு"
+        "description": "TN - TET PAPER I & II சமூக அறிவியல் வினா - வங்கி (SSLC STD) - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
       }
-    ],
-    "isbn": "978-81-8368-107-2",
-    "pages": 380,
-    "language": "தமிழ் (Tamil)",
-    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
-    "edition": "2026 பதிப்பு",
-    "binding": "சாஃப்ட்கவர் (Paperback)",
-    "weight": "0.48 kg",
-    "dimensions": "21.5 x 14.0 x 2.4 cm",
-    "shortDescription": "மனிதத்தின் மேன்மையை, தியாகத்தை, அறத்தின் வலிமையை உள்ளம் நெகிழ விவரிக்கும் புகழ்பெற்ற சிறுகதைகள்.",
-    "fullDescription": "தமிழ் இலக்கிய உலகில் பெரும் அலையை ஏற்படுத்திய ஜெயமோகனின் சிறுகதைத் தொகுப்பு. 'யானை டாக்டர்', 'நூறு நாற்காலிகள்', 'பெருவலி', 'மழைக்கடல்' என ஒவ்வொரு கதையும் வாசகரின் ஆன்மாவைத் தொட்டு மனிதத்தின் மீதான நம்பிக்கையை பலப்படுத்துகிறது.",
-    "highlights": [
-      "தமிழுக்குக் கிடைத்த மாபெரும் சமகால சிறுகதை பொக்கிஷம்",
-      "வாசகர்களை கண்கலங்க வைக்கும் உன்னதமான மனித நேயக் கதைகள்",
-      "தரமான காகித அச்சு மற்றும் வாசிப்புக்கு உகந்த வடிவம்",
-      "வாட்ஸ்அப்பில் ஆர்டர் செய்து நேரடியாக உங்கள் முகவரியில் பெறலாம்"
-    ],
-    "seo": {
-      "metaTitle": "அறம் சிறுகதைத் தொகுப்பு ஜெயமோகன் | Raj Publication",
-      "metaDescription": "ஜெயமோகனின் புகழ்பெற்ற அறம் சிறுகதைத் தொகுப்பை வாட்ஸ்அப் மூலம் உடனடியாக ஆர்டர் செய்யுங்கள்.",
-      "keywords": "அறம் ஜெயமோகன், aram jeyamohan book, tamil short stories, yanai doctor, raj publication"
-    }
+    ]
   },
   {
-    "id": "bharathiyar-kavithaigal",
-    "title": "மகாகவி பாரதியார் கவிதைகள் (முழுத் திரட்டு)",
-    "titleEn": "Mahakavi Bharathiyar Poems - Complete Collection",
-    "author": "மகாகவி சுப்பிரமணிய பாரதியார்",
-    "authorEn": "Mahakavi Subramania Bharathiyar",
-    "category": "poetry",
-    "categoryName": "கவிதை / Poetry",
-    "price": 360,
-    "originalPrice": 450,
-    "discountPercent": 20,
+    "id": "raj-book-39-tnpsc-sslc-std",
+    "sNo": 39,
+    "sku": "10047",
+    "title": "TNPSC சமூக அறிவியல் வினா - வங்கி (SSLC STD)",
+    "titleEn": "TNPSC சமூக அறிவியல் வினா - வங்கி (SSLC STD)",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "tnpsc",
+    "categoryName": "டி.என்.பி.எஸ்.சி (TNPSC)",
+    "price": 700,
+    "originalPrice": 1000,
+    "discountPercent": 30,
     "inStock": true,
-    "featured": false,
-    "badge": "HERITAGE",
-    "rating": 5.0,
-    "reviewCount": 190,
+    "featured": true,
+    "badge": "30% OFFER",
+    "rating": 4.9,
+    "reviewCount": 133,
     "images": {
-      "front": "assets/images/books/bharathiyar-front.svg",
-      "back": "assets/images/books/bharathiyar-back.svg",
-      "inside": "assets/images/books/bharathiyar-inside.svg"
+      "front": "assets/images/books/raj-book-39-cover.svg",
+      "back": "assets/images/books/raj-book-39-cover.svg",
+      "inside": "assets/images/books/raj-book-39-cover.svg"
+    },
+    "isbn": "9788168675377",
+    "pages": 500,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": null,
+    "dimensions": "28 x 20 x 2.4 cm",
+    "shortDescription": "TNPSC சமூக அறிவியல் வினா - வங்கி (SSLC STD) - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "TNPSC சமூக அறிவியல் வினா - வங்கி (SSLC STD) புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "TNPSC சமூக அறிவியல் வினா - வங்கி (SSLC STD) புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "TNPSC சமூக அறிவியல் வினா - வங்கி (SSLC STD) புத்தகத்தை சிறப்பு சலுகை விலையான ₹700-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "TNPSC சமூக அறிவியல் வினா - வங்கி (SSLC STD), raj publication, tamil competitive exam books, buy books online"
     },
     "gallery": [
       {
-        "url": "assets/images/books/bharathiyar-front.svg",
+        "url": "assets/images/books/raj-book-39-cover.svg",
         "title": "முன் அட்டை / Front Cover",
-        "description": "பாரதியின் அனல் பறக்கும் முறுக்கு மீசை தோற்ற முகம்"
-      },
-      {
-        "url": "assets/images/books/bharathiyar-back.svg",
-        "title": "பின் அட்டை / Back Cover",
-        "description": "தேசபக்தி, பெண் விடுதலை, கண்ணன் பாட்டு தொகுப்பு விவரங்கள்"
-      },
-      {
-        "url": "assets/images/books/bharathiyar-inside.svg",
-        "title": "உள் பக்க மாதிரி / Sample Inside Pages",
-        "description": "கவிதைகள், பாடல்கள் தெளிவான அச்சு அமைப்புடன்"
+        "description": "TNPSC சமூக அறிவியல் வினா - வங்கி (SSLC STD) - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
       }
-    ],
-    "isbn": "978-81-8368-108-9",
+    ]
+  },
+  {
+    "id": "raj-book-40-police-tet-tnpsc-sslc-std",
+    "sNo": 40,
+    "sku": "10019",
+    "title": "POLICE – TET – TNPSC சமூக அறிவியல் வினா - வங்கி (SSLC STD)",
+    "titleEn": "POLICE – TET – TNPSC சமூக அறிவியல் வினா - வங்கி (SSLC STD)",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "police",
+    "categoryName": "போலீஸ் / காவலர் (Police)",
+    "price": 700,
+    "originalPrice": 1000,
+    "discountPercent": 30,
+    "inStock": true,
+    "featured": true,
+    "badge": "30% OFFER",
+    "rating": 4.6,
+    "reviewCount": 140,
+    "images": {
+      "front": "assets/images/books/raj-book-40-cover.svg",
+      "back": "assets/images/books/raj-book-40-cover.svg",
+      "inside": "assets/images/books/raj-book-40-cover.svg"
+    },
+    "isbn": "9788199720442",
     "pages": 520,
-    "language": "தமிழ் (Tamil)",
+    "language": "தமிழ் / English",
     "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
-    "edition": "2026 பிரீமியம் தொகுப்பு",
-    "binding": "ஹார்ட்கவர் (Hardcover)",
-    "weight": "0.72 kg",
-    "dimensions": "21.5 x 14.5 x 3.2 cm",
-    "shortDescription": "பாரதியின் தேசிய கீதங்கள், தோத்திரப் பாடல்கள், வேதாந்தப் பாடல்கள், கண்ணன் பாட்டு, பாஞ்சாலி சபதம் உள்ளிட்ட அனைத்து கவிதைகளும் அடங்கிய நூல்.",
-    "fullDescription": "தமிழனுக்கு வீரியமும், சுதந்திர தாகமும், புதிய பார்வையும் ஊட்டிய முண்டாசுக் கவிஞன் பாரதியின் அனைத்து கவிதைகளின் முழுத் தொகுப்பு. ஒவ்வொரு தமிழ் இல்லத்திலும் கட்டாயம் இருக்க வேண்டிய தமிழ் சொத்து.",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": "1100 g",
+    "dimensions": "28 x 20 x 2.5 cm",
+    "shortDescription": "POLICE – TET – TNPSC சமூக அறிவியல் வினா - வங்கி (SSLC STD) - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "POLICE – TET – TNPSC சமூக அறிவியல் வினா - வங்கி (SSLC STD) புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
     "highlights": [
-      "பாரதியாரின் அனைத்துப் பாடல்களும் அடங்கிய முழுமையான தொகுப்பு",
-      "கண்ணன் பாட்டு, குயில் பாட்டு, பாஞ்சாலி சபதம் ஆகிய முப்பெரும் பாடல்கள்",
-      "கெட்டி அட்டை பைண்டிங் & பொன் எழுத்துக்கள் பதித்த முகப்பு",
-      "வாட்ஸ்அப் மூலம் எளிதாக வாங்குங்கள்"
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
     ],
     "seo": {
-      "metaTitle": "பாரதியார் கவிதைகள் முழுத் தொகுப்பு புத்தகம் | Raj Publication",
-      "metaDescription": "மகாகவி பாரதியாரின் அனைத்து கவிதைகளும் அடங்கிய முழுத் தொகுப்பை சிறந்த சலுகை விலையில் வாட்ஸ்அப் மூலம் ஆர்டர் செய்யுங்கள்.",
-      "keywords": "பாரதியார் கவிதைகள், bharathiyar poems book, subramania bharathiyar, tamil poetry, raj publication"
-    }
+      "metaTitle": "POLICE – TET – TNPSC சமூக அறிவியல் வினா - வங்கி (SSLC STD) புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "POLICE – TET – TNPSC சமூக அறிவியல் வினா - வங்கி (SSLC STD) புத்தகத்தை சிறப்பு சலுகை விலையான ₹700-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "POLICE – TET – TNPSC சமூக அறிவியல் வினா - வங்கி (SSLC STD), raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-40-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "POLICE – TET – TNPSC சமூக அறிவியல் வினா - வங்கி (SSLC STD) - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-41-tn-tet-paper-i-sslc-std",
+    "sNo": 41,
+    "sku": "10048",
+    "title": "TN - TET Paper – I சமூக அறிவியல் வினா - வங்கி (SSLC STD)",
+    "titleEn": "TN - TET Paper – I சமூக அறிவியல் வினா - வங்கி (SSLC STD)",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "tet",
+    "categoryName": "ஆசிரியர் தகுதித் தேர்வு (TET / TRB)",
+    "price": 728,
+    "originalPrice": 1040,
+    "discountPercent": 30,
+    "inStock": true,
+    "featured": true,
+    "badge": "30% OFFER",
+    "rating": 4.7,
+    "reviewCount": 147,
+    "images": {
+      "front": "assets/images/books/raj-book-41-cover.svg",
+      "back": "assets/images/books/raj-book-41-cover.svg",
+      "inside": "assets/images/books/raj-book-41-cover.svg"
+    },
+    "isbn": "9788168675384",
+    "pages": 520,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": null,
+    "dimensions": "28 x 20 x 2.5 cm",
+    "shortDescription": "TN - TET Paper – I சமூக அறிவியல் வினா - வங்கி (SSLC STD) - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "TN - TET Paper – I சமூக அறிவியல் வினா - வங்கி (SSLC STD) புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "TN - TET Paper – I சமூக அறிவியல் வினா - வங்கி (SSLC STD) புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "TN - TET Paper – I சமூக அறிவியல் வினா - வங்கி (SSLC STD) புத்தகத்தை சிறப்பு சலுகை விலையான ₹728-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "TN - TET Paper – I சமூக அறிவியல் வினா - வங்கி (SSLC STD), raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-41-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "TN - TET Paper – I சமூக அறிவியல் வினா - வங்கி (SSLC STD) - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-42-tn-tet-paper-ii-sslc-std",
+    "sNo": 42,
+    "sku": "10049",
+    "title": "TN - TET Paper – II சமூக அறிவியல் வினா - வங்கி (SSLC STD)",
+    "titleEn": "TN - TET Paper – II சமூக அறிவியல் வினா - வங்கி (SSLC STD)",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "tet",
+    "categoryName": "ஆசிரியர் தகுதித் தேர்வு (TET / TRB)",
+    "price": 728,
+    "originalPrice": 1040,
+    "discountPercent": 30,
+    "inStock": true,
+    "featured": true,
+    "badge": "30% OFFER",
+    "rating": 4.8,
+    "reviewCount": 154,
+    "images": {
+      "front": "assets/images/books/raj-book-42-cover.svg",
+      "back": "assets/images/books/raj-book-42-cover.svg",
+      "inside": "assets/images/books/raj-book-42-cover.svg"
+    },
+    "isbn": "9788168675391",
+    "pages": 520,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": null,
+    "dimensions": "28 x 20 x 2.5 cm",
+    "shortDescription": "TN - TET Paper – II சமூக அறிவியல் வினா - வங்கி (SSLC STD) - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "TN - TET Paper – II சமூக அறிவியல் வினா - வங்கி (SSLC STD) புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "TN - TET Paper – II சமூக அறிவியல் வினா - வங்கி (SSLC STD) புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "TN - TET Paper – II சமூக அறிவியல் வினா - வங்கி (SSLC STD) புத்தகத்தை சிறப்பு சலுகை விலையான ₹728-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "TN - TET Paper – II சமூக அறிவியல் வினா - வங்கி (SSLC STD), raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-42-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "TN - TET Paper – II சமூக அறிவியல் வினா - வங்கி (SSLC STD) - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-43-police-sslc-std",
+    "sNo": 43,
+    "sku": "10050",
+    "title": "POLICE தமிழ் வினா - வங்கி (SSLC STD)",
+    "titleEn": "POLICE தமிழ் வினா - வங்கி (SSLC STD)",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "police",
+    "categoryName": "போலீஸ் / காவலர் (Police)",
+    "price": 0,
+    "originalPrice": 0,
+    "discountPercent": 0,
+    "inStock": true,
+    "featured": false,
+    "badge": null,
+    "rating": 4.8,
+    "reviewCount": 161,
+    "images": {
+      "front": "assets/images/books/raj-book-43-cover.svg",
+      "back": "assets/images/books/raj-book-43-cover.svg",
+      "inside": "assets/images/books/raj-book-43-cover.svg"
+    },
+    "isbn": "9788168821828",
+    "pages": null,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": null,
+    "dimensions": "28 x 20 cm",
+    "shortDescription": "POLICE தமிழ் வினா - வங்கி (SSLC STD) - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "POLICE தமிழ் வினா - வங்கி (SSLC STD) புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "POLICE தமிழ் வினா - வங்கி (SSLC STD) புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "POLICE தமிழ் வினா - வங்கி (SSLC STD) புத்தகத்தை சிறப்பு சலுகை விலையான ₹0-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "POLICE தமிழ் வினா - வங்கி (SSLC STD), raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-43-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "POLICE தமிழ் வினா - வங்கி (SSLC STD) - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-44-police-tet-tnpsc-sslc-std",
+    "sNo": 44,
+    "sku": "10051",
+    "title": "POLICE – TET – TNPSC தமிழ் வினா - வங்கி (SSLC STD)",
+    "titleEn": "POLICE – TET – TNPSC தமிழ் வினா - வங்கி (SSLC STD)",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "police",
+    "categoryName": "போலீஸ் / காவலர் (Police)",
+    "price": 0,
+    "originalPrice": 0,
+    "discountPercent": 0,
+    "inStock": true,
+    "featured": false,
+    "badge": null,
+    "rating": 4.9,
+    "reviewCount": 168,
+    "images": {
+      "front": "assets/images/books/raj-book-44-cover.svg",
+      "back": "assets/images/books/raj-book-44-cover.svg",
+      "inside": "assets/images/books/raj-book-44-cover.svg"
+    },
+    "isbn": "9788168821866",
+    "pages": null,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": null,
+    "dimensions": "28 x 20 cm",
+    "shortDescription": "POLICE – TET – TNPSC தமிழ் வினா - வங்கி (SSLC STD) - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "POLICE – TET – TNPSC தமிழ் வினா - வங்கி (SSLC STD) புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "POLICE – TET – TNPSC தமிழ் வினா - வங்கி (SSLC STD) புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "POLICE – TET – TNPSC தமிழ் வினா - வங்கி (SSLC STD) புத்தகத்தை சிறப்பு சலுகை விலையான ₹0-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "POLICE – TET – TNPSC தமிழ் வினா - வங்கி (SSLC STD), raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-44-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "POLICE – TET – TNPSC தமிழ் வினா - வங்கி (SSLC STD) - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-45-tnpsc-sslc-std",
+    "sNo": 45,
+    "sku": "10052",
+    "title": "TNPSC தமிழ் வினா - வங்கி (SSLC STD)",
+    "titleEn": "TNPSC தமிழ் வினா - வங்கி (SSLC STD)",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "tnpsc",
+    "categoryName": "டி.என்.பி.எஸ்.சி (TNPSC)",
+    "price": 0,
+    "originalPrice": 0,
+    "discountPercent": 0,
+    "inStock": true,
+    "featured": false,
+    "badge": null,
+    "rating": 4.6,
+    "reviewCount": 175,
+    "images": {
+      "front": "assets/images/books/raj-book-45-cover.svg",
+      "back": "assets/images/books/raj-book-45-cover.svg",
+      "inside": "assets/images/books/raj-book-45-cover.svg"
+    },
+    "isbn": "9788168821859",
+    "pages": null,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": null,
+    "dimensions": "28 x 20 cm",
+    "shortDescription": "TNPSC தமிழ் வினா - வங்கி (SSLC STD) - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "TNPSC தமிழ் வினா - வங்கி (SSLC STD) புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "TNPSC தமிழ் வினா - வங்கி (SSLC STD) புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "TNPSC தமிழ் வினா - வங்கி (SSLC STD) புத்தகத்தை சிறப்பு சலுகை விலையான ₹0-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "TNPSC தமிழ் வினா - வங்கி (SSLC STD), raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-45-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "TNPSC தமிழ் வினா - வங்கி (SSLC STD) - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-46-tn-tet-paper-i-",
+    "sNo": 46,
+    "sku": "10053",
+    "title": "TN - TET Paper – I தமிழ் வினா - வங்கி",
+    "titleEn": "TN - TET Paper – I தமிழ் வினா - வங்கி",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "tet",
+    "categoryName": "ஆசிரியர் தகுதித் தேர்வு (TET / TRB)",
+    "price": 0,
+    "originalPrice": 0,
+    "discountPercent": 0,
+    "inStock": true,
+    "featured": false,
+    "badge": null,
+    "rating": 4.7,
+    "reviewCount": 182,
+    "images": {
+      "front": "assets/images/books/raj-book-46-cover.svg",
+      "back": "assets/images/books/raj-book-46-cover.svg",
+      "inside": "assets/images/books/raj-book-46-cover.svg"
+    },
+    "isbn": "9788168821835",
+    "pages": null,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": null,
+    "dimensions": "28 x 20 cm",
+    "shortDescription": "TN - TET Paper – I தமிழ் வினா - வங்கி - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "TN - TET Paper – I தமிழ் வினா - வங்கி புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "TN - TET Paper – I தமிழ் வினா - வங்கி புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "TN - TET Paper – I தமிழ் வினா - வங்கி புத்தகத்தை சிறப்பு சலுகை விலையான ₹0-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "TN - TET Paper – I தமிழ் வினா - வங்கி, raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-46-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "TN - TET Paper – I தமிழ் வினா - வங்கி - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-47-tn-tet-paper-ii-",
+    "sNo": 47,
+    "sku": "10054",
+    "title": "TN - TET Paper – II தமிழ் வினா - வங்கி",
+    "titleEn": "TN - TET Paper – II தமிழ் வினா - வங்கி",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "tet",
+    "categoryName": "ஆசிரியர் தகுதித் தேர்வு (TET / TRB)",
+    "price": 0,
+    "originalPrice": 0,
+    "discountPercent": 0,
+    "inStock": true,
+    "featured": false,
+    "badge": null,
+    "rating": 4.8,
+    "reviewCount": 189,
+    "images": {
+      "front": "assets/images/books/raj-book-47-cover.svg",
+      "back": "assets/images/books/raj-book-47-cover.svg",
+      "inside": "assets/images/books/raj-book-47-cover.svg"
+    },
+    "isbn": "9788168821842",
+    "pages": null,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": null,
+    "dimensions": "28 x 20 cm",
+    "shortDescription": "TN - TET Paper – II தமிழ் வினா - வங்கி - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "TN - TET Paper – II தமிழ் வினா - வங்கி புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "TN - TET Paper – II தமிழ் வினா - வங்கி புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "TN - TET Paper – II தமிழ் வினா - வங்கி புத்தகத்தை சிறப்பு சலுகை விலையான ₹0-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "TN - TET Paper – II தமிழ் வினா - வங்கி, raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-47-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "TN - TET Paper – II தமிழ் வினா - வங்கி - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-48-6-10-box-point",
+    "sNo": 48,
+    "sku": "10020",
+    "title": "6 - 10 BOX POINT",
+    "titleEn": "6 - 10 BOX POINT",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "school",
+    "categoryName": "பள்ளிப் பாடங்கள் (School 6-12)",
+    "price": 700,
+    "originalPrice": 1000,
+    "discountPercent": 30,
+    "inStock": true,
+    "featured": true,
+    "badge": "30% OFFER",
+    "rating": 4.8,
+    "reviewCount": 196,
+    "images": {
+      "front": "assets/images/books/raj-book-48-cover.svg",
+      "back": "assets/images/books/raj-book-48-cover.svg",
+      "inside": "assets/images/books/raj-book-48-cover.svg"
+    },
+    "isbn": "9788199720466",
+    "pages": 490,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": "1200 g",
+    "dimensions": "28 x 20 x 2.8 cm",
+    "shortDescription": "6 - 10 BOX POINT - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "6 - 10 BOX POINT புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "6 - 10 BOX POINT புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "6 - 10 BOX POINT புத்தகத்தை சிறப்பு சலுகை விலையான ₹700-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "6 - 10 BOX POINT, raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-48-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "6 - 10 BOX POINT - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-49-6-10-important-point",
+    "sNo": 49,
+    "sku": "10055",
+    "title": "6 - 10 IMPORTANT POINT",
+    "titleEn": "6 - 10 IMPORTANT POINT",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "school",
+    "categoryName": "பள்ளிப் பாடங்கள் (School 6-12)",
+    "price": 0,
+    "originalPrice": 0,
+    "discountPercent": 0,
+    "inStock": true,
+    "featured": false,
+    "badge": null,
+    "rating": 4.9,
+    "reviewCount": 203,
+    "images": {
+      "front": "assets/images/books/raj-book-49-cover.svg",
+      "back": "assets/images/books/raj-book-49-cover.svg",
+      "inside": "assets/images/books/raj-book-49-cover.svg"
+    },
+    "isbn": "9788168605350",
+    "pages": null,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": null,
+    "dimensions": "28 x 20 cm",
+    "shortDescription": "6 - 10 IMPORTANT POINT - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "6 - 10 IMPORTANT POINT புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "6 - 10 IMPORTANT POINT புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "6 - 10 IMPORTANT POINT புத்தகத்தை சிறப்பு சலுகை விலையான ₹0-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "6 - 10 IMPORTANT POINT, raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-49-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "6 - 10 IMPORTANT POINT - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-50-tet-english-paper-i",
+    "sNo": 50,
+    "sku": "10021",
+    "title": "TET ENGLISH PAPER - I",
+    "titleEn": "TET ENGLISH PAPER - I",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "tet",
+    "categoryName": "ஆசிரியர் தகுதித் தேர்வு (TET / TRB)",
+    "price": 364,
+    "originalPrice": 520,
+    "discountPercent": 30,
+    "inStock": true,
+    "featured": true,
+    "badge": "30% OFFER",
+    "rating": 4.6,
+    "reviewCount": 210,
+    "images": {
+      "front": "assets/images/books/raj-book-50-cover.svg",
+      "back": "assets/images/books/raj-book-50-cover.svg",
+      "inside": "assets/images/books/raj-book-50-cover.svg"
+    },
+    "isbn": "9788199720435",
+    "pages": 260,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": null,
+    "dimensions": "28 x 20 x 1.3 cm",
+    "shortDescription": "TET ENGLISH PAPER - I - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "TET ENGLISH PAPER - I புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "TET ENGLISH PAPER - I புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "TET ENGLISH PAPER - I புத்தகத்தை சிறப்பு சலுகை விலையான ₹364-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "TET ENGLISH PAPER - I, raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-50-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "TET ENGLISH PAPER - I - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-51-tet-english-paper-ii",
+    "sNo": 51,
+    "sku": "10022",
+    "title": "TET ENGLISH PAPER - II",
+    "titleEn": "TET ENGLISH PAPER - II",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "tet",
+    "categoryName": "ஆசிரியர் தகுதித் தேர்வு (TET / TRB)",
+    "price": 364,
+    "originalPrice": 520,
+    "discountPercent": 30,
+    "inStock": true,
+    "featured": true,
+    "badge": "30% OFFER",
+    "rating": 4.7,
+    "reviewCount": 217,
+    "images": {
+      "front": "assets/images/books/raj-book-51-cover.svg",
+      "back": "assets/images/books/raj-book-51-cover.svg",
+      "inside": "assets/images/books/raj-book-51-cover.svg"
+    },
+    "isbn": "9788199832848",
+    "pages": 260,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": "600 g",
+    "dimensions": "28 x 20 x 1.3 cm",
+    "shortDescription": "TET ENGLISH PAPER - II - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "TET ENGLISH PAPER - II புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "TET ENGLISH PAPER - II புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "TET ENGLISH PAPER - II புத்தகத்தை சிறப்பு சலுகை விலையான ₹364-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "TET ENGLISH PAPER - II, raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-51-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "TET ENGLISH PAPER - II - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-52-tet-english-paper-i-ii",
+    "sNo": 52,
+    "sku": "10024",
+    "title": "TET ENGLISH PAPER – I & II",
+    "titleEn": "TET ENGLISH PAPER – I & II",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "tet",
+    "categoryName": "ஆசிரியர் தகுதித் தேர்வு (TET / TRB)",
+    "price": 364,
+    "originalPrice": 520,
+    "discountPercent": 30,
+    "inStock": true,
+    "featured": true,
+    "badge": "30% OFFER",
+    "rating": 4.8,
+    "reviewCount": 44,
+    "images": {
+      "front": "assets/images/books/raj-book-52-cover.svg",
+      "back": "assets/images/books/raj-book-52-cover.svg",
+      "inside": "assets/images/books/raj-book-52-cover.svg"
+    },
+    "isbn": "9788199832831",
+    "pages": 260,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": "600 g",
+    "dimensions": "28 x 20 x 1.3 cm",
+    "shortDescription": "TET ENGLISH PAPER – I & II - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "TET ENGLISH PAPER – I & II புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "TET ENGLISH PAPER – I & II புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "TET ENGLISH PAPER – I & II புத்தகத்தை சிறப்பு சலுகை விலையான ₹364-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "TET ENGLISH PAPER – I & II, raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-52-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "TET ENGLISH PAPER – I & II - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-53-tamil-question-bank",
+    "sNo": 53,
+    "sku": "10023",
+    "title": "TAMIL QUESTION BANK",
+    "titleEn": "TAMIL QUESTION BANK",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "competitive",
+    "categoryName": "போட்டித் தேர்வுகள் (General Exam)",
+    "price": 0,
+    "originalPrice": 0,
+    "discountPercent": 0,
+    "inStock": true,
+    "featured": false,
+    "badge": null,
+    "rating": 4.8,
+    "reviewCount": 51,
+    "images": {
+      "front": "assets/images/books/raj-book-53-cover.svg",
+      "back": "assets/images/books/raj-book-53-cover.svg",
+      "inside": "assets/images/books/raj-book-53-cover.svg"
+    },
+    "isbn": "9788199832800",
+    "pages": null,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": null,
+    "dimensions": "28 x 20 cm",
+    "shortDescription": "TAMIL QUESTION BANK - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "TAMIL QUESTION BANK புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "TAMIL QUESTION BANK புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "TAMIL QUESTION BANK புத்தகத்தை சிறப்பு சலுகை விலையான ₹0-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "TAMIL QUESTION BANK, raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-53-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "TAMIL QUESTION BANK - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-54-pothu-arivu-paguthi-i",
+    "sNo": 54,
+    "sku": "10025",
+    "title": "POTHU ARIVU PAGUTHI - I",
+    "titleEn": "POTHU ARIVU PAGUTHI - I",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "gk",
+    "categoryName": "பொது அறிவு (General Knowledge)",
+    "price": 0,
+    "originalPrice": 0,
+    "discountPercent": 0,
+    "inStock": true,
+    "featured": false,
+    "badge": null,
+    "rating": 4.9,
+    "reviewCount": 58,
+    "images": {
+      "front": "assets/images/books/raj-book-54-cover.svg",
+      "back": "assets/images/books/raj-book-54-cover.svg",
+      "inside": "assets/images/books/raj-book-54-cover.svg"
+    },
+    "isbn": "9788199832886",
+    "pages": null,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": null,
+    "dimensions": "28 x 20 cm",
+    "shortDescription": "POTHU ARIVU PAGUTHI - I - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "POTHU ARIVU PAGUTHI - I புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "POTHU ARIVU PAGUTHI - I புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "POTHU ARIVU PAGUTHI - I புத்தகத்தை சிறப்பு சலுகை விலையான ₹0-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "POTHU ARIVU PAGUTHI - I, raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-54-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "POTHU ARIVU PAGUTHI - I - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-55-pothu-arivu-paguthi-ii",
+    "sNo": 55,
+    "sku": "10026",
+    "title": "POTHU ARIVU PAGUTHI - II",
+    "titleEn": "POTHU ARIVU PAGUTHI - II",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "gk",
+    "categoryName": "பொது அறிவு (General Knowledge)",
+    "price": 0,
+    "originalPrice": 0,
+    "discountPercent": 0,
+    "inStock": true,
+    "featured": false,
+    "badge": null,
+    "rating": 4.6,
+    "reviewCount": 65,
+    "images": {
+      "front": "assets/images/books/raj-book-55-cover.svg",
+      "back": "assets/images/books/raj-book-55-cover.svg",
+      "inside": "assets/images/books/raj-book-55-cover.svg"
+    },
+    "isbn": "9788199832862",
+    "pages": null,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": null,
+    "dimensions": "28 x 20 cm",
+    "shortDescription": "POTHU ARIVU PAGUTHI - II - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "POTHU ARIVU PAGUTHI - II புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "POTHU ARIVU PAGUTHI - II புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "POTHU ARIVU PAGUTHI - II புத்தகத்தை சிறப்பு சலுகை விலையான ₹0-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "POTHU ARIVU PAGUTHI - II, raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-55-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "POTHU ARIVU PAGUTHI - II - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-56-tn-tet-paper-i-evs",
+    "sNo": 56,
+    "sku": "10056",
+    "title": "TN-TET PAPER – I EVS",
+    "titleEn": "TN-TET PAPER – I EVS",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "tet",
+    "categoryName": "ஆசிரியர் தகுதித் தேர்வு (TET / TRB)",
+    "price": 1015,
+    "originalPrice": 1450,
+    "discountPercent": 30,
+    "inStock": true,
+    "featured": true,
+    "badge": "30% OFFER",
+    "rating": 4.7,
+    "reviewCount": 72,
+    "images": {
+      "front": "assets/images/books/raj-book-56-cover.svg",
+      "back": "assets/images/books/raj-book-56-cover.svg",
+      "inside": "assets/images/books/raj-book-56-cover.svg"
+    },
+    "isbn": "9788168821804",
+    "pages": 725,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": null,
+    "dimensions": "28 x 20 x 3.5 cm",
+    "shortDescription": "TN-TET PAPER – I EVS - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "TN-TET PAPER – I EVS புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "TN-TET PAPER – I EVS புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "TN-TET PAPER – I EVS புத்தகத்தை சிறப்பு சலுகை விலையான ₹1015-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "TN-TET PAPER – I EVS, raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-56-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "TN-TET PAPER – I EVS - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-57-tn-tet-paper-i-evs-question-bank",
+    "sNo": 57,
+    "sku": "10057",
+    "title": "TN-TET PAPER – I EVS QUESTION BANK",
+    "titleEn": "TN-TET PAPER – I EVS QUESTION BANK",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "tet",
+    "categoryName": "ஆசிரியர் தகுதித் தேர்வு (TET / TRB)",
+    "price": 840,
+    "originalPrice": 1200,
+    "discountPercent": 30,
+    "inStock": true,
+    "featured": true,
+    "badge": "30% OFFER",
+    "rating": 4.8,
+    "reviewCount": 79,
+    "images": {
+      "front": "assets/images/books/raj-book-57-cover.svg",
+      "back": "assets/images/books/raj-book-57-cover.svg",
+      "inside": "assets/images/books/raj-book-57-cover.svg"
+    },
+    "isbn": "9788168821811",
+    "pages": 570,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": null,
+    "dimensions": "28 x 20 x 2.7 cm",
+    "shortDescription": "TN-TET PAPER – I EVS QUESTION BANK - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "TN-TET PAPER – I EVS QUESTION BANK புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "TN-TET PAPER – I EVS QUESTION BANK புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "TN-TET PAPER – I EVS QUESTION BANK புத்தகத்தை சிறப்பு சலுகை விலையான ₹840-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "TN-TET PAPER – I EVS QUESTION BANK, raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-57-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "TN-TET PAPER – I EVS QUESTION BANK - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-58-tn-tet-paper-i-psychology",
+    "sNo": 58,
+    "sku": "10058",
+    "title": "TN-TET PAPER – I PSYCHOLOGY",
+    "titleEn": "TN-TET PAPER – I PSYCHOLOGY",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "tet",
+    "categoryName": "ஆசிரியர் தகுதித் தேர்வு (TET / TRB)",
+    "price": 0,
+    "originalPrice": 0,
+    "discountPercent": 0,
+    "inStock": true,
+    "featured": false,
+    "badge": null,
+    "rating": 4.8,
+    "reviewCount": 86,
+    "images": {
+      "front": "assets/images/books/raj-book-58-cover.svg",
+      "back": "assets/images/books/raj-book-58-cover.svg",
+      "inside": "assets/images/books/raj-book-58-cover.svg"
+    },
+    "isbn": "",
+    "pages": null,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": null,
+    "dimensions": "28 x 20 cm",
+    "shortDescription": "TN-TET PAPER – I PSYCHOLOGY - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "TN-TET PAPER – I PSYCHOLOGY புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "TN-TET PAPER – I PSYCHOLOGY புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "TN-TET PAPER – I PSYCHOLOGY புத்தகத்தை சிறப்பு சலுகை விலையான ₹0-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "TN-TET PAPER – I PSYCHOLOGY, raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-58-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "TN-TET PAPER – I PSYCHOLOGY - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
+  },
+  {
+    "id": "raj-book-59-tn-tet-paper-ii-psychology",
+    "sNo": 59,
+    "sku": "10059",
+    "title": "TN-TET PAPER – II PSYCHOLOGY",
+    "titleEn": "TN-TET PAPER – II PSYCHOLOGY",
+    "author": "Raj Publication வல்லுநர் குழு",
+    "authorEn": "Raj Publication Editorial Board",
+    "category": "tet",
+    "categoryName": "ஆசிரியர் தகுதித் தேர்வு (TET / TRB)",
+    "price": 0,
+    "originalPrice": 0,
+    "discountPercent": 0,
+    "inStock": true,
+    "featured": false,
+    "badge": null,
+    "rating": 4.9,
+    "reviewCount": 93,
+    "images": {
+      "front": "assets/images/books/raj-book-59-cover.svg",
+      "back": "assets/images/books/raj-book-59-cover.svg",
+      "inside": "assets/images/books/raj-book-59-cover.svg"
+    },
+    "isbn": "",
+    "pages": null,
+    "language": "தமிழ் / English",
+    "publisher": "Raj Publication (ராஜ் பப்ளிகேஷன்)",
+    "edition": "2025 - 2026 புதிய மேம்படுத்தப்பட்ட பதிப்பு",
+    "binding": "மென்மையான அட்டை (Paperback)",
+    "weight": null,
+    "dimensions": "28 x 20 cm",
+    "shortDescription": "TN-TET PAPER – II PSYCHOLOGY - Raj Publication போட்டித் தேர்வுக்கான பிரத்யேக வழிகாட்டி நூல்.",
+    "fullDescription": "TN-TET PAPER – II PSYCHOLOGY புத்தகம் பள்ளிப் பாடத்திட்டம் மற்றும் சமீபத்திய தேர்வு வினாத்தாள்களை அடிப்படையாகக் கொண்டு விரிவாகத் தயாரிக்கப்பட்டது. தெளிவான விளக்கங்கள் மற்றும் பயிற்சி வினாக்களுடன் கூடிய முழுமையான வழிகாட்டி.",
+    "highlights": [
+      "சமீபத்திய அரசுத் தேர்வு பாடத்திட்டத்தின்படி தயாரிக்கப்பட்டது",
+      "பள்ளிப் பாடப்புத்தக அடிப்படையிலான முழுமையான விளக்கங்கள்",
+      "பயிற்சி வினாக்கள் மற்றும் முந்தைய ஆண்டு வினாத்தாள்கள்",
+      "தமிழ்நாடு முழுவதும் விரைவான வாட்ஸ்அப் ஹோம் டெலிவரி"
+    ],
+    "seo": {
+      "metaTitle": "TN-TET PAPER – II PSYCHOLOGY புத்தகம் வாங்க | Raj Publication",
+      "metaDescription": "TN-TET PAPER – II PSYCHOLOGY புத்தகத்தை சிறப்பு சலுகை விலையான ₹0-க்கு வாட்ஸ்அப் மூலம் உடனடியாக வாங்கவும்.",
+      "keywords": "TN-TET PAPER – II PSYCHOLOGY, raj publication, tamil competitive exam books, buy books online"
+    },
+    "gallery": [
+      {
+        "url": "assets/images/books/raj-book-59-cover.svg",
+        "title": "முன் அட்டை / Front Cover",
+        "description": "TN-TET PAPER – II PSYCHOLOGY - Raj Publication போட்டித் தேர்வு வழிகாட்டி"
+      }
+    ]
   }
 ]
