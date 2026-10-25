@@ -1,22 +1,22 @@
 {
   "siteName": "Raj Publication",
   "siteNameTamil": "ராஜ் பப்ளிகேஷன்",
-  "tagline": "நேர்த்தியான பதிப்புகள் • உங்கள் வாசிப்புக்கான சிறந்த புத்தகங்கள்",
-  "taglineEn": "Premium Tamil & English Books — Direct to Your Doorstep",
-  "whatsappNumber": "919876543210",
-  "whatsappDisplayNumber": "+91 98765 43210",
-  "phone": "+91 98765 43210",
-  "email": "rajpublicationbooks@gmail.com",
-  "address": "Raj Publication, Chennai, Tamil Nadu, India - 600001",
+  "tagline": "போட்டித் தேர்வுகளுக்கான சிறந்த நூல்கள் • உங்கள் இல்லம் தேடி",
+  "taglineEn": "Premium Competitive Exam & Educational Books — Doorstep Delivery",
+  "whatsappNumber": "918148966638",
+  "whatsappDisplayNumber": "+91 81489 66638",
+  "phone": "+91 81489 66638",
+  "email": "rajiasacademy07@gmail.com",
+  "address": "ராஜ் IAS அகாடமி, வெற்றிவேல் காம்ப்ளக்ஸ், பாவூர்சத்திரம், தமிழ்நாடு",
   "currency": "₹",
   "deliveryCharge": 40,
   "freeDeliveryThreshold": 499,
-  "announcement": "✨ அனைத்து புத்தகங்களுக்கும் சிறப்பு தள்ளுபடி! வாட்ஸ்அப்பில் நேரடி முன்பதிவு செய்யலாம் • தமிழ் & ஆங்கில நூல்கள் ✨",
-  "upiId": "rajpublication@upi",
+  "announcement": "✨ அனைத்து போட்டித் தேர்வு புத்தகங்களுக்கும் சிறப்பு தள்ளுபடி! வாட்ஸ்அப்பில் நேரடி முன்பதிவு செய்யலாம் ✨",
+  "upiId": "8148966638@upi",
   "social": {
     "instagram": "https://instagram.com/rajpublication",
     "facebook": "https://facebook.com/rajpublication",
     "youtube": "https://youtube.com/@rajpublication"
   },
-  "siteUrl": "https://murugannagaraja781.github.io/rajpublication/"
+  "siteUrl": "https://rajpublication.com/"
 }

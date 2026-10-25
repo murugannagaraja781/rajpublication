@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://murugannagaraja781.github.io/rajpublication/sitemap.xml
+Sitemap: https://rajpublication.com/sitemap.xml
