@@ -74,6 +74,7 @@ const itemListSchema = {
     "position": idx + 1,
     "url": `https://rajpublication.com/book.html?id=${encodeURIComponent(book.id)}`,
     "name": book.title,
+    "alternateName": book.titleEn || book.title,
     "image": book.images?.front || 'https://rajpublication.com/assets/images/logo.svg',
     "offers": {
       "@type": "Offer",
@@ -95,10 +96,10 @@ if (indexHtml.includes('id="schema-itemlist"')) {
   indexHtml = indexHtml.replace('</head>', `${itemListScript}\n</head>`);
 }
 
-// 5. Add SEO HTML Directory of books before </main> for 100% crawler crawlability
-let bookLinksHtml = `\n    <!-- SEO Search Engine Semantic Crawl Directory -->\n    <section class="seo-crawler-index" style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;" aria-hidden="true">\n      <h2>Raj Publication Complete Books Directory</h2>\n      <ul>\n`;
+// 5. Add SEO HTML Directory of books before </main> for 100% crawler crawlability (Tamil & English)
+let bookLinksHtml = `\n    <!-- SEO Search Engine Semantic Crawl Directory -->\n    <section class="seo-crawler-index" style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;" aria-hidden="true">\n      <h2>Raj Publication Complete Books Directory - Tamil & English Search Catalog</h2>\n      <ul>\n`;
 books.forEach(book => {
-  bookLinksHtml += `        <li><a href="book.html?id=${encodeURIComponent(book.id)}">${book.title} - ${book.author} (${book.categoryName || 'Tamil Books'}) - ₹${book.price || 'Coming Soon'}</a></li>\n`;
+  bookLinksHtml += `        <li><a href="book.html?id=${encodeURIComponent(book.id)}">${book.title} | ${book.titleEn || ''} - Raj Publication Tamil Books (${book.categoryName || 'Tamil Competitive Exam Guide'}) - ₹${book.price || 'Coming Soon'}</a></li>\n`;
 });
 bookLinksHtml += `      </ul>\n    </section>\n`;
 
