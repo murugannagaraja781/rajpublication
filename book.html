@@ -65,7 +65,7 @@
 
       <div class="header-actions">
         <a href="index.html#books-catalog" class="btn-primary" style="padding:8px 18px;font-size:0.86rem;">
-          <span>&larr; புத்தக பட்டியல்</span>
+          <span>&larr; Book Catalog</span>
         </a>
       </div>
     </div>
@@ -94,13 +94,13 @@
           <div class="gallery-viewer">
             <!-- Stage / Featured Image -->
             <div class="gallery-stage">
-              <button type="button" id="gallery-slide-prev" class="gallery-nav-arrow gallery-nav-prev" aria-label="முந்தைய படம்">&#10094;</button>
-              <img id="gallery-featured-img" class="gallery-featured-img" src="" alt="புத்தகப் படம்" title="பெரிதாக்க கிளிக் செய்க (Click to Zoom)">
-              <button type="button" id="gallery-slide-next" class="gallery-nav-arrow gallery-nav-next" aria-label="அடுத்த படம்">&#10095;</button>
+              <button type="button" id="gallery-slide-prev" class="gallery-nav-arrow gallery-nav-prev" aria-label="Previous image">&#10094;</button>
+              <img id="gallery-featured-img" class="gallery-featured-img" src="" alt="Book Cover Image" title="Click to Zoom">
+              <button type="button" id="gallery-slide-next" class="gallery-nav-arrow gallery-nav-next" aria-label="Next image">&#10095;</button>
               
               <div class="gallery-zoom-badge">
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
-                <span>பெரிதாக்க கிளிக் செய்க</span>
+                <span>Click to Zoom</span>
               </div>
             </div>
 
@@ -146,7 +146,7 @@
             <div class="price-actions-group">
               <button type="button" id="btn-book-order-wa" class="btn-buy-wa-lg">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/></svg>
-                <span>வாட்ஸ்அப் மூலம் ஆர்டர் செய்க &rarr;</span>
+                <span>Order via WhatsApp &rarr;</span>
               </button>
             </div>
           </div>
@@ -172,9 +172,9 @@
 
           <!-- Tabbed Info Area -->
           <div class="book-tabs-nav" role="tablist">
-            <button type="button" class="book-tab-btn active" data-tab="synopsis" role="tab">நூல் விளக்கம் (Synopsis)</button>
-            <button type="button" class="book-tab-btn" data-tab="specs" role="tab">நூல் விவரங்கள் (Specifications)</button>
-            <button type="button" class="book-tab-btn" data-tab="author" role="tab">எழுத்தாளர் குறிப்பு</button>
+            <button type="button" class="book-tab-btn active" data-tab="synopsis" role="tab">Synopsis</button>
+            <button type="button" class="book-tab-btn" data-tab="specs" role="tab">Specifications</button>
+            <button type="button" class="book-tab-btn" data-tab="author" role="tab">About Publisher</button>
           </div>
 
           <!-- Tab Pane 1: Synopsis -->
@@ -210,23 +210,23 @@
   </main>
 
   <!-- Fullscreen Lightbox Modal for 3 Images Zoom Preview -->
-  <div id="lightbox-modal" class="lightbox-modal" role="dialog" aria-modal="true" aria-label="பெரிதாக்கப்பட்ட படம்">
-    <button type="button" id="lightbox-close" class="lightbox-close" aria-label="மூடுக">&times;</button>
-    <img id="lightbox-img" class="lightbox-img" src="" alt="பெரிதாக்கப்பட்ட புத்தகம்">
+  <div id="lightbox-modal" class="lightbox-modal" role="dialog" aria-modal="true" aria-label="Zoomed Image">
+    <button type="button" id="lightbox-close" class="lightbox-close" aria-label="Close">&times;</button>
+    <img id="lightbox-img" class="lightbox-img" src="" alt="Zoomed Book Cover">
   </div>
 
   <!-- Shared WhatsApp Order Address Modal -->
   <div id="whatsapp-order-modal" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="order-modal-title">
     <div class="modal-dialog order-modal-dialog">
-      <button type="button" id="close-order-modal-btn" class="modal-close-btn" aria-label="மூடுக">&times;</button>
+      <button type="button" id="close-order-modal-btn" class="modal-close-btn" aria-label="Close">&times;</button>
       
       <div class="order-modal-header">
         <div class="order-modal-header-icon">
           <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/></svg>
         </div>
         <div>
-          <h3 id="order-modal-title">வாட்ஸ்அப் உடனடி முன்பதிவு</h3>
-          <p>உங்கள் டெலிவரி முகவரியை உள்ளிட்டு WhatsApp-ல் ஆர்டரை முடிக்கவும்</p>
+          <h3 id="order-modal-title">Quick WhatsApp Order</h3>
+          <p>Enter your courier delivery address to proceed to WhatsApp</p>
         </div>
       </div>
 
@@ -241,9 +241,9 @@
         </div>
 
         <div class="order-qty-control">
-          <button type="button" id="order-qty-dec" class="qty-btn" aria-label="குறை">&minus;</button>
+          <button type="button" id="order-qty-dec" class="qty-btn" aria-label="Decrease">&minus;</button>
           <span id="order-summary-qty" class="qty-display">1</span>
-          <button type="button" id="order-qty-inc" class="qty-btn" aria-label="அதிகரி">&#43;</button>
+          <button type="button" id="order-qty-inc" class="qty-btn" aria-label="Increase">&#43;</button>
         </div>
       </div>
 
@@ -320,7 +320,7 @@
 
         <button type="submit" class="order-submit-btn">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/></svg>
-          <span>வாட்ஸ்அப்பில் ஆர்டரை உறுதி செய்க &rarr;</span>
+          <span>Confirm Order on WhatsApp &rarr;</span>
         </button>
 
         <p class="order-disclaimer">

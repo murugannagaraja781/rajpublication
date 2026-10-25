@@ -113,37 +113,83 @@ function generateOrderId() {
   return `RP-${dateStr}-${rand}`;
 }
 
-// Open WhatsApp with clean, structured parcel dispatch message
+// Generate direct view/print Parcel Bill URL
+function generateBillUrl(order) {
+  try {
+    const compactOrder = {
+      id: order.orderId,
+      d: order.dateStr,
+      b: {
+        t: order.book.title,
+        p: order.book.price,
+        s: order.book.sku || order.book.isbn || ('RAJ-' + order.book.sNo),
+        pg: order.book.pages || null
+      },
+      q: order.qty,
+      st: order.subtotal,
+      del: order.delivery,
+      tot: order.total,
+      c: {
+        n: order.customer.name,
+        p: order.customer.phone,
+        a: order.customer.address,
+        l: order.customer.landmark || '',
+        ct: order.customer.city,
+        pin: order.customer.pincode,
+        m: order.customer.paymentMode,
+        nt: order.customer.notes || ''
+      }
+    };
+    const jsonStr = JSON.stringify(compactOrder);
+    const encoded = encodeURIComponent(btoa(unescape(encodeURIComponent(jsonStr))));
+    
+    // In production, prefer live domain rajpublication.com
+    const origin = (window.location.hostname && window.location.hostname.includes('rajpublication.com'))
+      ? 'https://rajpublication.com'
+      : (window.location.origin + window.location.pathname.replace(/\/[^/]*$/, ''));
+
+    return `${origin}/bill.html?o=${encoded}`;
+  } catch (err) {
+    console.error('Error generating bill URL:', err);
+    return 'https://rajpublication.com/bill.html';
+  }
+}
+
+// Open WhatsApp with Short & Sweet Parcel Delivery Slip format and direct PDF Bill link
 function openWhatsAppWithMessage(order) {
   const config = window.getStoreConfig ? window.getStoreConfig() : {};
   const targetNumber = config.whatsappNumber || '919876543210';
   const { book, qty, customer, subtotal, delivery, total, orderId, dateStr } = order;
+  const billUrl = generateBillUrl(order);
 
   const lines = [
-    `📦 *RAJ PUBLICATION — புதிய புத்தக முன்பதிவு*`,
+    `📦 *RAJ PUBLICATION — பார்சல் டெலிவரி ஸ்லிப்*`,
     `══════════════════════════════`,
-    `🧾 *ஆர்டர் எண் (Order ID):* #${orderId}`,
+    `🧾 *ஆர்டர் எண்:* #${orderId}`,
     `📅 *தேதி:* ${dateStr}`,
     ``,
-    `📖 *புத்தக விவரம் (Book Details):*`,
-    `• *தலைப்பு:* ${book.title}`,
-    `• *எண்ணிக்கை (Qty):* ${qty}`,
-    `• *விலை:* ₹${book.price} (MRP: ₹${book.originalPrice || book.price})`,
-    `• *டெலிவரி:* ${delivery === 0 ? 'இலவசம் (Free Delivery)' : '₹' + delivery}`,
-    `💰 *செலுத்த வேண்டிய மொத்தத் தொகை:* *₹${total}*`,
+    `📍 *TO: பெறுநர் பார்சல் முகவரி (DELIVERY SLIP):*`,
+    `┌─────────────────────────────┐`,
+    `  *பெயர்:* ${customer.name}`,
+    `  *மொபைல்:* ${customer.phone}`,
+    `  *முகவரி:* ${customer.address}`,
+    customer.landmark && customer.landmark !== '-' ? `  *அடையாளம்:* ${customer.landmark}` : null,
+    `  *ஊர் & மாவட்டம்:* ${customer.city}`,
+    `  *பின்கோடு:* *${customer.pincode}*`,
+    `└─────────────────────────────┘`,
     ``,
-    `📍 *பார்சல் அனுப்ப வேண்டிய முழு முகவரி (Parcel Address):*`,
-    `• *பெயர் (Name):* ${customer.name}`,
-    `• *மொபைல் / WhatsApp:* ${customer.phone}`,
-    `• *கதவு எண் & முகவரி:* ${customer.address}`,
-    customer.landmark && customer.landmark !== '-' ? `• *அடையாளம் (Landmark):* ${customer.landmark}` : null,
-    `• *ஊர் & மாவட்டம்:* ${customer.city}`,
-    `• *பின்கோடு (PINCODE):* *${customer.pincode}*`,
-    `• *பணம் செலுத்தும் முறை:* ${customer.paymentMode}`,
-    customer.notes && customer.notes !== 'இல்லை (None)' ? `• *கூடுதல் குறிப்பு:* ${customer.notes}` : null,
+    `📖 *புத்தக விபரம்:*`,
+    `• ${book.title}`,
+    `• எண்ணிக்கை: ${qty} | விலை: ₹${book.price}`,
+    `• டெலிவரி: ${delivery === 0 ? 'இலவசம் (FREE)' : '₹' + delivery}`,
+    `💰 *மொத்தத் தொகை:* *₹${total}*`,
+    `💳 *பணம் செலுத்தும் முறை:* ${customer.paymentMode}`,
+    customer.notes && customer.notes !== 'இல்லை (None)' ? `📝 *குறிப்பு:* ${customer.notes}` : null,
+    ``,
+    `🖨️ *பார்சல் ஸ்லிப் & PDF பில் லிங்க் (Click to View/Print PDF):*`,
+    `${billUrl}`,
     `══════════════════════════════`,
-    `📦 *தயவுசெய்து எனது முகவரிக்கு பார்சல் அனுப்பி வைக்கவும்.*`,
-    `_Raj Publication அதிகாரப்பூர்வ இணையதளம் மூலம் அனுப்பப்பட்ட நேரடி முன்பதிவு_`
+    `📦 *தயவுசெய்து எனது முகவரிக்கு பார்சல் அனுப்பி வைக்கவும்.*`
   ].filter(line => line !== null);
 
   const fullMessage = lines.join('\n');

@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>பார்சல் டெலிவரி ஸ்லிப் & பில் | Raj Publication</title>
+  <meta name="description" content="Raj Publication Official Parcel Dispatch Slip & Tax Invoice">
+  <meta name="robots" content="noindex, nofollow">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --primary: #1E3A8A;
+      --primary-dark: #0F172A;
+      --accent: #B45309;
+      --success: #16A34A;
+      --surface: #FFFFFF;
+      --border: #CBD5E1;
+      --text: #0F172A;
+      --text-muted: #64748B;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', 'Noto Sans Tamil', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #F1F5F9;
+      color: var(--text);
+      line-height: 1.5;
+      padding-bottom: 60px;
+    }
+
+    /* Top Sticky Action Bar */
+    .action-bar {
+      position: sticky;
+      top: 0;
+      background: #0F172A;
+      color: #FFFFFF;
+      padding: 12px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      z-index: 100;
+    }
+
+    .action-bar-title {
+      font-size: 1rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .action-bar-btns {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 8px 16px;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      font-weight: 700;
+      cursor: pointer;
+      border: none;
+      text-decoration: none;
+      transition: all 0.2s ease;
+    }
+
+    .btn-print {
+      background: #2563EB;
+      color: #FFFFFF;
+    }
+    .btn-print:hover {
+      background: #1D4ED8;
+    }
+
+    .btn-whatsapp {
+      background: #16A34A;
+      color: #FFFFFF;
+    }
+    .btn-whatsapp:hover {
+      background: #15803D;
+    }
+
+    .btn-home {
+      background: rgba(255, 255, 255, 0.15);
+      color: #FFFFFF;
+    }
+    .btn-home:hover {
+      background: rgba(255, 255, 255, 0.25);
+    }
+
+    /* Bill Container */
+    .bill-wrapper {
+      max-width: 820px;
+      margin: 24px auto;
+      padding: 0 16px;
+    }
+
+    .bill-card {
+      background: #FFFFFF;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 32px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+    }
+
+    /* Bill Header */
+    .bill-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      border-bottom: 3px solid var(--primary);
+      padding-bottom: 18px;
+      margin-bottom: 22px;
+      gap: 20px;
+    }
+
+    .brand-title {
+      font-size: 28px;
+      font-weight: 900;
+      color: var(--primary);
+      letter-spacing: 0.5px;
+      line-height: 1.1;
+    }
+
+    .brand-subtitle {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--accent);
+      margin-top: 3px;
+    }
+
+    .brand-address {
+      font-size: 11px;
+      color: #475569;
+      margin-top: 5px;
+      line-height: 1.4;
+    }
+
+    .invoice-meta {
+      text-align: right;
+    }
+
+    .invoice-badge {
+      display: inline-block;
+      background: var(--primary);
+      color: #FFFFFF;
+      padding: 5px 14px;
+      border-radius: 4px;
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .invoice-badge-ta {
+      font-size: 11px;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+
+    .invoice-num {
+      font-size: 14px;
+      font-weight: 800;
+      color: var(--text);
+      margin-top: 8px;
+    }
+
+    .invoice-num span {
+      color: var(--primary);
+    }
+
+    .invoice-date {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+
+    /* PARCEL DISPATCH LABEL (CUT & PASTE) */
+    .parcel-label-box {
+      border: 2.5px dashed var(--primary);
+      background: #F8FAFC;
+      padding: 18px 20px;
+      border-radius: 10px;
+      margin-bottom: 24px;
+      position: relative;
+    }
+
+    .parcel-label-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1.5px solid #CBD5E1;
+      padding-bottom: 8px;
+      margin-bottom: 14px;
+    }
+
+    .parcel-label-title {
+      font-size: 13px;
+      font-weight: 900;
+      color: var(--primary);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .parcel-badge {
+      font-size: 11px;
+      background: #0284C7;
+      color: #FFFFFF;
+      padding: 3px 10px;
+      border-radius: 4px;
+      font-weight: 800;
+      letter-spacing: 0.5px;
+    }
+
+    .parcel-grid {
+      display: grid;
+      grid-template-columns: 1.6fr 1fr;
+      gap: 20px;
+    }
+
+    .to-section {
+      line-height: 1.45;
+    }
+
+    .section-label {
+      font-size: 11px;
+      color: var(--text-muted);
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .cust-name {
+      font-size: 18px;
+      font-weight: 900;
+      color: var(--primary-dark);
+      margin: 3px 0 4px;
+    }
+
+    .cust-addr {
+      font-size: 13px;
+      color: #334155;
+      line-height: 1.5;
+    }
+
+    .cust-landmark {
+      font-size: 13px;
+      color: #475569;
+    }
+
+    .cust-city {
+      font-size: 14px;
+      font-weight: 700;
+      color: #1E293B;
+      margin-top: 2px;
+    }
+
+    .cust-pincode-badge {
+      display: inline-block;
+      font-size: 16px;
+      font-weight: 900;
+      color: #854D0E;
+      background: #FEF08A;
+      border: 1.5px solid #EAB308;
+      padding: 3px 12px;
+      border-radius: 5px;
+      letter-spacing: 1px;
+      margin-top: 8px;
+    }
+
+    .cust-phone {
+      font-size: 14px;
+      font-weight: 800;
+      color: var(--text);
+      margin-top: 8px;
+    }
+
+    .cust-phone span {
+      color: var(--primary);
+    }
+
+    .from-section {
+      border-left: 1.5px dashed #CBD5E1;
+      padding-left: 18px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .from-title {
+      font-size: 14px;
+      font-weight: 900;
+      color: var(--primary);
+      margin-top: 3px;
+    }
+
+    .from-address {
+      font-size: 12px;
+      color: #475569;
+      line-height: 1.4;
+      margin-top: 4px;
+    }
+
+    .from-phone {
+      font-size: 12px;
+      font-weight: 800;
+      color: var(--text);
+      margin-top: 6px;
+    }
+
+    .fragile-note {
+      font-size: 11px;
+      color: #64748B;
+      font-style: italic;
+      border-top: 1px dotted #CBD5E1;
+      padding-top: 6px;
+      margin-top: 10px;
+    }
+
+    /* Items Table */
+    .table-responsive {
+      overflow-x: auto;
+      margin-bottom: 20px;
+    }
+
+    .items-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+
+    .items-table th {
+      background: var(--primary);
+      color: #FFFFFF;
+      padding: 10px 12px;
+      font-weight: 700;
+      text-align: left;
+      border: 1px solid var(--primary);
+    }
+
+    .items-table td {
+      padding: 12px;
+      border: 1px solid var(--border);
+      vertical-align: middle;
+    }
+
+    .text-center { text-align: center; }
+    .text-right { text-align: right; }
+
+    .book-item-title {
+      font-size: 14px;
+      font-weight: 800;
+      color: var(--text);
+    }
+
+    .book-item-sub {
+      font-size: 11px;
+      color: var(--text-muted);
+      margin-top: 3px;
+    }
+
+    /* Totals & Payment Grid */
+    .totals-grid {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 24px;
+      gap: 20px;
+    }
+
+    .payment-info {
+      max-width: 55%;
+    }
+
+    .payment-mode-box {
+      background: #F8FAFC;
+      border: 1px solid #E2E8F0;
+      border-radius: 8px;
+      padding: 12px 14px;
+      margin-top: 6px;
+    }
+
+    .payment-mode-title {
+      font-size: 14px;
+      font-weight: 800;
+      color: var(--text);
+    }
+
+    .delivery-notice {
+      font-size: 11px;
+      color: #475569;
+      line-height: 1.45;
+      margin-top: 8px;
+    }
+
+    .summary-card {
+      width: 260px;
+      background: #F8FAFC;
+      border: 1px solid #E2E8F0;
+      border-radius: 8px;
+      padding: 14px 16px;
+      font-size: 13px;
+    }
+
+    .summary-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 4px 0;
+    }
+
+    .summary-total {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 0 2px;
+      font-size: 18px;
+      font-weight: 900;
+      color: var(--primary);
+      border-top: 2px solid var(--border);
+      margin-top: 6px;
+    }
+
+    /* Footer Stamp */
+    .bill-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      border-top: 1px solid var(--border);
+      padding-top: 18px;
+      margin-top: 16px;
+    }
+
+    .seal-box {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .official-seal {
+      width: 80px;
+      height: 80px;
+      border: 2px dashed var(--primary);
+      border-radius: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: var(--primary);
+      font-size: 8px;
+      font-weight: 900;
+      text-align: center;
+      transform: rotate(-6deg);
+      padding: 4px;
+    }
+
+    .signatory-box {
+      text-align: center;
+    }
+
+    .signatory-name {
+      font-family: 'Courier New', monospace;
+      font-size: 15px;
+      font-weight: 900;
+      color: var(--primary);
+    }
+
+    .signatory-title {
+      font-size: 11px;
+      color: var(--text-muted);
+      border-top: 1px solid #94A3B8;
+      width: 160px;
+      padding-top: 4px;
+      margin-top: 4px;
+    }
+
+    /* Print Media Queries */
+    @media print {
+      body {
+        background: #FFFFFF;
+        padding: 0;
+      }
+      .action-bar {
+        display: none !important;
+      }
+      .bill-wrapper {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      .bill-card {
+        border: none;
+        box-shadow: none;
+        padding: 12px;
+        border-radius: 0;
+      }
+      .parcel-label-box {
+        border-color: #000000;
+        background: #FAFAFA !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+      .cust-pincode-badge {
+        border-color: #000000;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+      @page {
+        size: A4 portrait;
+        margin: 10mm;
+      }
+    }
+
+    /* Mobile Responsive */
+    @media (max-width: 640px) {
+      .bill-card {
+        padding: 18px;
+      }
+      .bill-header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .invoice-meta {
+        text-align: left;
+        margin-top: 10px;
+      }
+      .parcel-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+      }
+      .from-section {
+        border-left: none;
+        border-top: 1.5px dashed #CBD5E1;
+        padding-left: 0;
+        padding-top: 14px;
+      }
+      .totals-grid {
+        flex-direction: column;
+      }
+      .payment-info, .summary-card {
+        max-width: 100%;
+        width: 100%;
+      }
+      .action-bar {
+        flex-direction: column;
+        gap: 10px;
+        align-items: stretch;
+      }
+      .action-bar-btns {
+        justify-content: stretch;
+      }
+      .action-bar-btns .btn {
+        flex: 1;
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Action Bar -->
+  <header class="action-bar" role="banner">
+    <div class="action-bar-title">
+      <span>📦</span>
+      <span>Raj Publication — பில் &amp; பார்சல் விநியோகத் தாள்</span>
+    </div>
+    <div class="action-bar-btns">
+      <button type="button" onclick="window.print()" class="btn btn-print">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+        <span>Print / Save as PDF</span>
+      </button>
+      <a id="btn-wa-helpline" href="https://wa.me/919876543210" target="_blank" class="btn btn-whatsapp">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/></svg>
+        <span>WhatsApp Help</span>
+      </a>
+      <a href="index.html" class="btn btn-home">
+        <span>🏠 Home</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Bill / Invoice Document -->
+  <main class="bill-wrapper">
+    <article class="bill-card">
+
+      <!-- Header Section -->
+      <section class="bill-header">
+        <div>
+          <div class="brand-title">RAJ PUBLICATION</div>
+          <div class="brand-subtitle">ராஜ் பப்ளிகேஷன் • தமிழ்நாடு அரசுப் போட்டித் தேர்வு வழிகாட்டிகள்</div>
+          <div class="brand-address">
+            No. 12, Book Sellers Lane, Triplicane, Chennai - 600005, Tamil Nadu<br>
+            WhatsApp / Mobile: +91 98765 43210 &bull; இணையதளம்: rajpublication.com
+          </div>
+        </div>
+        <div class="invoice-meta">
+          <div class="invoice-badge">TAX INVOICE / CASH BILL</div>
+          <div class="invoice-badge-ta">வரி ரசீது &amp; விநியோகக் குறிப்பு</div>
+          <div class="invoice-num">ஆர்டர் எண்: <span id="bill-order-id">#RP-261025-0000</span></div>
+          <div class="invoice-date">தேதி: <span id="bill-date">-</span></div>
+        </div>
+      </section>
+
+      <!-- PARCEL DISPATCH LABEL (CUT & PASTE ON ENVELOPE / BOX) -->
+      <section class="parcel-label-box" aria-label="பார்சல் முகவரி லேபிள்">
+        <div class="parcel-label-header">
+          <div class="parcel-label-title">
+            <span>✂️</span>
+            <span>PARCEL DISPATCH LABEL / பார்சல் ஒட்டுவதற்கான முகவரிக் குறிப்பு (Cut &amp; Paste on Envelope)</span>
+          </div>
+          <span class="parcel-badge">SPEED POST / PARCEL</span>
+        </div>
+
+        <div class="parcel-grid">
+          <!-- TO -->
+          <div class="to-section">
+            <div class="section-label">TO (பெறுநர்):</div>
+            <div id="bill-cust-name" class="cust-name">வாடிக்கையாளர் பெயர்</div>
+            <div id="bill-cust-addr" class="cust-addr">முழு முகவரி, கதவு எண், தெருப் பெயர்</div>
+            <div id="bill-cust-landmark" class="cust-landmark">அடையாளம்: -</div>
+            <div id="bill-cust-city" class="cust-city">ஊர் &amp; மாவட்டம்</div>
+            <div class="cust-pincode-badge">
+              PINCODE: <span id="bill-cust-pincode">600000</span>
+            </div>
+            <div class="cust-phone">
+              Mobile / WhatsApp: <span id="bill-cust-phone">-</span>
+            </div>
+          </div>
+
+          <!-- FROM -->
+          <div class="from-section">
+            <div>
+              <div class="section-label">FROM (அனுப்புநர்):</div>
+              <div class="from-title">RAJ PUBLICATION</div>
+              <div class="from-address">
+                No. 12, Book Sellers Lane, Triplicane<br>
+                Chennai, Tamil Nadu - 600005
+              </div>
+              <div class="from-phone">Helpline: +91 98765 43210</div>
+            </div>
+            <div class="fragile-note">
+              📦 Fragile &bull; Books Inside &bull; Handle with care
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Particulars Table -->
+      <section class="table-responsive">
+        <table class="items-table">
+          <thead>
+            <tr>
+              <th class="text-center" style="width:40px;">எண்</th>
+              <th>புத்தகத்தின் பெயர் &amp; விபரம்</th>
+              <th class="text-center" style="width:100px;">SKU / குறியீடு</th>
+              <th class="text-center" style="width:50px;">Qty</th>
+              <th class="text-right" style="width:90px;">விலை (₹)</th>
+              <th class="text-right" style="width:100px;">மொத்தம் (₹)</th>
+            </tr>
+          </thead>
+          <tbody id="bill-items-tbody">
+            <tr>
+              <td class="text-center">1</td>
+              <td>
+                <div id="bill-book-title" class="book-item-title">புத்தகத்தின் தலைப்பு</div>
+                <div id="bill-book-desc" class="book-item-sub">போட்டித் தேர்வு வழிகாட்டி நூல்</div>
+              </td>
+              <td id="bill-book-sku" class="text-center" style="font-family:monospace;font-size:12px;">RAJ-01</td>
+              <td id="bill-book-qty" class="text-center" style="font-weight:800;font-size:14px;">1</td>
+              <td id="bill-book-price" class="text-right" style="font-weight:700;">₹0</td>
+              <td id="bill-book-subtotal" class="text-right" style="font-weight:900;">₹0</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- Totals & Payment -->
+      <section class="totals-grid">
+        <div class="payment-info">
+          <div class="section-label">பணம் செலுத்தும் முறை (Payment Method):</div>
+          <div class="payment-mode-box">
+            <div id="bill-payment-mode" class="payment-mode-title">UPI / GPay / PhonePe</div>
+            <div id="bill-cust-notes" style="font-size:12px;color:#475569;margin-top:4px;"></div>
+          </div>
+          <div class="delivery-notice">
+            <strong>டெலிவரி தகவல்:</strong> தமிழ்நாடு முழுவதும் ஸ்பீடு போஸ்ட் அல்லது முன்னணி கூரியர் மூலம் 2 முதல் 4 வேலை நாட்களில் பாதுகாப்பாக விநியோகிக்கப்படும்.
+          </div>
+        </div>
+
+        <div class="summary-card">
+          <div class="summary-row">
+            <span style="color:var(--text-muted);">புத்தகத்தின் விலை:</span>
+            <span id="bill-sum-subtotal" style="font-weight:700;">₹0</span>
+          </div>
+          <div class="summary-row">
+            <span style="color:var(--text-muted);">டெலிவரி கட்டணம்:</span>
+            <span id="bill-sum-delivery" style="color:var(--success);font-weight:800;">இலவசம்</span>
+          </div>
+          <div class="summary-total">
+            <span>மொத்தத் தொகை:</span>
+            <span id="bill-sum-total">₹0</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer Stamp & Signatory -->
+      <footer class="bill-footer">
+        <div class="seal-box">
+          <div class="official-seal">
+            <span>RAJ PUBLICATION</span>
+            <span style="font-size:7px;color:#16A34A;margin:2px 0;">★ VERIFIED ★</span>
+            <span>PACKED &amp; SENT</span>
+          </div>
+          <div style="font-size:11px;color:#64748B;line-height:1.4;">
+            Official Dispatch Invoice<br>
+            Raj Publication &bull; Triplicane, Chennai<br>
+            <span style="font-size:10px;color:#94A3B8;">Computer generated bill &bull; Valid without physical signature</span>
+          </div>
+        </div>
+
+        <div class="signatory-box">
+          <div class="signatory-name">Raj Publication</div>
+          <div class="signatory-title">Authorized Signatory</div>
+        </div>
+      </footer>
+
+    </article>
+  </main>
+
+  <script>
+    // Parse order data from URL parameter (?o=base64 or query params)
+    function loadOrderFromUrl() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const rawEncoded = urlParams.get('o');
+
+      let order = null;
+
+      if (rawEncoded) {
+        try {
+          const jsonStr = decodeURIComponent(escape(atob(decodeURIComponent(rawEncoded))));
+          order = JSON.parse(jsonStr);
+        } catch (e) {
+          console.warn('Could not decode compact order data:', e);
+        }
+      }
+
+      // Fallback to direct query parameters if encoded param missing
+      if (!order) {
+        order = {
+          id: urlParams.get('id') || 'RP-' + new Date().toISOString().slice(2, 10).replace(/-/g, '') + '-0001',
+          d: urlParams.get('date') || new Date().toLocaleDateString('ta-IN', { dateStyle: 'medium' }),
+          b: {
+            t: urlParams.get('title') || 'புத்தகம் (Book)',
+            p: Number(urlParams.get('price')) || 0,
+            s: urlParams.get('sku') || 'RAJ-01',
+            pg: urlParams.get('pages') || null
+          },
+          q: Number(urlParams.get('qty')) || 1,
+          st: Number(urlParams.get('subtotal')) || 0,
+          del: Number(urlParams.get('delivery')) || 0,
+          tot: Number(urlParams.get('total')) || 0,
+          c: {
+            n: urlParams.get('name') || 'வாடிக்கையாளர்',
+            p: urlParams.get('phone') || '-',
+            a: urlParams.get('address') || 'முகவரி',
+            l: urlParams.get('landmark') || '',
+            ct: urlParams.get('city') || '-',
+            pin: urlParams.get('pincode') || '600000',
+            m: urlParams.get('pay') || 'UPI / GPay / PhonePe',
+            nt: urlParams.get('notes') || ''
+          }
+        };
+      }
+
+      renderBill(order);
+
+      // Auto-print if ?print=1 is present
+      if (urlParams.get('print') === '1') {
+        setTimeout(() => window.print(), 800);
+      }
+    }
+
+    function renderBill(order) {
+      document.getElementById('bill-order-id').textContent = '#' + (order.id || 'RP-0000');
+      document.getElementById('bill-date').textContent = order.d || new Date().toLocaleDateString('ta-IN');
+
+      // Customer section
+      const c = order.c || {};
+      document.getElementById('bill-cust-name').textContent = c.n || 'வாடிக்கையாளர் பெயர்';
+      document.getElementById('bill-cust-addr').textContent = c.a || '-';
+      document.getElementById('bill-cust-landmark').textContent = c.l && c.l !== '-' ? 'அடையாளம்: ' + c.l : '';
+      document.getElementById('bill-cust-city').textContent = c.ct || '-';
+      document.getElementById('bill-cust-pincode').textContent = c.pin || '-';
+      document.getElementById('bill-cust-phone').textContent = c.p || '-';
+
+      // Book item
+      const b = order.b || {};
+      const qty = order.q || 1;
+      const price = b.p || 0;
+      const subtotal = order.st || (price * qty);
+      const delivery = order.del !== undefined ? order.del : 0;
+      const total = order.tot || (subtotal + delivery);
+
+      document.getElementById('bill-book-title').textContent = b.t || 'புத்தகத்தின் தலைப்பு';
+      document.getElementById('bill-book-desc').textContent = b.pg ? `${b.pg} பக்கங்கள் • போட்டித் தேர்வு வெளியீடு` : 'சமீபத்திய தேர்வுப் பதிப்பு';
+      document.getElementById('bill-book-sku').textContent = b.s || 'RAJ-BK';
+      document.getElementById('bill-book-qty').textContent = qty;
+      document.getElementById('bill-book-price').textContent = '₹' + price;
+      document.getElementById('bill-book-subtotal').textContent = '₹' + subtotal;
+
+      // Totals
+      document.getElementById('bill-sum-subtotal').textContent = '₹' + subtotal;
+      document.getElementById('bill-sum-delivery').textContent = delivery === 0 ? 'இலவசம் (FREE)' : '₹' + delivery;
+      document.getElementById('bill-sum-total').textContent = '₹' + total;
+
+      // Payment
+      document.getElementById('bill-payment-mode').textContent = c.m || 'UPI / GPay / PhonePe';
+      if (c.nt && c.nt !== 'இல்லை (None)') {
+        document.getElementById('bill-cust-notes').textContent = 'குறிப்பு: ' + c.nt;
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', loadOrderFromUrl);
+  </script>
+</body>
+</html>

@@ -82,12 +82,12 @@ function initCategoryPills() {
 
   // Extract categories dynamically from loaded books
   const dynamicCategories = [
-    { id: 'all', name: 'அனைத்தும் (All Books)' },
-    { id: 'police', name: 'போலீஸ் (Police / SI)' },
-    { id: 'tet', name: 'ஆசிரியர் தகுதி (TET)' },
+    { id: 'all', name: 'All Books' },
+    { id: 'police', name: 'Police / SI' },
+    { id: 'tet', name: 'TET (Paper 1 & 2)' },
     { id: 'tnpsc', name: 'TNPSC' },
-    { id: 'school', name: 'பள்ளிப் பாடங்கள் (6 - 12)' },
-    { id: 'gk', name: 'பொது அறிவு (GK)' }
+    { id: 'school', name: 'School Books (6 - 12)' },
+    { id: 'gk', name: 'General Knowledge (GK)' }
   ];
   const categories = dynamicCategories;
 
@@ -266,7 +266,7 @@ function renderBooksGrid(books) {
         <div class="no-results-icon">🔍</div>
         <h3>புத்தகங்கள் கிடைக்கவில்லை (No Books Found)</h3>
         <p>நீங்கள் தேடிய சொல் அல்லது பிரிவில் புத்தகங்கள் எதுவும் இல்லை. தயவுசெய்து வேறு பெயரைத் தேடவும்.</p>
-        <button type="button" class="btn-primary" onclick="window.resetAllFilters()">அனைத்து புத்தகங்களையும் பார்க்க</button>
+        <button type="button" class="btn-primary" onclick="window.resetAllFilters()">Show All Books</button>
       </div>
     `;
     return;
@@ -323,13 +323,13 @@ function renderBooksGrid(books) {
 
           <!-- Action Buttons: Quick View & WhatsApp Order -->
           <div class="book-card-actions">
-            <button type="button" class="btn-preview" onclick="window.openQuickViewModal('${book.id}')" title="3 விதமான படங்கள் மற்றும் விவரங்கள்">
+            <button type="button" class="btn-preview" onclick="window.openQuickViewModal('${book.id}')" title="Preview Images & Details">
               <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
-              <span>முன்னோட்டம்</span>
+              <span>Quick View</span>
             </button>
-            <button type="button" class="btn-order-wa" onclick="window.directOrder('${book.id}')" title="முகவரி கொடுத்து வாட்ஸ்அப்பில் ஆர்டர் செய்க">
+            <button type="button" class="btn-order-wa" onclick="window.directOrder('${book.id}')" title="Order via WhatsApp">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/></svg>
-              <span>ஆர்டர் செய்க</span>
+              <span>Order Now</span>
             </button>
           </div>
         </div>
