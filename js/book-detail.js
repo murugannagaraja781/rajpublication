@@ -256,6 +256,17 @@ function renderBookDetails(book) {
     const msg = encodeURIComponent(`வணக்கம்! நான் "${book.title}" (₹${book.price}) புத்தகம் பற்றி சில விவரங்களை கேட்க விரும்புகிறேன்.`);
     askBtn.href = `https://wa.me/${num}?text=${msg}`;
   }
+
+  // Sample PDF Preview Button
+  const pdfBtn = document.getElementById('btn-sample-pdf-view');
+  if (pdfBtn) {
+    if (book.samplePdf && book.samplePdf.viewUrl) {
+      pdfBtn.href = book.samplePdf.viewUrl;
+      pdfBtn.style.display = 'inline-flex';
+    } else {
+      pdfBtn.style.display = 'none';
+    }
+  }
 }
 
 // Setup the 3-Image Interactive Gallery (Front, Back, Inside Page)
@@ -273,7 +284,7 @@ function setupGallery(book) {
   if (thumbsWrap) {
     thumbsWrap.innerHTML = galleryItems.map((item, idx) => `
       <div class="gallery-thumb-card ${idx === 0 ? 'active' : ''}" onclick="window.selectGalleryImage(${idx})">
-        <img src="${item.url}" alt="${item.title}">
+        <img src="${item.url}" alt="${item.title}" onerror="this.onerror=null; this.src='${book.images?.fallback || 'assets/images/books/book-placeholder.svg'}';">
         <span class="thumb-label">${item.title.split('/')[0]}</span>
       </div>
     `).join('');
@@ -318,6 +329,10 @@ function updateFeaturedImage() {
   if (featuredImg) {
     featuredImg.src = currentItem.url;
     featuredImg.alt = `${currentBook.title} - ${currentItem.title}`;
+    featuredImg.onerror = function() {
+      this.onerror = null;
+      this.src = currentBook.images?.fallback || 'assets/images/books/book-placeholder.svg';
+    };
   }
 
   if (captionEl) {

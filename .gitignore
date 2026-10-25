@@ -1,6 +1,10 @@
 node_modules/
 *.log
 *.tmp
+sync_drive_data.js
+scan_all_drive.js
+match_drive_images.js
+all_scanned_drive_files.json
 google_sheet_download.csv
 update_database_sql.js
 fix_database_sql.js

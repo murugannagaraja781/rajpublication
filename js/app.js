@@ -284,7 +284,7 @@ function renderBooksGrid(books) {
           ${badgeText ? `<span class="book-badge ${book.badge === 'BESTSELLER' ? 'bestseller' : ''}">${badgeText}</span>` : ''}
           ${book.discountPercent ? `<span class="book-badge discount">${book.discountPercent}% OFF</span>` : ''}
           
-          <img class="book-cover-img" src="${frontImg}" alt="${book.title} - ${book.author} | Raj Publication" loading="lazy">
+          <img class="book-cover-img" src="${frontImg}" alt="${book.title} - ${book.author} | Raj Publication" loading="lazy" onerror="this.onerror=null; this.src='${book.images?.fallback || 'assets/images/books/book-placeholder.svg'}';">
           
           <!-- 3-Image Preview Hint -->
           <div class="book-images-pill" title="3 விதமான படங்கள் உள்ளன (Front, Back, Inside Page)">
@@ -409,6 +409,17 @@ window.openQuickViewModal = function(bookId) {
       closeQuickViewModal();
       window.openWhatsAppOrderModal(book, 1);
     };
+  }
+
+  // Setup Sample PDF Link
+  const pdfLink = document.getElementById('quick-pdf-link');
+  if (pdfLink) {
+    if (book.samplePdf && book.samplePdf.viewUrl) {
+      pdfLink.href = book.samplePdf.viewUrl;
+      pdfLink.style.display = 'inline-flex';
+    } else {
+      pdfLink.style.display = 'none';
+    }
   }
 
   // Setup Full Page View Link
