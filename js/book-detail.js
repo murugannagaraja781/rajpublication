@@ -170,90 +170,88 @@ function renderBookDetails(book) {
   const authorEl = document.getElementById('book-author');
   if (authorEl) authorEl.textContent = `${book.author} (${book.authorEn || ''})`;
 
+  const isAvailable = Boolean(book.price && book.price > 0);
+
   // Price & Savings
   const currentPriceEl = document.getElementById('book-price-current');
-  if (currentPriceEl) currentPriceEl.textContent = `₹${book.price}`;
+  if (currentPriceEl) {
+    if (isAvailable) {
+      currentPriceEl.textContent = `₹${book.price}`;
+      currentPriceEl.style.fontSize = '';
+      currentPriceEl.style.color = '';
+    } else {
+      currentPriceEl.textContent = `விலை விரைவில் (Coming Soon)`;
+      currentPriceEl.style.fontSize = '1.3rem';
+      currentPriceEl.style.color = 'var(--text-muted)';
+    }
+  }
 
   const mrpEl = document.getElementById('book-price-mrp');
-  if (mrpEl) mrpEl.textContent = book.originalPrice ? `₹${book.originalPrice}` : '';
+  if (mrpEl) mrpEl.textContent = (isAvailable && book.originalPrice) ? `₹${book.originalPrice}` : '';
 
   const discountEl = document.getElementById('book-discount-tag');
   if (discountEl) {
-    if (book.discountPercent) {
-      discountEl.textContent = `${book.discountPercent}% தள்ளுபடி (Savings)`;
+    if (isAvailable && book.discountPercent) {
+      discountEl.textContent = `${book.discountPercent}% OFF`;
       discountEl.style.display = 'inline-block';
     } else {
       discountEl.style.display = 'none';
     }
   }
 
-  // Setup 3-Image Gallery
-  setupGallery(book);
-
-  // Tab 1: Synopsis & Highlights
-  const synopsisEl = document.getElementById('tab-synopsis-content');
-  if (synopsisEl) {
-    let html = `<p class="lead-text">${book.fullDescription || book.shortDescription}</p>`;
-    if (book.highlights && book.highlights.length > 0) {
-      html += `
-        <div class="detail-highlights" style="margin-top:20px;">
-          <h4>புத்தகத்தின் முக்கிய சிறப்பம்சங்கள் (Book Highlights):</h4>
-          <ul>
-            ${book.highlights.map(h => `<li>${h}</li>`).join('')}
-          </ul>
-        </div>
+  // Stock Status
+  const stockEl = document.querySelector('.price-stock-status');
+  if (stockEl) {
+    if (isAvailable) {
+      stockEl.innerHTML = `
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+        <span>இருப்பில் உள்ளது (In Stock) — உடனடி டெலிவரிக்கு தயார்</span>
       `;
+      stockEl.style.color = 'var(--success)';
+    } else {
+      stockEl.innerHTML = `
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>
+        <span>தற்போது இருப்பில் இல்லை (Currently Unavailable / Coming Soon)</span>
+      `;
+      stockEl.style.color = '#DC2626';
     }
-    synopsisEl.innerHTML = html;
-  }
-
-  // Tab 2: Specifications Table
-  const specsTbody = document.getElementById('tab-specs-tbody');
-  if (specsTbody) {
-    specsTbody.innerHTML = `
-      <tr><td>புத்தகத்தின் பெயர் (Title)</td><td>${book.title} (${book.titleEn || ''})</td></tr>
-      <tr><td>எழுத்தாளர் (Author)</td><td>${book.author}</td></tr>
-      <tr><td>பிரிவு (Category)</td><td>${book.categoryName}</td></tr>
-      <tr><td>ISBN எண்</td><td>${book.isbn || '978-81-8368-xxx-x'}</td></tr>
-      <tr><td>மொத்த பக்கங்கள் (Pages)</td><td>${book.pages || '-'} பக்கங்கள்</td></tr>
-      <tr><td>மொழி (Language)</td><td>${book.language || 'தமிழ்'}</td></tr>
-      <tr><td>பதிப்பகம் (Publisher)</td><td>${book.publisher || 'Raj Publication'}</td></tr>
-      <tr><td>பதிப்பு (Edition)</td><td>${book.edition || '2026 புதிய பதிப்பு'}</td></tr>
-      <tr><td>அட்டை வகை (Binding)</td><td>${book.binding || 'ஹார்ட்கவர்'}</td></tr>
-      <tr><td>எடை (Weight)</td><td>${book.weight || '-'}</td></tr>
-      <tr><td>அளவுகள் (Dimensions)</td><td>${book.dimensions || '-'}</td></tr>
-    `;
-  }
-
-  // Tab 3: Author Bio
-  const authorBioEl = document.getElementById('tab-author-content');
-  if (authorBioEl) {
-    authorBioEl.innerHTML = `
-      <div style="background:var(--surface);padding:20px;border-radius:var(--radius-md);border:1px solid var(--border);">
-        <h3 style="color:var(--primary);margin-bottom:8px;">${book.author}</h3>
-        <p style="color:var(--text-secondary);line-height:1.7;">
-          தமிழ் இலக்கிய வரலாற்றில் நீங்காத இடம் பிடித்த பெருமைக்குரிய படைப்பாளி. இவரது படைப்புகள் தமிழ் வாசகர்களுக்கு என்றும் சிந்தனை விருந்தாகவும், பண்பாட்டுப் பொக்கிஷமாகவும் விளங்குகின்றன. ராஜ் பப்ளிகேஷன் இவரது நூல்களைப் பெருமையுடன் வாசகர்களிடம் கொண்டு சேர்க்கிறது.
-        </p>
-      </div>
-    `;
   }
 
   // WhatsApp Order Button in Detail Page
   const buyBtn = document.getElementById('btn-book-order-wa');
   if (buyBtn) {
-    buyBtn.onclick = () => {
-      if (window.openWhatsAppOrderModal) {
-        window.openWhatsAppOrderModal(book, 1);
-      }
-    };
+    if (isAvailable) {
+      buyBtn.disabled = false;
+      buyBtn.style.opacity = '1';
+      buyBtn.style.cursor = 'pointer';
+      buyBtn.style.background = '';
+      buyBtn.innerHTML = `
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/></svg>
+        <span>Order via WhatsApp &rarr;</span>
+      `;
+      buyBtn.onclick = () => {
+        if (window.openWhatsAppOrderModal) {
+          window.openWhatsAppOrderModal(book, 1);
+        }
+      };
+    } else {
+      buyBtn.disabled = true;
+      buyBtn.style.opacity = '0.5';
+      buyBtn.style.cursor = 'not-allowed';
+      buyBtn.style.background = '#94A3B8';
+      buyBtn.innerHTML = `
+        <span>Unavailable / Coming Soon</span>
+      `;
+      buyBtn.onclick = null;
+    }
   }
 
   // Direct WhatsApp Quick Ask Button
   const askBtn = document.getElementById('btn-book-ask-wa');
   if (askBtn) {
     const config = window.getStoreConfig ? window.getStoreConfig() : {};
-    const num = config.whatsappNumber || '919876543210';
-    const msg = encodeURIComponent(`வணக்கம்! நான் "${book.title}" (₹${book.price}) புத்தகம் பற்றி சில விவரங்களை கேட்க விரும்புகிறேன்.`);
+    const num = config.whatsappNumber || '918148966638';
+    const msg = encodeURIComponent(`வணக்கம்! நான் "${book.title}" புத்தகம் பற்றி சில விவரங்களை கேட்க விரும்புகிறேன்.`);
     askBtn.href = `https://wa.me/${num}?text=${msg}`;
   }
 

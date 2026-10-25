@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640">
   <defs>
     <linearGradient id="heroBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#1E1B4B" />
-      <stop offset="50%" stop-color="#312E81" />
+      <stop offset="0%" stop-color="#0B0F19" />
+      <stop offset="50%" stop-color="#1E1B4B" />
       <stop offset="100%" stop-color="#0F172A" />
     </linearGradient>
     <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -10,77 +10,146 @@
       <stop offset="50%" stop-color="#F59E0B" />
       <stop offset="100%" stop-color="#B45309" />
     </linearGradient>
-    <linearGradient id="book1" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#881337" />
+    <linearGradient id="policeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E3A8A" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+    <linearGradient id="tet1Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#581C87" />
+      <stop offset="100%" stop-color="#2E1065" />
+    </linearGradient>
+    <linearGradient id="tet2Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#831843" />
       <stop offset="100%" stop-color="#4C0519" />
     </linearGradient>
-    <linearGradient id="book2" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="school1Grad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#064E3B" />
       <stop offset="100%" stop-color="#022C22" />
     </linearGradient>
-    <linearGradient id="book3" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#1E3A8A" />
-      <stop offset="100%" stop-color="#172554" />
+    <linearGradient id="school2Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#78350F" />
+      <stop offset="100%" stop-color="#451A03" />
     </linearGradient>
-    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
-      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#000000" flood-opacity="0.45" />
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#000000" flood-opacity="0.55" />
+    </filter>
+    <filter id="glowGold" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="18" flood-color="#F59E0B" flood-opacity="0.4" />
     </filter>
   </defs>
-  <rect width="900" height="600" rx="24" fill="url(#heroBg)" />
-  <circle cx="750" cy="150" r="220" fill="#4338CA" opacity="0.3" filter="blur(40px)" />
-  <circle cx="150" cy="450" r="180" fill="#B45309" opacity="0.15" filter="blur(40px)" />
 
-  <!-- Stack of Books illustration -->
-  <!-- Book 1 (Back left) -->
-  <g transform="translate(180, 160) rotate(-10)" filter="url(#shadow)">
-    <rect width="180" height="260" rx="10" fill="url(#book1)" stroke="#FDE68A" stroke-width="1.5" />
-    <rect x="0" y="0" width="22" height="260" rx="6" fill="#000000" opacity="0.2" />
-    <line x1="30" y1="40" x2="150" y2="40" stroke="#FDE68A" stroke-width="2" />
-    <text x="90" y="110" font-family="'Noto Sans Tamil', sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">சிவகாமியின்</text>
-    <text x="90" y="134" font-family="'Noto Sans Tamil', sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">சபதம்</text>
-    <text x="90" y="180" font-family="sans-serif" font-size="12" fill="#FDE68A" text-anchor="middle">கல்கி</text>
+  <rect width="1000" height="640" rx="24" fill="url(#heroBg)" />
+  <circle cx="800" cy="140" r="240" fill="#4338CA" opacity="0.25" filter="blur(60px)" />
+  <circle cx="200" cy="500" r="200" fill="#B45309" opacity="0.2" filter="blur(60px)" />
+
+  <!-- 5 RAJ PUBLICATION BOOKS FAN DISPLAY -->
+
+  <!-- Book 1: 6 - 10 தமிழ் (Left Far) -->
+  <g transform="translate(110, 180) rotate(-16)" filter="url(#shadow)">
+    <rect width="170" height="250" rx="10" fill="url(#school1Grad)" stroke="#10B981" stroke-width="1.5" />
+    <rect x="0" y="0" width="20" height="250" rx="6" fill="#000000" opacity="0.3" />
+    <text x="85" y="50" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="800" fill="#6EE7B7" text-anchor="middle">RAJ PUBLICATION</text>
+    <rect x="30" y="65" width="110" height="20" rx="10" fill="#047857" />
+    <text x="85" y="79" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="bold" fill="#FFFFFF" text-anchor="middle">SCHOOL 6 - 10</text>
+    <text x="85" y="135" font-family="'Noto Sans Tamil', sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">6 - 10 தமிழ்</text>
+    <text x="85" y="160" font-family="'Noto Sans Tamil', sans-serif" font-size="11" fill="#A7F3D0" text-anchor="middle">SSLC STD TAMIL</text>
+    <rect x="45" y="195" width="80" height="24" rx="12" fill="#0F172A" stroke="#10B981" stroke-width="1" />
+    <text x="85" y="211" font-family="sans-serif" font-size="12" font-weight="bold" fill="#34D399" text-anchor="middle">₹630</text>
   </g>
 
-  <!-- Book 2 (Back right) -->
-  <g transform="translate(480, 180) rotate(12)" filter="url(#shadow)">
-    <rect width="180" height="250" rx="10" fill="url(#book2)" stroke="#FDE68A" stroke-width="1.5" />
-    <rect x="0" y="0" width="22" height="250" rx="6" fill="#000000" opacity="0.2" />
-    <line x1="30" y1="40" x2="150" y2="40" stroke="#FDE68A" stroke-width="2" />
-    <text x="90" y="110" font-family="'Noto Sans Tamil', sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">திருக்குறள்</text>
-    <text x="90" y="134" font-family="'Noto Sans Tamil', sans-serif" font-size="13" font-weight="bold" fill="#FDE68A" text-anchor="middle">எளிய உரை</text>
-    <text x="90" y="180" font-family="sans-serif" font-size="12" fill="#A7F3D0" text-anchor="middle">திருவள்ளுவர்</text>
+  <!-- Book 2: TN - TET PAPER - I (Left Inner) -->
+  <g transform="translate(250, 140) rotate(-8)" filter="url(#shadow)">
+    <rect width="180" height="270" rx="10" fill="url(#tet1Grad)" stroke="#A855F7" stroke-width="1.5" />
+    <rect x="0" y="0" width="22" height="270" rx="6" fill="#000000" opacity="0.3" />
+    <text x="90" y="50" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="800" fill="#D8B4FE" text-anchor="middle">RAJ PUBLICATION</text>
+    <rect x="35" y="65" width="110" height="22" rx="11" fill="#7E22CE" />
+    <text x="90" y="80" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="bold" fill="#FFFFFF" text-anchor="middle">TET / TRB PAPER 1</text>
+    <text x="90" y="135" font-family="'Noto Sans Tamil', sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">TN - TET</text>
+    <text x="90" y="158" font-family="'Noto Sans Tamil', sans-serif" font-size="15" font-weight="bold" fill="#FDE68A" text-anchor="middle">PAPER - I தமிழ்</text>
+    <text x="90" y="182" font-family="'Noto Sans Tamil', sans-serif" font-size="11" fill="#E9D5FF" text-anchor="middle">ஆசிரியர் தகுதித் தேர்வு</text>
+    <rect x="50" y="215" width="80" height="24" rx="12" fill="#0F172A" stroke="#C084FC" stroke-width="1" />
+    <text x="90" y="231" font-family="sans-serif" font-size="12" font-weight="bold" fill="#E9D5FF" text-anchor="middle">₹735</text>
   </g>
 
-  <!-- Book 3 (Center Front) -->
-  <g transform="translate(320, 110)" filter="url(#shadow)">
-    <rect width="230" height="340" rx="12" fill="url(#book3)" stroke="#F59E0B" stroke-width="2.5" />
-    <!-- Spine fold -->
-    <rect x="0" y="0" width="28" height="340" rx="8" fill="#000000" opacity="0.25" />
-    <!-- Borders -->
-    <rect x="36" y="20" width="160" height="300" rx="8" fill="none" stroke="url(#gold)" stroke-width="1.5" stroke-dasharray="6 3" />
-    <circle cx="116" cy="70" r="26" fill="url(#gold)" opacity="0.2" />
-    <polygon points="116,52 122,66 136,66 125,75 129,88 116,79 103,88 107,75 96,66 110,66" fill="url(#gold)" />
+  <!-- Book 5: 6 - 12 தமிழ் (Right Far) -->
+  <g transform="translate(690, 180) rotate(16)" filter="url(#shadow)">
+    <rect width="170" height="250" rx="10" fill="url(#school2Grad)" stroke="#F59E0B" stroke-width="1.5" />
+    <rect x="0" y="0" width="20" height="250" rx="6" fill="#000000" opacity="0.3" />
+    <text x="85" y="50" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="800" fill="#FDE68A" text-anchor="middle">RAJ PUBLICATION</text>
+    <rect x="30" y="65" width="110" height="20" rx="10" fill="#B45309" />
+    <text x="85" y="79" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="bold" fill="#FFFFFF" text-anchor="middle">SCHOOL 6 - 12</text>
+    <text x="85" y="135" font-family="'Noto Sans Tamil', sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">6 - 12 தமிழ்</text>
+    <text x="85" y="160" font-family="'Noto Sans Tamil', sans-serif" font-size="11" fill="#FEF3C7" text-anchor="middle">முழுப் பாடத் தொகுப்பு</text>
+    <rect x="45" y="195" width="80" height="24" rx="12" fill="#0F172A" stroke="#F59E0B" stroke-width="1" />
+    <text x="85" y="211" font-family="sans-serif" font-size="12" font-weight="bold" fill="#FDE68A" text-anchor="middle">₹980</text>
+  </g>
+
+  <!-- Book 4: TN - TET PAPER - II (Right Inner) -->
+  <g transform="translate(550, 140) rotate(8)" filter="url(#shadow)">
+    <rect width="180" height="270" rx="10" fill="url(#tet2Grad)" stroke="#F43F5E" stroke-width="1.5" />
+    <rect x="0" y="0" width="22" height="270" rx="6" fill="#000000" opacity="0.3" />
+    <text x="90" y="50" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="800" fill="#FECDD3" text-anchor="middle">RAJ PUBLICATION</text>
+    <rect x="35" y="65" width="110" height="22" rx="11" fill="#BE123C" />
+    <text x="90" y="80" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="bold" fill="#FFFFFF" text-anchor="middle">TET / TRB PAPER 2</text>
+    <text x="90" y="135" font-family="'Noto Sans Tamil', sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">TN - TET</text>
+    <text x="90" y="158" font-family="'Noto Sans Tamil', sans-serif" font-size="15" font-weight="bold" fill="#FDE68A" text-anchor="middle">PAPER - II தமிழ்</text>
+    <text x="90" y="182" font-family="'Noto Sans Tamil', sans-serif" font-size="11" fill="#FFE4E6" text-anchor="middle">ஆசிரியர் தகுதித் தேர்வு</text>
+    <rect x="50" y="215" width="80" height="24" rx="12" fill="#0F172A" stroke="#FB7185" stroke-width="1" />
+    <text x="90" y="231" font-family="sans-serif" font-size="12" font-weight="bold" fill="#FDA4AF" text-anchor="middle">₹980</text>
+  </g>
+
+  <!-- Book 3: காவலர் தமிழ் (Center Front & Elevated) -->
+  <g transform="translate(385, 95)" filter="url(#glowGold)">
+    <rect width="230" height="350" rx="14" fill="url(#policeGrad)" stroke="url(#gold)" stroke-width="2.5" />
+    <rect x="0" y="0" width="28" height="350" rx="8" fill="#000000" opacity="0.35" />
+    <rect x="34" y="20" width="165" height="310" rx="8" fill="none" stroke="url(#gold)" stroke-width="1.5" stroke-dasharray="6 3" />
     
-    <text x="116" y="145" font-family="'Noto Sans Tamil', sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">பொன்னியின்</text>
-    <text x="116" y="175" font-family="'Noto Sans Tamil', sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">செல்வன்</text>
-    <text x="116" y="210" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#FDE68A" text-anchor="middle" letter-spacing="1.5">PONNIYIN SELVAN</text>
-    <line x1="60" y1="230" x2="172" y2="230" stroke="url(#gold)" stroke-width="1.5" />
-    <text x="116" y="260" font-family="'Noto Sans Tamil', sans-serif" font-size="15" fill="#E2E8F0" text-anchor="middle">கல்கி</text>
-    <rect x="70" y="280" width="92" height="24" rx="12" fill="url(#gold)" />
-    <text x="116" y="296" font-family="sans-serif" font-size="11" font-weight="bold" fill="#1E1B4B" text-anchor="middle">BESTSELLER</text>
+    <!-- Top Emblem -->
+    <circle cx="115" cy="65" r="24" fill="url(#gold)" opacity="0.15" />
+    <polygon points="115,48 121,62 135,62 124,71 128,84 115,75 102,84 106,71 95,62 109,62" fill="url(#gold)" />
+
+    <!-- Publisher -->
+    <text x="115" y="108" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="900" fill="url(#gold)" text-anchor="middle" letter-spacing="2">RAJ PUBLICATION</text>
+    <rect x="45" y="122" width="140" height="24" rx="12" fill="#DC2626" />
+    <text x="115" y="138" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">POLICE / TNUSRB</text>
+
+    <!-- Main Title -->
+    <text x="115" y="185" font-family="'Noto Sans Tamil', sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle">காவலர் தமிழ்</text>
+    <text x="115" y="210" font-family="'Noto Sans Tamil', sans-serif" font-size="12" fill="#94A3B8" text-anchor="middle">காவலர் &amp; சார்பு ஆய்வாளர் (SI)</text>
+    <text x="115" y="228" font-family="'Noto Sans Tamil', sans-serif" font-size="11" fill="#CBD5E1" text-anchor="middle">முழுமையான வழிகாட்டி</text>
+
+    <!-- Price Tag & Bestseller -->
+    <rect x="55" y="255" width="120" height="30" rx="15" fill="url(#gold)" />
+    <text x="115" y="275" font-family="sans-serif" font-size="15" font-weight="900" fill="#0F172A" text-anchor="middle">₹630 (30% OFF)</text>
+    
+    <!-- Ribbon -->
+    <rect x="-10" y="18" width="95" height="22" rx="4" fill="#EA580C" />
+    <text x="38" y="33" font-family="sans-serif" font-size="10" font-weight="bold" fill="#FFFFFF" text-anchor="middle">★ BESTSELLER</text>
   </g>
 
-  <!-- Floating Elements -->
-  <g transform="translate(620, 90)">
-    <rect width="180" height="56" rx="28" fill="#0F172A" opacity="0.9" stroke="#F59E0B" stroke-width="1.5" />
-    <circle cx="30" cy="28" r="16" fill="#10B981" />
-    <path d="M 23 28 L 28 33 L 37 23" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" />
-    <text x="56" y="26" font-family="sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">WhatsApp Order</text>
-    <text x="56" y="42" font-family="sans-serif" font-size="11" fill="#94A3B8">நேரடி முன்பதிவு</text>
+  <!-- Floating Info Badges -->
+  <!-- WhatsApp Order Badge (Top Right) -->
+  <g transform="translate(710, 50)" filter="url(#shadow)">
+    <rect width="240" height="60" rx="30" fill="#0F172A" opacity="0.95" stroke="#22C55E" stroke-width="1.8" />
+    <circle cx="32" cy="30" r="18" fill="#22C55E" />
+    <path d="M 25 30 L 30 35 L 39 25" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" />
+    <text x="62" y="27" font-family="sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">WhatsApp Order</text>
+    <text x="62" y="46" font-family="sans-serif" font-size="12" font-weight="bold" fill="#86EFAC">+91 81489 66638</text>
   </g>
-  <g transform="translate(90, 390)">
-    <rect width="180" height="56" rx="28" fill="#0F172A" opacity="0.9" stroke="#38BDF8" stroke-width="1.5" />
-    <text x="25" y="26" font-family="sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">🚚 Doorstep Delivery</text>
-    <text x="25" y="42" font-family="sans-serif" font-size="11" fill="#94A3B8">அதிவேக விநியோகம்</text>
+
+  <!-- Doorstep Delivery Badge (Top Left) -->
+  <g transform="translate(50, 50)" filter="url(#shadow)">
+    <rect width="220" height="60" rx="30" fill="#0F172A" opacity="0.95" stroke="#38BDF8" stroke-width="1.8" />
+    <text x="24" y="27" font-family="sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">🚚 Doorstep Delivery</text>
+    <text x="24" y="46" font-family="'Noto Sans Tamil', sans-serif" font-size="11" fill="#7DD3FC">அதிவேக விநியோகம்</text>
+  </g>
+
+  <!-- Company Address Badge (Bottom Bar) -->
+  <g transform="translate(200, 545)" filter="url(#shadow)">
+    <rect width="600" height="55" rx="27" fill="#0F172A" opacity="0.95" stroke="#F59E0B" stroke-width="1.5" />
+    <circle cx="32" cy="27" r="16" fill="#F59E0B" />
+    <text x="32" y="33" font-family="sans-serif" font-size="15" text-anchor="middle">📍</text>
+    <text x="62" y="25" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="800" fill="#FDE68A">RAJ PUBLICATION</text>
+    <text x="62" y="43" font-family="'Noto Sans Tamil', sans-serif" font-size="12" fill="#E2E8F0">2/290-4, ராஜீவ் நகர், பெத்தநாடார்பட்டி &bull; Mobile: +91 81489 66638</text>
   </g>
 </svg>

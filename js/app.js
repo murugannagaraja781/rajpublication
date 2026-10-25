@@ -34,7 +34,7 @@ function applyStoreConfig(cfg) {
 
   // Update WhatsApp direct links
   const waBtns = document.querySelectorAll('.js-whatsapp-link');
-  const cleanNumber = cfg.whatsappNumber || '919876543210';
+  const cleanNumber = cfg.whatsappNumber || '918148966638';
   const defaultText = encodeURIComponent(`வணக்கம் Raj Publication! நான் உங்கள் புத்தகங்களை வாங்க விரும்புகிறேன். விவரங்களை கூற முடியுமா?`);
   const waUrl = `https://wa.me/${cleanNumber}?text=${defaultText}`;
 
@@ -117,40 +117,234 @@ function initCategoryPills() {
 
 // Event Listeners (Search, Sort, Modals, Keyboard shortcuts)
 function initEventListeners() {
-  const searchInput = document.getElementById('header-search-input');
-  const searchClear = document.getElementById('search-clear-btn');
+  const headerSearchInput = document.getElementById('header-search-input');
+  const headerSearchClear = document.getElementById('search-clear-btn');
+  const headerSearchSuggestions = document.getElementById('header-search-suggestions');
+  const catalogSearchInput = document.getElementById('catalog-search-input');
+  const catalogSearchClear = document.getElementById('catalog-search-clear-btn');
+  const catalogSearchSuggestions = document.getElementById('catalog-search-suggestions');
   const sortSelect = document.getElementById('sort-select');
 
-  // Live Instant Search
-  if (searchInput) {
-    searchInput.addEventListener('input', (e) => {
-      searchQuery = e.target.value.trim().toLowerCase();
-      if (searchClear) {
-        if (searchQuery.length > 0) searchClear.classList.add('visible');
-        else searchClear.classList.remove('visible');
+  // Helper to scroll to catalog results or a specific product card at top of viewport
+  function scrollToProduct(bookId) {
+    setTimeout(() => {
+      const card = bookId ? document.querySelector(`.book-card[data-book-id="${bookId}"]`) : null;
+      const catalog = document.getElementById('books-catalog');
+      const target = card || catalog;
+      if (target) {
+        const headerOffset = 95;
+        const elementPosition = target.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+        window.scrollTo({
+          top: Math.max(0, offsetPosition),
+          behavior: 'smooth'
+        });
+        if (card) {
+          card.classList.remove('highlight-target');
+          void card.offsetWidth;
+          card.classList.add('highlight-target');
+        }
       }
-      applyFiltersAndRender();
-    });
+    }, 100);
+  }
 
-    // Clear search button
-    if (searchClear) {
-      searchClear.addEventListener('click', () => {
-        searchInput.value = '';
-        searchQuery = '';
-        searchClear.classList.remove('visible');
-        applyFiltersAndRender();
-        searchInput.focus();
-      });
+  function closeAllSuggestions() {
+    if (headerSearchSuggestions) {
+      headerSearchSuggestions.classList.remove('visible');
+      headerSearchSuggestions.innerHTML = '';
+    }
+    if (catalogSearchSuggestions) {
+      catalogSearchSuggestions.classList.remove('visible');
+      catalogSearchSuggestions.innerHTML = '';
+    }
+  }
+
+  function highlightMatch(text, query) {
+    if (!text || !query) return text || '';
+    const idx = text.toLowerCase().indexOf(query.toLowerCase());
+    if (idx === -1) return text;
+    const before = text.substring(0, idx);
+    const match = text.substring(idx, idx + query.length);
+    const after = text.substring(idx + query.length);
+    return `${before}<mark>${match}</mark>${after}`;
+  }
+
+  // Render Live Suggestions Dropdown
+  function renderSuggestions(query, targetDropdown) {
+    if (!targetDropdown) return;
+    const cleanQ = query.trim().toLowerCase();
+    if (!cleanQ || cleanQ.length < 1) {
+      targetDropdown.classList.remove('visible');
+      targetDropdown.innerHTML = '';
+      return;
     }
 
-    // Keyboard shortcut '/' to search
-    document.addEventListener('keydown', (e) => {
-      if (e.key === '/' && document.activeElement !== searchInput && document.activeElement.tagName !== 'INPUT' && document.activeElement.tagName !== 'TEXTAREA') {
+    const matches = allBooks.filter(book => {
+      const matchTitle = (book.title || '').toLowerCase().includes(cleanQ);
+      const matchTitleEn = (book.titleEn || '').toLowerCase().includes(cleanQ);
+      const matchAuthor = (book.author || '').toLowerCase().includes(cleanQ);
+      const matchCategory = (book.categoryName || '').toLowerCase().includes(cleanQ);
+      const matchKeywords = (book.seo?.keywords || '').toLowerCase().includes(cleanQ);
+      return matchTitle || matchTitleEn || matchAuthor || matchCategory || matchKeywords;
+    });
+
+    if (matches.length === 0) {
+      targetDropdown.innerHTML = `<div class="suggestion-empty">புத்தகங்கள் எதுவும் காணப்படவில்லை ("${cleanQ}")</div>`;
+      targetDropdown.classList.add('visible');
+      return;
+    }
+
+    const topMatches = matches.slice(0, 6);
+    const itemsHtml = topMatches.map(book => {
+      const frontImg = book.images?.front || (book.gallery ? book.gallery[0].url : '') || book.images?.fallback || 'assets/images/books/book-placeholder.svg';
+      const isAvail = Boolean(book.price && book.price > 0);
+      const highlightedTitle = highlightMatch(book.title, cleanQ);
+      const categoryTag = book.categoryName ? book.categoryName.split('/')[0] : '';
+      const priceText = isAvail ? `₹${book.price}` : `<span class="suggestion-price unavailable">விரைவில்</span>`;
+
+      return `
+        <div class="suggestion-item" data-book-id="${book.id}">
+          <img class="suggestion-thumb" src="${frontImg}" alt="${book.title}" onerror="this.onerror=null; this.src='assets/images/books/book-placeholder.svg';">
+          <div class="suggestion-info">
+            <div class="suggestion-title">${highlightedTitle}</div>
+            <div class="suggestion-meta">
+              <span class="suggestion-category">${categoryTag}</span>
+              ${book.author ? `<span>• ${book.author.split(' ')[0]}</span>` : ''}
+            </div>
+          </div>
+          <div class="suggestion-price">${priceText}</div>
+        </div>
+      `;
+    }).join('');
+
+    const footerHtml = `
+      <div class="suggestion-view-all" id="suggestion-view-all-btn">
+        <span>🔍 அனைத்து ${matches.length} முடிவுகளையும் பார்க்க (View All Results)</span>
+      </div>
+    `;
+
+    targetDropdown.innerHTML = itemsHtml + footerHtml;
+    targetDropdown.classList.add('visible');
+
+    // Attach click listeners to suggestion items
+    targetDropdown.querySelectorAll('.suggestion-item').forEach(item => {
+      item.addEventListener('click', () => {
+        const bookId = item.dataset.bookId;
+        const book = allBooks.find(b => b.id === bookId);
+        if (book) {
+          searchQuery = book.title.toLowerCase();
+          if (headerSearchInput) headerSearchInput.value = book.title;
+          if (catalogSearchInput) catalogSearchInput.value = book.title;
+          activeCategory = 'all';
+          const pills = document.querySelectorAll('.category-pill');
+          pills.forEach(p => p.classList.toggle('active', p.dataset.category === 'all'));
+          applyFiltersAndRender();
+          closeAllSuggestions();
+          scrollToProduct(bookId);
+        }
+      });
+    });
+
+    const viewAllBtn = targetDropdown.querySelector('#suggestion-view-all-btn');
+    if (viewAllBtn) {
+      viewAllBtn.addEventListener('click', () => {
+        closeAllSuggestions();
+        scrollToProduct();
+      });
+    }
+  }
+
+  // Unified Search Handler (syncs both header and catalog search inputs)
+  function handleSearchInput(value, source) {
+    searchQuery = value.trim().toLowerCase();
+    
+    if (source !== 'header' && headerSearchInput && headerSearchInput.value !== value) {
+      headerSearchInput.value = value;
+    }
+    if (source !== 'catalog' && catalogSearchInput && catalogSearchInput.value !== value) {
+      catalogSearchInput.value = value;
+    }
+
+    const hasText = searchQuery.length > 0;
+    if (headerSearchClear) headerSearchClear.classList.toggle('visible', hasText);
+    if (catalogSearchClear) catalogSearchClear.classList.toggle('visible', hasText);
+
+    applyFiltersAndRender();
+
+    // Show suggestions for active search input
+    if (source === 'header' && headerSearchSuggestions) {
+      renderSuggestions(value, headerSearchSuggestions);
+    } else if (source === 'catalog' && catalogSearchSuggestions) {
+      renderSuggestions(value, catalogSearchSuggestions);
+    }
+  }
+
+  function handleSearchClear() {
+    searchQuery = '';
+    if (headerSearchInput) headerSearchInput.value = '';
+    if (catalogSearchInput) catalogSearchInput.value = '';
+    if (headerSearchClear) headerSearchClear.classList.remove('visible');
+    if (catalogSearchClear) catalogSearchClear.classList.remove('visible');
+    closeAllSuggestions();
+    applyFiltersAndRender();
+  }
+
+  // Live Instant Search Listeners
+  if (headerSearchInput) {
+    headerSearchInput.addEventListener('input', (e) => handleSearchInput(e.target.value, 'header'));
+    headerSearchInput.addEventListener('focus', (e) => {
+      if (e.target.value.trim()) renderSuggestions(e.target.value, headerSearchSuggestions);
+    });
+    headerSearchInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
         e.preventDefault();
-        searchInput.focus();
+        closeAllSuggestions();
+        scrollToProduct();
       }
     });
   }
+  if (headerSearchClear) {
+    headerSearchClear.addEventListener('click', () => {
+      handleSearchClear();
+      headerSearchInput?.focus();
+    });
+  }
+
+  if (catalogSearchInput) {
+    catalogSearchInput.addEventListener('input', (e) => handleSearchInput(e.target.value, 'catalog'));
+    catalogSearchInput.addEventListener('focus', (e) => {
+      if (e.target.value.trim()) renderSuggestions(e.target.value, catalogSearchSuggestions);
+    });
+    catalogSearchInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        closeAllSuggestions();
+        scrollToProduct();
+      }
+    });
+  }
+  if (catalogSearchClear) {
+    catalogSearchClear.addEventListener('click', () => {
+      handleSearchClear();
+      catalogSearchInput?.focus();
+    });
+  }
+
+  // Close suggestions when clicking outside
+  document.addEventListener('click', (e) => {
+    if (!e.target.closest('.search-input-wrap') && !e.target.closest('.catalog-search-box')) {
+      closeAllSuggestions();
+    }
+  });
+
+  // Keyboard shortcut '/' to search
+  document.addEventListener('keydown', (e) => {
+    if (e.key === '/' && document.activeElement !== headerSearchInput && document.activeElement !== catalogSearchInput && document.activeElement.tagName !== 'INPUT' && document.activeElement.tagName !== 'TEXTAREA') {
+      e.preventDefault();
+      const targetInput = catalogSearchInput || headerSearchInput;
+      targetInput?.focus();
+    }
+  });
 
   // Sort change
   if (sortSelect) {
@@ -164,8 +358,7 @@ function initEventListeners() {
   const resetBtn = document.getElementById('reset-search-btn');
   if (resetBtn) {
     resetBtn.addEventListener('click', () => {
-      if (searchInput) searchInput.value = '';
-      searchQuery = '';
+      handleSearchClear();
       activeCategory = 'all';
       const pills = document.querySelectorAll('.category-pill');
       pills.forEach(p => p.classList.toggle('active', p.dataset.category === 'all'));
@@ -275,14 +468,20 @@ function renderBooksGrid(books) {
   grid.innerHTML = books.map(book => {
     // 3 Images indicators
     const frontImg = book.images?.front || (book.gallery ? book.gallery[0].url : '');
-    const badgeText = book.badge || (book.discountPercent ? `${book.discountPercent}% OFF` : '');
+    const isAvail = Boolean(book.price && book.price > 0);
+    const badgeText = !isAvail 
+      ? 'விரைவில்' 
+      : (book.badge || (book.discountPercent ? `${book.discountPercent}% OFF` : ''));
 
     return `
       <article class="book-card" data-book-id="${book.id}">
         <!-- Cover and Badge -->
         <div class="book-cover-wrap" onclick="window.navigateToBook('${book.id}')" title="${book.title} விவரங்களை பார்க்க">
-          ${badgeText ? `<span class="book-badge ${book.badge === 'BESTSELLER' ? 'bestseller' : ''}">${badgeText}</span>` : ''}
-          ${book.discountPercent ? `<span class="book-badge discount">${book.discountPercent}% OFF</span>` : ''}
+          ${!isAvail 
+            ? `<span class="book-badge badge-stock-out">விரைவில் (Coming Soon)</span>`
+            : (badgeText ? `<span class="book-badge ${book.badge === 'BESTSELLER' ? 'bestseller' : ''}">${badgeText}</span>` : '')
+          }
+          ${isAvail && book.discountPercent ? `<span class="book-badge discount">${book.discountPercent}% OFF</span>` : ''}
           
           <img class="book-cover-img" src="${frontImg}" alt="${book.title} - ${book.author} | Raj Publication" loading="lazy" onerror="this.onerror=null; this.src='${book.images?.fallback || 'assets/images/books/book-placeholder.svg'}';">
           
@@ -316,9 +515,13 @@ function renderBooksGrid(books) {
 
           <!-- Price & Savings -->
           <div class="book-price-box">
-            <span class="price-current">₹${book.price}</span>
-            ${book.originalPrice ? `<span class="price-original">₹${book.originalPrice}</span>` : ''}
-            ${book.discountPercent ? `<span class="price-savings">சேமிப்பு ${book.discountPercent}%</span>` : ''}
+            ${isAvail ? `
+              <span class="price-current">₹${book.price}</span>
+              ${book.originalPrice ? `<span class="price-original">₹${book.originalPrice}</span>` : ''}
+              ${book.discountPercent ? `<span class="price-savings">சேமிப்பு ${book.discountPercent}%</span>` : ''}
+            ` : `
+              <span class="price-unavailable" style="color:var(--text-muted);font-weight:700;font-size:0.88rem;">விலை விரைவில் (Coming Soon)</span>
+            `}
           </div>
 
           <!-- Action Buttons: Quick View & WhatsApp Order -->
@@ -327,10 +530,16 @@ function renderBooksGrid(books) {
               <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
               <span>Quick View</span>
             </button>
-            <button type="button" class="btn-order-wa" onclick="window.directOrder('${book.id}')" title="Order via WhatsApp">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/></svg>
-              <span>Order Now</span>
-            </button>
+            ${isAvail ? `
+              <button type="button" class="btn-order-wa" onclick="window.directOrder('${book.id}')" title="Order via WhatsApp">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/></svg>
+                <span>Order Now</span>
+              </button>
+            ` : `
+              <button type="button" class="btn-order-wa btn-disabled" disabled style="opacity:0.5;cursor:not-allowed;background:#94A3B8;" title="விரைவில் விற்பனைக்கு வரும் (Coming Soon)">
+                <span>Unavailable</span>
+              </button>
+            `}
           </div>
         </div>
       </article>
@@ -358,6 +567,12 @@ window.resetAllFilters = function() {
 window.directOrder = function(bookId) {
   const book = allBooks.find(b => b.id === bookId);
   if (!book) return;
+  if (!book.price || book.price <= 0) {
+    if (window.showToast) {
+      window.showToast('மன்னிக்கவும், இந்தப் புத்தகம் விரைவில் விற்பனைக்கு வரும் (Coming Soon)');
+    }
+    return;
+  }
   if (window.openWhatsAppOrderModal) {
     window.openWhatsAppOrderModal(book, 1);
   }
@@ -381,9 +596,21 @@ window.openQuickViewModal = function(bookId) {
   document.getElementById('quick-title-en').textContent = book.titleEn || '';
   document.getElementById('quick-author').textContent = book.author;
   document.getElementById('quick-category').textContent = book.categoryName || '';
-  document.getElementById('quick-price').textContent = `₹${book.price}`;
-  document.getElementById('quick-mrp').textContent = book.originalPrice ? `₹${book.originalPrice}` : '';
-  document.getElementById('quick-discount').textContent = book.discountPercent ? `${book.discountPercent}% தள்ளுபடி` : '';
+  const isAvail = Boolean(book.price && book.price > 0);
+  const priceEl = document.getElementById('quick-price');
+  if (priceEl) {
+    if (isAvail) {
+      priceEl.textContent = `₹${book.price}`;
+      priceEl.style.fontSize = '';
+      priceEl.style.color = '';
+    } else {
+      priceEl.textContent = 'விலை விரைவில் (Coming Soon)';
+      priceEl.style.fontSize = '1.05rem';
+      priceEl.style.color = 'var(--text-muted)';
+    }
+  }
+  document.getElementById('quick-mrp').textContent = (isAvail && book.originalPrice) ? `₹${book.originalPrice}` : '';
+  document.getElementById('quick-discount').textContent = (isAvail && book.discountPercent) ? `${book.discountPercent}% OFF` : '';
   document.getElementById('quick-desc').textContent = book.shortDescription || book.fullDescription || '';
 
   // Setup 3 Thumbnails
@@ -405,10 +632,27 @@ window.openQuickViewModal = function(bookId) {
   // Setup Order button
   const orderBtn = document.getElementById('quick-order-btn');
   if (orderBtn) {
-    orderBtn.onclick = () => {
-      closeQuickViewModal();
-      window.openWhatsAppOrderModal(book, 1);
-    };
+    if (isAvail) {
+      orderBtn.disabled = false;
+      orderBtn.style.opacity = '1';
+      orderBtn.style.cursor = 'pointer';
+      orderBtn.style.background = '';
+      orderBtn.innerHTML = `
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/></svg>
+        <span>Order via WhatsApp</span>
+      `;
+      orderBtn.onclick = () => {
+        closeQuickViewModal();
+        window.openWhatsAppOrderModal(book, 1);
+      };
+    } else {
+      orderBtn.disabled = true;
+      orderBtn.style.opacity = '0.5';
+      orderBtn.style.cursor = 'not-allowed';
+      orderBtn.style.background = '#94A3B8';
+      orderBtn.innerHTML = `<span>Unavailable / Coming Soon</span>`;
+      orderBtn.onclick = null;
+    }
   }
 
   // Setup Full Page View Link

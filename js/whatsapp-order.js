@@ -29,6 +29,11 @@ function saveCustomerInfo(info) {
 
 // Open Order Modal for a single book
 function openWhatsAppOrderModal(book, initialQty = 1) {
+  if (!book || !book.price || book.price <= 0) {
+    showToast('மன்னிக்கவும், இந்தப் புத்தகம் தற்போது இருப்பில் இல்லை (Currently Unavailable)');
+    return;
+  }
+
   currentOrderBook = book;
   currentOrderQty = initialQty;
 
@@ -158,7 +163,7 @@ function generateBillUrl(order) {
 // Open WhatsApp with Short & Sweet Parcel Delivery Slip format and direct PDF Bill link
 function openWhatsAppWithMessage(order) {
   const config = window.getStoreConfig ? window.getStoreConfig() : {};
-  const targetNumber = config.whatsappNumber || '919876543210';
+  const targetNumber = config.whatsappNumber || '918148966638';
   const { book, qty, customer, subtotal, delivery, total, orderId, dateStr } = order;
   const billUrl = generateBillUrl(order);
 

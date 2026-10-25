@@ -4,6 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PE912GYVDC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-PE912GYVDC');
+  </script>
+  
   <!-- Primary Meta Tags -->
   <title>Raj Publication | தமிழ் புத்தகங்கள் வாங்க சிறந்த இணையதளம் | Buy Tamil Books Online</title>
   <meta name="title" content="Raj Publication | தமிழ் புத்தகங்கள் வாங்க சிறந்த இணையதளம் | Buy Tamil Books Online">
@@ -50,11 +60,12 @@
     "url": "https://murugannagaraja781.github.io/rajpublication/",
     "logo": "https://murugannagaraja781.github.io/rajpublication/assets/images/logo.svg",
     "image": "https://murugannagaraja781.github.io/rajpublication/assets/images/hero-banner.svg",
-    "telephone": "+919876543210",
+    "telephone": "+918148966638",
     "priceRange": "₹₹",
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "Chennai",
+      "streetAddress": "2/290-4, ராஜீவ் நகர்",
+      "addressLocality": "பெத்தநாடார்பட்டி",
       "addressRegion": "Tamil Nadu",
       "addressCountry": "IN"
     },
@@ -78,9 +89,9 @@
       </div>
       <div class="announcement-actions">
         <a href="#how-to-order">வாங்குவது எப்படி?</a>
-        <a href="https://wa.me/919876543210" target="_blank" rel="noopener" class="js-whatsapp-link">
+        <a href="https://wa.me/918148966638" target="_blank" rel="noopener" class="js-whatsapp-link">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/></svg>
-          <span>WhatsApp உதவி: +91 98765 43210</span>
+          <span>WhatsApp உதவி: +91 81489 66638</span>
         </a>
       </div>
     </div>
@@ -110,6 +121,7 @@
             aria-label="புத்தக தேடல்"
           >
           <button type="button" id="search-clear-btn" class="search-clear-btn" title="Clear search">&times;</button>
+          <div id="header-search-suggestions" class="search-suggestions-dropdown" aria-live="polite"></div>
         </div>
       </div>
 
@@ -123,7 +135,7 @@
 
       <!-- Action Buttons -->
       <div class="header-actions">
-        <a href="https://wa.me/919876543210" target="_blank" rel="noopener" class="btn-whatsapp-header js-whatsapp-link" title="Chat on WhatsApp">
+        <a href="https://wa.me/918148966638" target="_blank" rel="noopener" class="btn-whatsapp-header js-whatsapp-link" title="Chat on WhatsApp">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/></svg>
           <span>WhatsApp Order</span>
         </a>
@@ -154,7 +166,7 @@
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
               <span>Browse Books</span>
             </a>
-            <a href="https://wa.me/919876543210" target="_blank" rel="noopener" class="btn-whatsapp-lg js-whatsapp-link">
+            <a href="https://wa.me/918148966638" target="_blank" rel="noopener" class="btn-whatsapp-lg js-whatsapp-link">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/></svg>
               <span>Chat on WhatsApp</span>
             </a>
@@ -176,8 +188,61 @@
           </div>
         </div>
 
-        <div class="hero-visual">
-          <img src="assets/images/hero-banner.svg" alt="Raj Publication Books Collection" class="hero-banner-img" width="480" height="320">
+        <div class="hero-visual" aria-label="Raj Publication Top 5 Books Showcase">
+          <div class="hero-books-showcase">
+            <!-- Book 1 (Left Far): 6 - 10 தமிழ் -->
+            <div class="hero-book-card book-pos-1" onclick="window.navigateToBook('raj-book-4-6-10-sslc-std-tamil')" title="6 - 10 தமிழ் (SSLC STD)">
+              <div class="hero-book-spine"></div>
+              <img src="assets/images/hero-books/book-4.jpg" alt="6 - 10 தமிழ்" loading="eager" onerror="this.onerror=null; this.src='assets/images/books/raj-book-4-cover.svg';">
+              <span class="hero-book-tag">₹630</span>
+            </div>
+
+            <!-- Book 2 (Left Inner): TN - TET PAPER - I -->
+            <div class="hero-book-card book-pos-2" onclick="window.navigateToBook('raj-book-2-tn-tet-paper-i')" title="TN - TET PAPER - I தமிழ்">
+              <div class="hero-book-spine"></div>
+              <img src="assets/images/hero-books/book-2.png" alt="TN - TET PAPER - I தமிழ்" loading="eager" onerror="this.onerror=null; this.src='assets/images/books/raj-book-2-cover.svg';">
+              <span class="hero-book-tag">₹735</span>
+            </div>
+
+            <!-- Book 3 (Center Front & Elevated): காவலர் தமிழ் -->
+            <div class="hero-book-card book-pos-center" onclick="window.navigateToBook('raj-book-1-book')" title="காவலர் தமிழ் (TNUSRB Police)">
+              <div class="hero-book-spine"></div>
+              <div class="hero-book-ribbon">BESTSELLER</div>
+              <img src="assets/images/hero-books/book-1.jpg" alt="காவலர் தமிழ்" loading="eager" onerror="this.onerror=null; this.src='assets/images/books/raj-book-1-cover.svg';">
+              <span class="hero-book-tag highlight">₹630</span>
+            </div>
+
+            <!-- Book 4 (Right Inner): TN - TET PAPER - II -->
+            <div class="hero-book-card book-pos-4" onclick="window.navigateToBook('raj-book-3-tn-tet-paper-ii')" title="TN - TET PAPER - II தமிழ்">
+              <div class="hero-book-spine"></div>
+              <img src="assets/images/hero-books/book-3.png" alt="TN - TET PAPER - II தமிழ்" loading="eager" onerror="this.onerror=null; this.src='assets/images/books/raj-book-3-cover.svg';">
+              <span class="hero-book-tag">₹980</span>
+            </div>
+
+            <!-- Book 5 (Right Far): 6 - 12 தமிழ் -->
+            <div class="hero-book-card book-pos-5" onclick="window.navigateToBook('raj-book-5-6-12')" title="6 - 12 தமிழ்">
+              <div class="hero-book-spine"></div>
+              <img src="assets/images/hero-books/book-5.jpg" alt="6 - 12 தமிழ்" loading="eager" onerror="this.onerror=null; this.src='assets/images/books/raj-book-5-cover.svg';">
+              <span class="hero-book-tag">₹980</span>
+            </div>
+          </div>
+
+          <!-- Floating Badges -->
+          <div class="hero-floating-badge badge-top-right">
+            <span class="badge-icon">✓</span>
+            <div>
+              <div class="badge-main">WhatsApp Order</div>
+              <div class="badge-sub">+91 81489 66638</div>
+            </div>
+          </div>
+
+          <div class="hero-floating-badge badge-bottom-left">
+            <span class="badge-icon">📍</span>
+            <div>
+              <div class="badge-main">Raj Publication</div>
+              <div class="badge-sub">2/290-4, ராஜீவ் நகர், பெத்தநாடார்பட்டி</div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -193,6 +258,25 @@
               <span>எங்கள் புத்தகங்கள் (Book Catalog)</span>
             </h2>
             <p>கீழே உள்ள புத்தகங்களின் 3 கோண படங்களை முன்னோட்டம் பார்த்து, வாட்ஸ்அப்பில் நேரடியாக ஆர்டர் செய்யலாம்.</p>
+          </div>
+        </div>
+
+        <!-- Prominent Catalog Search Box (Always visible & highlighted) -->
+        <div class="catalog-search-section">
+          <div class="catalog-search-box">
+            <span class="catalog-search-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </span>
+            <input 
+              type="search" 
+              id="catalog-search-input" 
+              class="catalog-search-input" 
+              placeholder="🔍 தேடுக... போலீஸ், TET, TNPSC, பள்ளிப் புத்தகம், ஆசிரியர் பெயர் அல்லது குறியீடு..." 
+              autocomplete="off"
+              aria-label="Search all books"
+            >
+            <button type="button" id="catalog-search-clear-btn" class="search-clear-btn" title="Clear search">&times;</button>
+            <div id="catalog-search-suggestions" class="search-suggestions-dropdown" aria-live="polite"></div>
           </div>
         </div>
 
@@ -342,7 +426,7 @@
           <h4>உதவி &amp; வழிகாட்டல்</h4>
           <ul class="footer-links">
             <li><a href="#how-to-order">ஆர்டர் செய்வது எப்படி?</a></li>
-            <li><a href="https://wa.me/919876543210" target="_blank" rel="noopener" class="js-whatsapp-link">வாட்ஸ்அப் ஆதரவு</a></li>
+            <li><a href="https://wa.me/918148966638" target="_blank" rel="noopener" class="js-whatsapp-link">வாட்ஸ்அப் ஆதரவு</a></li>
             <li><a href="#catalog-heading">புத்தகத் தேடல்</a></li>
             <li><a href="#about-us">எங்களைப் பற்றி</a></li>
           </ul>
@@ -352,7 +436,7 @@
           <h4>தொடர்புக்கு (Contact Us)</h4>
           <div class="footer-contact-item">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-            <span id="footer-phone">+91 98765 43210</span>
+            <span id="footer-phone">+91 81489 66638</span>
           </div>
           <div class="footer-contact-item">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
@@ -360,7 +444,7 @@
           </div>
           <div class="footer-contact-item">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-            <span id="footer-address">Raj Publication, Chennai, Tamil Nadu, India</span>
+            <span id="footer-address">Raj Publication, 2/290-4, ராஜீவ் நகர், பெத்தநாடார்பட்டி, தமிழ்நாடு</span>
           </div>
         </div>
       </div>
@@ -558,7 +642,7 @@
   </div>
 
   <!-- Floating WhatsApp Quick Button -->
-  <a href="https://wa.me/919876543210" target="_blank" rel="noopener" class="floating-whatsapp js-whatsapp-link" aria-label="வாட்ஸ்அப்பில் நேரடி உதவி">
+  <a href="https://wa.me/918148966638" target="_blank" rel="noopener" class="floating-whatsapp js-whatsapp-link" aria-label="வாட்ஸ்அப்பில் நேரடி உதவி">
     <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/></svg>
     <div class="floating-whatsapp-tooltip">வாட்ஸ்அப்பில் நேரடி ஆர்டர் &amp; உதவி!</div>
   </a>
@@ -578,7 +662,7 @@
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
         <span>வழிகாட்டி</span>
       </a>
-      <a href="https://wa.me/919876543210" target="_blank" rel="noopener" class="mobile-nav-item js-whatsapp-link" style="color:var(--whatsapp-dark);">
+      <a href="https://wa.me/918148966638" target="_blank" rel="noopener" class="mobile-nav-item js-whatsapp-link" style="color:var(--whatsapp-dark);">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/></svg>
         <span>WhatsApp</span>
       </a>
