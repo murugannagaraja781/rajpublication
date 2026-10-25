@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 580" width="400" height="580">
+    <defs>
+      <linearGradient id="frontBg_aram" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#1E293B" />
+        <stop offset="100%" stop-color="#0F172A" />
+      </linearGradient>
+      <linearGradient id="spineShade" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#000000" stop-opacity="0.4" />
+        <stop offset="70%" stop-color="#000000" stop-opacity="0.05" />
+        <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.1" />
+      </linearGradient>
+      <filter id="glow_aram">
+        <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+        <feMerge>
+          <feMergeNode in="coloredBlur"/>
+          <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+      </filter>
+    </defs>
+    <!-- Book Background -->
+    <rect width="400" height="580" rx="8" fill="url(#frontBg_aram)" />
+    <!-- Spine realistic overlay -->
+    <rect x="0" y="0" width="36" height="580" fill="url(#spineShade)" />
+    <!-- Decorative Frame -->
+    <rect x="44" y="30" width="326" height="520" rx="6" fill="none" stroke="#94A3B8" stroke-width="1.5" stroke-dasharray="8 4" opacity="0.6"/>
+    <rect x="52" y="38" width="310" height="504" rx="4" fill="none" stroke="#F1F5F9" stroke-width="0.8" opacity="0.4"/>
+    
+    <!-- Publisher Stamp -->
+    <g transform="translate(60, 50)">
+      <circle cx="16" cy="16" r="14" fill="#94A3B8" opacity="0.2" />
+      <text x="36" y="21" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="12" fill="#F1F5F9" letter-spacing="2">RAJ PUBLICATION</text>
+    </g>
+
+    <!-- Visual Motif -->
+    <circle cx="200" cy="170" r="16" fill="#94A3B8" />
+
+    <!-- Tamil Title -->
+    <text x="207" y="240" font-family="'Noto Sans Tamil', serif" font-weight="900" font-size="28" fill="#FFFFFF" text-anchor="middle" filter="url(#glow_aram)">
+      அறம்
+    </text>
+    
+    <!-- Subtitle -->
+    <text x="207" y="275" font-family="'Noto Sans Tamil', sans-serif" font-weight="500" font-size="14" fill="#F1F5F9" text-anchor="middle">
+      மனதை உருக்கும் உன்னத சிறுகதைகள்
+    </text>
+
+    <!-- English Title -->
+    <text x="207" y="300" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="13" fill="#94A3B8" text-anchor="middle" letter-spacing="1.5">
+      ARAM - STORIES OF VIRTUE
+    </text>
+
+    <!-- Divider -->
+    <line x1="120" y1="325" x2="294" y2="325" stroke="#94A3B8" stroke-width="1.5" />
+    <circle cx="207" cy="325" r="4" fill="#94A3B8" />
+
+    <!-- Author Section -->
+    <text x="207" y="375" font-family="'Noto Sans Tamil', sans-serif" font-weight="600" font-size="13" fill="#CBD5E1" text-anchor="middle" letter-spacing="1">
+      எழுத்தாளர் / AUTHOR
+    </text>
+    <text x="207" y="405" font-family="'Noto Sans Tamil', serif" font-weight="800" font-size="22" fill="#FFFFFF" text-anchor="middle">
+      ஜெயமோகன்
+    </text>
+    <text x="207" y="428" font-family="'Plus Jakarta Sans', sans-serif" font-weight="500" font-size="12" fill="#CBD5E1" text-anchor="middle">
+      (B. Jeyamohan)
+    </text>
+
+    <!-- Gold Foil Badge -->
+    <g transform="translate(145, 465)">
+      <rect width="124" height="32" rx="16" fill="#94A3B8" />
+      <text x="62" y="21" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="11" fill="#0F172A" text-anchor="middle" letter-spacing="1">ORIGINAL PRINT</text>
+    </g>
+
+    <!-- Bottom Watermark -->
+    <text x="207" y="525" font-family="sans-serif" font-size="10" fill="#F1F5F9" opacity="0.6" text-anchor="middle">
+      [முன் அட்டை • FRONT COVER]
+    </text>
+  </svg>

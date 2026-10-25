@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="320" height="80">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="50%" stop-color="#FBBF24" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E1B4B" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+  </defs>
+  <rect width="320" height="80" rx="12" fill="none" />
+  <!-- Book Icon -->
+  <g transform="translate(12, 14)">
+    <rect x="0" y="2" width="48" height="50" rx="6" fill="url(#goldGrad)" opacity="0.15" />
+    <!-- Open Book Vector -->
+    <path d="M 24 10 Q 14 6 4 10 L 4 44 Q 14 40 24 44 Z" fill="url(#goldGrad)" />
+    <path d="M 24 10 Q 34 6 44 10 L 44 44 Q 34 40 24 44 Z" fill="#FDE68A" />
+    <path d="M 24 10 L 24 45" stroke="#B45309" stroke-width="2" stroke-linecap="round" />
+    <!-- Quill / Star -->
+    <circle cx="24" cy="6" r="3.5" fill="#FBBF24" />
+  </g>
+  <!-- Text Brand -->
+  <text x="70" y="38" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="24" fill="#FFFFFF" letter-spacing="0.5">
+    RAJ <tspan fill="url(#goldGrad)">PUBLICATION</tspan>
+  </text>
+  <text x="72" y="58" font-family="'Noto Sans Tamil', -apple-system, sans-serif" font-weight="600" font-size="12" fill="#CBD5E1" letter-spacing="1">
+    ராஜ் பப்ளிகேஷன் • BOOKS
+  </text>
+</svg>

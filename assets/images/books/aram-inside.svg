@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 580" width="400" height="580">
+    <defs>
+      <linearGradient id="pageBg" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#E2D9C8" />
+        <stop offset="5%" stop-color="#FDFBF7" />
+        <stop offset="95%" stop-color="#FDFBF7" />
+        <stop offset="100%" stop-color="#EAE3D2" />
+      </linearGradient>
+      <linearGradient id="gutterShadow" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#000000" stop-opacity="0.18" />
+        <stop offset="50%" stop-color="#000000" stop-opacity="0.05" />
+        <stop offset="100%" stop-color="#000000" stop-opacity="0.0" />
+      </linearGradient>
+    </defs>
+    <!-- Paper page spread -->
+    <rect width="400" height="580" rx="6" fill="url(#pageBg)" stroke="#CBD5E1" stroke-width="1" />
+    <rect x="0" y="0" width="28" height="580" fill="url(#gutterShadow)" />
+
+    <!-- Top Running Header -->
+    <text x="44" y="42" font-family="'Noto Sans Tamil', sans-serif" font-size="10" fill="#64748B">அறம் • ஜெயமோகன்</text>
+    <text x="356" y="42" font-family="sans-serif" font-size="10" fill="#64748B" text-anchor="end">பக்கம் 25</text>
+    <line x1="44" y1="52" x2="356" y2="52" stroke="#CBD5E1" stroke-width="0.8" />
+
+    <!-- Chapter Header -->
+    <g transform="translate(200, 95)">
+      <text x="0" y="0" font-family="'Noto Sans Tamil', sans-serif" font-size="12" fill="#B45309" text-anchor="middle" font-weight="bold">அத்தியாயம் - 1</text>
+      <text x="0" y="24" font-family="'Noto Sans Tamil', serif" font-size="17" fill="#1E293B" text-anchor="middle" font-weight="bold">ஆரம்பக் கட்டம்</text>
+      <line x1="-30" y1="36" x2="30" y2="36" stroke="#B45309" stroke-width="1" />
+    </g>
+
+    <!-- Simulated Elegant Tamil Typeset Book Text -->
+    <g transform="translate(44, 160)">
+      <!-- Drop Cap -->
+      <rect x="0" y="0" width="38" height="42" rx="4" fill="#1E293B" />
+      <text x="19" y="32" font-family="'Noto Sans Tamil', serif" font-size="30" font-weight="bold" fill="#FFFFFF" text-anchor="middle">அ</text>
+
+      <!-- Paragraph 1 Lines -->
+      <text x="46" y="16" font-family="'Noto Sans Tamil', sans-serif" font-size="11.5" fill="#334155">ந்த அழகிய மாலைப் பொழுதில் சோழ நாட்டின்</text>
+      <text x="46" y="34" font-family="'Noto Sans Tamil', sans-serif" font-size="11.5" fill="#334155">வளம் கொழிக்கும் வீதிகளில் மக்கள் உற்சாகமாக</text>
+      <text x="0" y="54" font-family="'Noto Sans Tamil', sans-serif" font-size="11.5" fill="#334155">கூடிப் பேசிக் கொண்டிருந்தனர். அங்கே வீசிய மெல்லிய தென்றல்</text>
+      <text x="0" y="74" font-family="'Noto Sans Tamil', sans-serif" font-size="11.5" fill="#334155">காவிரியின் நறுமணத்தை எங்கும் பரப்பிக் கொண்டிருந்தது.</text>
+      <text x="0" y="94" font-family="'Noto Sans Tamil', sans-serif" font-size="11.5" fill="#334155">வீரமும் விவேகமும் நிறைந்த அந்தப் பெருநிலப்பரப்பில் புதியதோர்</text>
+      <text x="0" y="114" font-family="'Noto Sans Tamil', sans-serif" font-size="11.5" fill="#334155">வரலாறு எழுதப்படத் தொடங்கியதை எவரும் அப்போது அறிந்திருக்கவில்லை.</text>
+
+      <!-- Paragraph 2 Lines -->
+      <text x="24" y="146" font-family="'Noto Sans Tamil', sans-serif" font-size="11.5" fill="#334155">வாழ்வின் உன்னத விழுமியங்களும், மனித நேயத்தின் பெருமையும்</text>
+      <text x="0" y="166" font-family="'Noto Sans Tamil', sans-serif" font-size="11.5" fill="#334155">ஒவ்வொரு பக்கத்திலும் மிளிரும் வண்ணம் அமைந்த இந்த அத்தியாயம்</text>
+      <text x="0" y="186" font-family="'Noto Sans Tamil', sans-serif" font-size="11.5" fill="#334155">வாசகர்களின் கற்பனைச் சிறகுகளை விரிக்கச் செய்கிறது. கலைநயமிக்க</text>
+      <text x="0" y="206" font-family="'Noto Sans Tamil', sans-serif" font-size="11.5" fill="#334155">வார்த்தைகளும், ஆழமான சிந்தனைகளும் நெஞ்சை அள்ளுகின்றன.</text>
+
+      <!-- Paragraph 3 Lines -->
+      <text x="24" y="238" font-family="'Noto Sans Tamil', sans-serif" font-size="11.5" fill="#334155">"கற்றது கைம்மண் அளவு, கல்லாதது உலகளவு" என்ற தமிழ் மூதுரைக்கு</text>
+      <text x="0" y="258" font-family="'Noto Sans Tamil', sans-serif" font-size="11.5" fill="#334155">ஏற்ப, நூல்களை வாசிப்பது நம்மை ஒரு புதிய உலகிற்கு அழைத்துச்</text>
+      <text x="0" y="278" font-family="'Noto Sans Tamil', sans-serif" font-size="11.5" fill="#334155">செல்கிறது. மனதிற்கு அமைதியும் ஞானமும் அளிக்கும் இந்த அரிய</text>
+      <text x="0" y="298" font-family="'Noto Sans Tamil', sans-serif" font-size="11.5" fill="#334155">நூலின் ஒவ்வொரு பக்கமும் பொக்கிஷமாக திகழ்கிறது.</text>
+    </g>
+
+    <!-- Watermark Stamp for Sample Inside Page -->
+    <g transform="translate(100, 485)">
+      <rect width="200" height="34" rx="17" fill="#FEF3C7" stroke="#D97706" stroke-width="1.2" />
+      <text x="100" y="22" font-family="'Noto Sans Tamil', sans-serif" font-size="12" font-weight="bold" fill="#92400E" text-anchor="middle">
+        📖 மாதிரிப் பக்கம் (SAMPLE PREVIEW)
+      </text>
+    </g>
+
+    <text x="200" y="542" font-family="sans-serif" font-size="10" fill="#64748B" text-anchor="middle">
+      [உள் பக்க முன்னோட்டம் • SAMPLE INSIDE PAGE]
+    </text>
+  </svg>
