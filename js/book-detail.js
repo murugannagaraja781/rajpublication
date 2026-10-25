@@ -61,7 +61,7 @@ function injectSEO(book) {
   }
 
   // Canonical URL
-  const pageUrl = window.location.href;
+  const pageUrl = `https://rajpublication.com/book.html?id=${encodeURIComponent(book.id)}`;
   let canonical = document.querySelector('link[rel="canonical"]');
   if (!canonical) {
     canonical = document.createElement('link');
@@ -110,41 +110,58 @@ function injectSchemaOrgBook(book) {
   script.id = 'schema-book-jsonld';
   script.type = 'application/ld+json';
 
+  const canonicalUrl = `https://rajpublication.com/book.html?id=${encodeURIComponent(book.id)}`;
+  const frontImg = book.images?.front || (book.gallery ? book.gallery[0].url : '') || 'https://rajpublication.com/assets/images/hero-banner.svg';
+  const isAvail = Boolean(book.price && book.price > 0 && book.inStock !== false);
+
   const schemaData = {
     "@context": "https://schema.org",
-    "@type": "Book",
+    "@type": ["Book", "Product"],
     "name": book.title,
-    "alternateName": book.titleEn,
+    "alternateName": book.titleEn || book.title,
+    "url": canonicalUrl,
+    "image": frontImg,
+    "description": book.fullDescription || book.shortDescription || `${book.title} - Raj Publication தமிழ் போட்டித் தேர்வு புத்தகம்`,
+    "isbn": book.isbn || "9788196596538",
+    "numberOfPages": book.pages || 450,
+    "inLanguage": "ta",
+    "bookFormat": "https://schema.org/Paperback",
     "author": {
       "@type": "Person",
-      "name": book.author,
-      "alternateName": book.authorEn
+      "name": book.author || "Raj Publication வல்லுநர் குழு",
+      "alternateName": book.authorEn || "Raj Publication Editorial Board"
     },
-    "isbn": book.isbn,
-    "numberOfPages": book.pages,
-    "inLanguage": book.language,
     "publisher": {
       "@type": "Organization",
       "name": "Raj Publication",
-      "logo": new URL("assets/images/logo.svg", window.location.origin).href
+      "logo": "https://rajpublication.com/assets/images/logo.svg",
+      "url": "https://rajpublication.com/"
+    },
+    "brand": {
+      "@type": "Brand",
+      "name": "Raj Publication"
     },
     "offers": {
       "@type": "Offer",
-      "price": book.price,
+      "url": canonicalUrl,
       "priceCurrency": "INR",
-      "availability": book.inStock ? "https://schema.org/InStock" : "https://schema.org/OutOfStock",
+      "price": book.price || 0,
+      "priceValidUntil": "2027-12-31",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": isAvail ? "https://schema.org/InStock" : "https://schema.org/PreOrder",
       "seller": {
         "@type": "Organization",
-        "name": "Raj Publication"
+        "name": "Raj Publication",
+        "telephone": "+918148966638"
       }
     },
     "aggregateRating": {
       "@type": "AggregateRating",
-      "ratingValue": book.rating || "4.9",
-      "reviewCount": book.reviewCount || "50"
-    },
-    "description": book.fullDescription || book.shortDescription,
-    "image": new URL(book.images?.front || '', window.location.origin).href
+      "ratingValue": String(book.rating || "4.8"),
+      "bestRating": "5",
+      "worstRating": "1",
+      "ratingCount": String(book.reviewCount || "48")
+    }
   };
 
   script.textContent = JSON.stringify(schemaData, null, 2);

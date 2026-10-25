@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://rajpublication.com/sitemap.xml
+Sitemap: https://rajpublication.com/sitemap.txt
