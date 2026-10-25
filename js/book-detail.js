@@ -257,16 +257,6 @@ function renderBookDetails(book) {
     askBtn.href = `https://wa.me/${num}?text=${msg}`;
   }
 
-  // Sample PDF Preview Button
-  const pdfBtn = document.getElementById('btn-sample-pdf-view');
-  if (pdfBtn) {
-    if (book.samplePdf && book.samplePdf.viewUrl) {
-      pdfBtn.href = book.samplePdf.viewUrl;
-      pdfBtn.style.display = 'inline-flex';
-    } else {
-      pdfBtn.style.display = 'none';
-    }
-  }
 }
 
 // Setup the 3-Image Interactive Gallery (Front, Back, Inside Page)

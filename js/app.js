@@ -411,17 +411,6 @@ window.openQuickViewModal = function(bookId) {
     };
   }
 
-  // Setup Sample PDF Link
-  const pdfLink = document.getElementById('quick-pdf-link');
-  if (pdfLink) {
-    if (book.samplePdf && book.samplePdf.viewUrl) {
-      pdfLink.href = book.samplePdf.viewUrl;
-      pdfLink.style.display = 'inline-flex';
-    } else {
-      pdfLink.style.display = 'none';
-    }
-  }
-
   // Setup Full Page View Link
   const fullPageLink = document.getElementById('quick-fullpage-link');
   if (fullPageLink) {
