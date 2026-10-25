@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Homepage -->
   <url>
     <loc>https://rajpublication.com/</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
-    <image:image>
-      <image:loc>https://rajpublication.com/assets/images/hero-banner.svg</image:loc>
-      <image:title>Raj Publication - தமிழ்நாடு அரசுப் போட்டித் தேர்வு புத்தகங்கள்</image:title>
-      <image:caption>காவலர் தமிழ், TNTET, TNPSC மற்றும் பள்ளிப் புத்தகங்கள்</image:caption>
-    </image:image>
   </url>
   <!-- Book Detail Shell -->
   <url>
@@ -25,648 +19,353 @@
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://drive.google.com/thumbnail?id=13e-5MnidfKjJW1xA7lRtvyieRqRLnVhm&amp;sz=w1000</image:loc>
-      <image:title>காவலர் தமிழ் | Raj Publication</image:title>
-      <image:caption>போலீஸ் / காவலர் (Police)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-2-tn-tet-paper-i</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://drive.google.com/thumbnail?id=1yiWu4L-ORwnZfIKjlJj9i9R_Urr98rul&amp;sz=w1000</image:loc>
-      <image:title>TN - TET PAPER - I தமிழ் | Raj Publication</image:title>
-      <image:caption>ஆசிரியர் தகுதித் தேர்வு (TET / TRB)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-3-tn-tet-paper-ii</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://drive.google.com/thumbnail?id=1Ja0OEEDOvX6XQVmsGyYeLJvKuBrBfZlI&amp;sz=w1000</image:loc>
-      <image:title>TN - TET PAPER - II தமிழ் | Raj Publication</image:title>
-      <image:caption>ஆசிரியர் தகுதித் தேர்வு (TET / TRB)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-4-6-10-sslc-std-tamil</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://drive.google.com/thumbnail?id=1-JSLkOwZY9qe8siXsbYSjwJqF66nKlqJ&amp;sz=w1000</image:loc>
-      <image:title>6 - 10 தமிழ் (SSLC STD TAMIL) | Raj Publication</image:title>
-      <image:caption>பள்ளிப் பாடங்கள் (School 6-12)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-5-6-12</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://drive.google.com/thumbnail?id=1RBo5r_D1C3W3HN4fhnroyLRcnKvDvX_-&amp;sz=w1000</image:loc>
-      <image:title>6 - 12 தமிழ் | Raj Publication</image:title>
-      <image:caption>பள்ளிப் பாடங்கள் (School 6-12)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-6-tnusrb-si</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://drive.google.com/thumbnail?id=1t0RMYYYuCYgmR0kaFV_ilMXBQNhiOI6T&amp;sz=w1000</image:loc>
-      <image:title>TNUSRB - SI தமிழ் | Raj Publication</image:title>
-      <image:caption>போலீஸ் / காவலர் (Police)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-7-police-tet-tnpsc-sslc-std</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://drive.google.com/thumbnail?id=10uUiFCRGTUw5eb34l5AJeGsEgiVJxORx&amp;sz=w1000</image:loc>
-      <image:title>POLICE – TET – TNPSC அறிவியல் (SSLC STD) | Raj Publication</image:title>
-      <image:caption>போலீஸ் / காவலர் (Police)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-8-police-sslc-std</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://drive.google.com/thumbnail?id=1hypYaSszC1m_Ub_6RzD_KC3kwM_XDFaA&amp;sz=w1000</image:loc>
-      <image:title>POLICE அறிவியல் (SSLC STD) | Raj Publication</image:title>
-      <image:caption>போலீஸ் / காவலர் (Police)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-9-tn-tet-paper-i</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://drive.google.com/thumbnail?id=1mJS2PGnR7Ev3JEjGDFglvFEePJgakt7n&amp;sz=w1000</image:loc>
-      <image:title>TN - TET PAPER – I அறிவியல் | Raj Publication</image:title>
-      <image:caption>ஆசிரியர் தகுதித் தேர்வு (TET / TRB)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-10-tn-tet-paper-ii</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://drive.google.com/thumbnail?id=14Fl-DQBDfKthJcqRAKY3An9uRVAuFb6T&amp;sz=w1000</image:loc>
-      <image:title>TN - TET PAPER – II அறிவியல் | Raj Publication</image:title>
-      <image:caption>ஆசிரியர் தகுதித் தேர்வு (TET / TRB)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-11-police-tet-tnpsc-sslc-std</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://drive.google.com/thumbnail?id=1s70qkMQ0Lyf81IVQCPN5QjEBwkIkLHTa&amp;sz=w1000</image:loc>
-      <image:title>POLICE – TET – TNPSC சமூக அறிவியல் (SSLC STD) | Raj Publication</image:title>
-      <image:caption>போலீஸ் / காவலர் (Police)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-12-tn-tet-paper-i</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://drive.google.com/thumbnail?id=1hknbiih8bs1lIHqoxv2f_x912Uwzfdfc&amp;sz=w1000</image:loc>
-      <image:title>TN - TET Paper – I சமூக அறிவியல் | Raj Publication</image:title>
-      <image:caption>ஆசிரியர் தகுதித் தேர்வு (TET / TRB)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-13-tn-tet-paper-ii</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://drive.google.com/thumbnail?id=15iizIz22_2AcciGmL34wVHio2LUJnuoD&amp;sz=w1000</image:loc>
-      <image:title>TN - TET Paper – II சமூக அறிவியல் | Raj Publication</image:title>
-      <image:caption>ஆசிரியர் தகுதித் தேர்வு (TET / TRB)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-14-tnpsc-sslc-std</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://drive.google.com/thumbnail?id=1N0AIsmCLl60wA4SDgV_GRs5UnLrzFBLk&amp;sz=w1000</image:loc>
-      <image:title>TNPSC சமூக அறிவியல் (SSLC STD) | Raj Publication</image:title>
-      <image:caption>டி.என்.பி.எஸ்.சி (TNPSC)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-15-police-sslc-std</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://drive.google.com/thumbnail?id=1EZsYanEL8gBJ2oW219-Hq_sA-KWMZ95b&amp;sz=w1000</image:loc>
-      <image:title>POLICE சமூக அறிவியல் (SSLC STD) | Raj Publication</image:title>
-      <image:caption>போலீஸ் / காவலர் (Police)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-16-tnpsc</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://drive.google.com/thumbnail?id=1w8d_HFK9lCDub2QSRQZHCGNq3zesj23j&amp;sz=w1000</image:loc>
-      <image:title>TNPSC கணிதம் | Raj Publication</image:title>
-      <image:caption>டி.என்.பி.எஸ்.சி (TNPSC)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-17-tn-tet-paper-i</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://drive.google.com/thumbnail?id=1dhsjItLbWxgf25IFpGmozhn8Tcdk-PzF&amp;sz=w1000</image:loc>
-      <image:title>TN - TET PAPER - I கணிதம் | Raj Publication</image:title>
-      <image:caption>ஆசிரியர் தகுதித் தேர்வு (TET / TRB)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-18-tn-tet-paper-ii</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://drive.google.com/thumbnail?id=1Xv5qa-KyfDWxqhd_8jOTxZHZxcDsVzgZ&amp;sz=w1000</image:loc>
-      <image:title>TN - TET PAPER - II கணிதம் | Raj Publication</image:title>
-      <image:caption>ஆசிரியர் தகுதித் தேர்வு (TET / TRB)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-19-tnusrb-si</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://drive.google.com/thumbnail?id=1gsGOd9VknD7a5MEZ6SFl0uuQUmfhkKwx&amp;sz=w1000</image:loc>
-      <image:title>TNUSRB SI உளவியல் | Raj Publication</image:title>
-      <image:caption>போலீஸ் / காவலர் (Police)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-20-police</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://drive.google.com/thumbnail?id=1GiTUJwsX95PLogkNIydSEhVs4AuAlXH0&amp;sz=w1000</image:loc>
-      <image:title>POLICE உளவியல் | Raj Publication</image:title>
-      <image:caption>போலீஸ் / காவலர் (Police)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-21-tnpsc-new-syll-2025</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://drive.google.com/thumbnail?id=1qrmro1CkPaigyQKYowjjn8qqSsT2z7XW&amp;sz=w1000</image:loc>
-      <image:title>TNPSC தமிழ் NEW Syll - 2025 | Raj Publication</image:title>
-      <image:caption>டி.என்.பி.எஸ்.சி (TNPSC)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-22-gk-1</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://drive.google.com/thumbnail?id=1CC_8pzCvqC4-4cTYhub0AaAmx04eUR57&amp;sz=w1000</image:loc>
-      <image:title>G.K – 1 | Raj Publication</image:title>
-      <image:caption>பொது அறிவு (General Knowledge)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-23-gk-2</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://drive.google.com/thumbnail?id=1a41BzKO9G39xotjIkOwWGr0DLHf-hVqf&amp;sz=w1000</image:loc>
-      <image:title>G.K – 2 | Raj Publication</image:title>
-      <image:caption>பொது அறிவு (General Knowledge)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-24-tnusrb-si-gk-book</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://drive.google.com/thumbnail?id=1SXZshkeBltbOVW3753lmcMnzHNKND7hh&amp;sz=w1000</image:loc>
-      <image:title>TNUSRB S.I G.K BOOK | Raj Publication</image:title>
-      <image:caption>போலீஸ் / காவலர் (Police)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-25-6-10-book-back-questions</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://drive.google.com/thumbnail?id=1woyM_S9XznuXQ19nPOZaKmppG-_rnMo5&amp;sz=w1000</image:loc>
-      <image:title>6 - 10 Book Back Questions | Raj Publication</image:title>
-      <image:caption>பள்ளிப் பாடங்கள் (School 6-12)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-26-11-12-book-back-questions-bank</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://drive.google.com/thumbnail?id=16tg0x6kdYA1kIEypqGkM46v0xiAiCgJF&amp;sz=w1000</image:loc>
-      <image:title>11 - 12 Book Back Questions BANK | Raj Publication</image:title>
-      <image:caption>பள்ளிப் பாடங்கள் (School 6-12)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-27-comman-gk</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://drive.google.com/thumbnail?id=1z01arcFlsAW50ax0KaOQVY2C8q-00zOP&amp;sz=w1000</image:loc>
-      <image:title>COMMAN G.K | Raj Publication</image:title>
-      <image:caption>பொது அறிவு (General Knowledge)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-28-tnpsc-priliminary-grp-i</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://drive.google.com/thumbnail?id=1xmXHB_ilYtrpU1EtHi5hK8szO_pW1mYj&amp;sz=w1000</image:loc>
-      <image:title>TNPSC Priliminary (Grp - I) | Raj Publication</image:title>
-      <image:caption>டி.என்.பி.எஸ்.சி (TNPSC)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-29-tnpsc-priliminary-grp-ii</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://drive.google.com/thumbnail?id=1QNjJHxlDahoDjuLhGu7yrdD1SPjEYRZZ&amp;sz=w1000</image:loc>
-      <image:title>TNPSC Priliminary (Grp - II) | Raj Publication</image:title>
-      <image:caption>டி.என்.பி.எஸ்.சி (TNPSC)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-30-tnpsc-priliminary-grp-iii-amazon-gk-i-book-isbn-interchange</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://drive.google.com/thumbnail?id=19xewL_tyjf8XVh7KqLF1m3jo5F_ngVYy&amp;sz=w1000</image:loc>
-      <image:title>TNPSC Priliminary (Grp - III) – AMAZON GK – I BOOK ISBN INTERCHANGE | Raj Publication</image:title>
-      <image:caption>டி.என்.பி.எஸ்.சி (TNPSC)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-31-oa-posting-book</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://drive.google.com/thumbnail?id=1zYRFJd0r4eo8y3Ye4cW5EuBVS7NZ5N3s&amp;sz=w1000</image:loc>
-      <image:title>O.A Posting BOOK | Raj Publication</image:title>
-      <image:caption>டி.என்.பி.எஸ்.சி (TNPSC)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-32-police-sslc-std</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://drive.google.com/thumbnail?id=1bYG-rGQuR9wkieokSjdFucPxHSFc05Fj&amp;sz=w1000</image:loc>
-      <image:title>POLICE அறிவியல் வினா - வங்கி (SSLC STD) | Raj Publication</image:title>
-      <image:caption>போலீஸ் / காவலர் (Police)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-33-tn-tet-paper-i-</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://drive.google.com/thumbnail?id=1a4MVIWYNr_ZnNPtN6uKsrQIHTjR7I4Ff&amp;sz=w1000</image:loc>
-      <image:title>TN - TET Paper – I அறிவியல் வினா - வங்கி | Raj Publication</image:title>
-      <image:caption>ஆசிரியர் தகுதித் தேர்வு (TET / TRB)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-34-tn-tet-paper-ii-</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://drive.google.com/thumbnail?id=1eIvvGxF_IfkF5zuxLeA3bYQzPUWyeK4g&amp;sz=w1000</image:loc>
-      <image:title>TN - TET Paper – II அறிவியல் வினா - வங்கி | Raj Publication</image:title>
-      <image:caption>ஆசிரியர் தகுதித் தேர்வு (TET / TRB)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-35-tnpsc-sslc-std</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://drive.google.com/thumbnail?id=1r91U3EkcmfOIMBazmc8Zl-k36woNwxn-&amp;sz=w1000</image:loc>
-      <image:title>TNPSC அறிவியல் வினா - வங்கி (SSLC STD) | Raj Publication</image:title>
-      <image:caption>டி.என்.பி.எஸ்.சி (TNPSC)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-36-police-tet-tnpsc-sslc-std</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://drive.google.com/thumbnail?id=1U2S1vN9lFYdwEdajR6pn7NETD2ABXyKC&amp;sz=w1000</image:loc>
-      <image:title>POLICE – TET – TNPSC அறிவியல் வினா - வங்கி (SSLC STD) | Raj Publication</image:title>
-      <image:caption>போலீஸ் / காவலர் (Police)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-37-police-sslc-std</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://drive.google.com/thumbnail?id=11TSVItHipwNWxgO8wOC4g-xzulCa-IZy&amp;sz=w1000</image:loc>
-      <image:title>POLICE சமூக அறிவியல் வினா - வங்கி (SSLC STD) | Raj Publication</image:title>
-      <image:caption>போலீஸ் / காவலர் (Police)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-38-tn-tet-paper-i-ii-sslc-std</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://drive.google.com/thumbnail?id=1ldEDOCOhfHpOEydtcEYG9_2dn21w-RyQ&amp;sz=w1000</image:loc>
-      <image:title>TN - TET PAPER I &amp; II சமூக அறிவியல் வினா - வங்கி (SSLC STD) | Raj Publication</image:title>
-      <image:caption>ஆசிரியர் தகுதித் தேர்வு (TET / TRB)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-39-tnpsc-sslc-std</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://drive.google.com/thumbnail?id=1ESh7VpAWcCvO11avQKlVhBxEDzPwUUDg&amp;sz=w1000</image:loc>
-      <image:title>TNPSC சமூக அறிவியல் வினா - வங்கி (SSLC STD) | Raj Publication</image:title>
-      <image:caption>டி.என்.பி.எஸ்.சி (TNPSC)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-40-police-tet-tnpsc-sslc-std</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://drive.google.com/thumbnail?id=1ZNbIhUxoGwZqvR-wQZNNcvxdjHIjXXMS&amp;sz=w1000</image:loc>
-      <image:title>POLICE – TET – TNPSC சமூக அறிவியல் வினா - வங்கி (SSLC STD) | Raj Publication</image:title>
-      <image:caption>போலீஸ் / காவலர் (Police)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-41-tn-tet-paper-i-sslc-std</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://drive.google.com/thumbnail?id=1RFUOkt15nbcSR19Vi3HomVylLQbYPkYN&amp;sz=w1000</image:loc>
-      <image:title>TN - TET Paper – I சமூக அறிவியல் வினா - வங்கி (SSLC STD) | Raj Publication</image:title>
-      <image:caption>ஆசிரியர் தகுதித் தேர்வு (TET / TRB)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-42-tn-tet-paper-ii-sslc-std</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://drive.google.com/thumbnail?id=1Vswf8t2w7G3W85fAg23bvMS70yutQ6On&amp;sz=w1000</image:loc>
-      <image:title>TN - TET Paper – II சமூக அறிவியல் வினா - வங்கி (SSLC STD) | Raj Publication</image:title>
-      <image:caption>ஆசிரியர் தகுதித் தேர்வு (TET / TRB)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-43-police-sslc-std</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>assets/images/books/raj-book-43-cover.svg</image:loc>
-      <image:title>POLICE தமிழ் வினா - வங்கி (SSLC STD) | Raj Publication</image:title>
-      <image:caption>போலீஸ் / காவலர் (Police)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-44-police-tet-tnpsc-sslc-std</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>assets/images/books/raj-book-44-cover.svg</image:loc>
-      <image:title>POLICE – TET – TNPSC தமிழ் வினா - வங்கி (SSLC STD) | Raj Publication</image:title>
-      <image:caption>போலீஸ் / காவலர் (Police)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-45-tnpsc-sslc-std</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>assets/images/books/raj-book-45-cover.svg</image:loc>
-      <image:title>TNPSC தமிழ் வினா - வங்கி (SSLC STD) | Raj Publication</image:title>
-      <image:caption>டி.என்.பி.எஸ்.சி (TNPSC)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-46-tn-tet-paper-i-</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>assets/images/books/raj-book-46-cover.svg</image:loc>
-      <image:title>TN - TET Paper – I தமிழ் வினா - வங்கி | Raj Publication</image:title>
-      <image:caption>ஆசிரியர் தகுதித் தேர்வு (TET / TRB)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-47-tn-tet-paper-ii-</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>assets/images/books/raj-book-47-cover.svg</image:loc>
-      <image:title>TN - TET Paper – II தமிழ் வினா - வங்கி | Raj Publication</image:title>
-      <image:caption>ஆசிரியர் தகுதித் தேர்வு (TET / TRB)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-48-6-10-box-point</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://drive.google.com/thumbnail?id=1udbYmSFrxzqxdgrdUXs0OZJTjDlropJq&amp;sz=w1000</image:loc>
-      <image:title>6 - 10 BOX POINT | Raj Publication</image:title>
-      <image:caption>பள்ளிப் பாடங்கள் (School 6-12)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-49-6-10-important-point</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>assets/images/books/raj-book-49-cover.svg</image:loc>
-      <image:title>6 - 10 IMPORTANT POINT | Raj Publication</image:title>
-      <image:caption>பள்ளிப் பாடங்கள் (School 6-12)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-50-tet-english-paper-i</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://drive.google.com/thumbnail?id=1u-W4iW1hiZtPAXb6H7SaA40ErceXnnIG&amp;sz=w1000</image:loc>
-      <image:title>TET ENGLISH PAPER - I | Raj Publication</image:title>
-      <image:caption>ஆசிரியர் தகுதித் தேர்வு (TET / TRB)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-51-tet-english-paper-ii</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://drive.google.com/thumbnail?id=1zfv3QCNJxib9S5PXlWv05-LqiDs8ZtaI&amp;sz=w1000</image:loc>
-      <image:title>TET ENGLISH PAPER - II | Raj Publication</image:title>
-      <image:caption>ஆசிரியர் தகுதித் தேர்வு (TET / TRB)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-52-tet-english-paper-i-ii</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://drive.google.com/thumbnail?id=128MNm9lX0o7eKJ_V_HkXkShL9cbZY4rN&amp;sz=w1000</image:loc>
-      <image:title>TET ENGLISH PAPER – I &amp; II | Raj Publication</image:title>
-      <image:caption>ஆசிரியர் தகுதித் தேர்வு (TET / TRB)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-53-tamil-question-bank</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>assets/images/books/raj-book-53-cover.svg</image:loc>
-      <image:title>TAMIL QUESTION BANK | Raj Publication</image:title>
-      <image:caption>போட்டித் தேர்வுகள் (General Exam)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-54-pothu-arivu-paguthi-i</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://drive.google.com/thumbnail?id=1s1tQ4SOaTXTQAhQP645ONJSOV4Pmqtzp&amp;sz=w1000</image:loc>
-      <image:title>POTHU ARIVU PAGUTHI - I | Raj Publication</image:title>
-      <image:caption>பொது அறிவு (General Knowledge)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-55-pothu-arivu-paguthi-ii</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://drive.google.com/thumbnail?id=1Oyw8vCTjpPE-fhShF-DJBfDxUKEtqgKA&amp;sz=w1000</image:loc>
-      <image:title>POTHU ARIVU PAGUTHI - II | Raj Publication</image:title>
-      <image:caption>பொது அறிவு (General Knowledge)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-56-tn-tet-paper-i-evs</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://drive.google.com/thumbnail?id=1UNoWRw9LQNoUPfNTG0bGe8618dkqhWWB&amp;sz=w1000</image:loc>
-      <image:title>TN-TET PAPER – I EVS | Raj Publication</image:title>
-      <image:caption>ஆசிரியர் தகுதித் தேர்வு (TET / TRB)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-57-tn-tet-paper-i-evs-question-bank</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://drive.google.com/thumbnail?id=1sjgXCL1T4BBDu6yDVQRBibyNWYD2FA_c&amp;sz=w1000</image:loc>
-      <image:title>TN-TET PAPER – I EVS QUESTION BANK | Raj Publication</image:title>
-      <image:caption>ஆசிரியர் தகுதித் தேர்வு (TET / TRB)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-58-tn-tet-paper-i-psychology</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>assets/images/books/raj-book-58-cover.svg</image:loc>
-      <image:title>TN-TET PAPER – I PSYCHOLOGY | Raj Publication</image:title>
-      <image:caption>ஆசிரியர் தகுதித் தேர்வு (TET / TRB)</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://rajpublication.com/book.html?id=raj-book-59-tn-tet-paper-ii-psychology</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>assets/images/books/raj-book-59-cover.svg</image:loc>
-      <image:title>TN-TET PAPER – II PSYCHOLOGY | Raj Publication</image:title>
-      <image:caption>ஆசிரியர் தகுதித் தேர்வு (TET / TRB)</image:caption>
-    </image:image>
   </url>
 </urlset>

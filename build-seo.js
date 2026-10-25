@@ -6,21 +6,15 @@ const today = new Date().toISOString().split('T')[0];
 
 console.log(`Generating 100% Perfect SEO for ${books.length} books...`);
 
-// 1. Build sitemap.xml with Google Image Extension
+// 1. Build standard 100% compliant sitemap.xml
 let sitemapXml = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Homepage -->
   <url>
     <loc>https://rajpublication.com/</loc>
     <lastmod>${today}</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
-    <image:image>
-      <image:loc>https://rajpublication.com/assets/images/hero-banner.svg</image:loc>
-      <image:title>Raj Publication - தமிழ்நாடு அரசுப் போட்டித் தேர்வு புத்தகங்கள்</image:title>
-      <image:caption>காவலர் தமிழ், TNTET, TNPSC மற்றும் பள்ளிப் புத்தகங்கள்</image:caption>
-    </image:image>
   </url>
   <!-- Book Detail Shell -->
   <url>
@@ -35,20 +29,12 @@ let sitemapXml = `<?xml version="1.0" encoding="UTF-8"?>
 books.forEach((book, index) => {
   const bookUrl = `https://rajpublication.com/book.html?id=${encodeURIComponent(book.id)}`;
   const priority = (book.featured || index < 10) ? '0.9' : '0.8';
-  const imgUrl = (book.images && book.images.front) ? book.images.front.replace(/&/g, '&amp;') : 'https://rajpublication.com/assets/images/logo.svg';
-  const cleanTitle = (book.title || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
-  const cleanCategory = (book.categoryName || '').replace(/&/g, '&amp;');
 
   sitemapXml += `  <url>
     <loc>${bookUrl}</loc>
     <lastmod>${today}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>${priority}</priority>
-    <image:image>
-      <image:loc>${imgUrl}</image:loc>
-      <image:title>${cleanTitle} | Raj Publication</image:title>
-      <image:caption>${cleanCategory}</image:caption>
-    </image:image>
   </url>
 `;
 });
