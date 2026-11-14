@@ -1007,8 +1007,47 @@
   ]
 }
   </script>
-</head>
-<body>
+<body class="preloader-active">
+
+  <!-- Initial Page Preloader with Circular Spinner around Logo -->
+  <div id="site-preloader" class="site-preloader" aria-label="Loading Raj Publication" role="status">
+    <div class="preloader-content">
+      <div class="preloader-logo-ring-wrap">
+        <!-- Circular Animated Spinner Ring -->
+        <svg class="preloader-ring-svg" viewBox="0 0 160 160" width="160" height="160" aria-hidden="true">
+          <defs>
+            <linearGradient id="preloaderGoldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#F59E0B" />
+              <stop offset="50%" stop-color="#FDE047" />
+              <stop offset="100%" stop-color="#D97706" />
+            </linearGradient>
+          </defs>
+          <circle class="ring-bg" cx="80" cy="80" r="70" fill="none" />
+          <circle class="ring-spinner" cx="80" cy="80" r="70" fill="none" />
+        </svg>
+
+        <!-- Pulsing Aura Halo -->
+        <div class="preloader-halo"></div>
+
+        <!-- Centered Logo Badge -->
+        <div class="preloader-logo-badge">
+          <img src="assets/images/logo-mark.png" alt="Raj Publication Logo" class="preloader-logo-img" width="68" height="56">
+        </div>
+      </div>
+
+      <!-- Brand Info & Loading Indicators -->
+      <div class="preloader-text-group">
+        <div class="preloader-brand-title">RAJ <span>PUBLICATION</span></div>
+        <div class="preloader-brand-sub">ராஜ் பப்ளிகேஷன் • BOOKS</div>
+        
+        <!-- Shimmer Progress Bar -->
+        <div class="preloader-bar-wrap">
+          <div class="preloader-bar-fill"></div>
+        </div>
+        <div class="preloader-status-text">புத்தகங்கள் தயாராகின்றன...</div>
+      </div>
+    </div>
+  </div>
 
   <!-- Top Announcement Bar -->
   <aside class="announcement-bar" aria-label="அறிவிப்பு">
@@ -1083,12 +1122,11 @@
             <span>தரமான பதிப்புகள் • வாட்ஸ்அப்பில் நேரடி முன்பதிவு</span>
           </div>
           <h1 id="hero-title" class="hero-title">
-            அறிவும் ரசனையும் மிளிரும் <br>
-            <span class="highlight">நற்புத்தகங்கள்</span> உங்கள் இல்லம் தேடி!
+            அரசுப் பணி உங்கள் கனவா? <br>
+            இதோ உங்களுக்கான <span class="highlight">வெற்றி ஆயுதம்!</span>
           </h1>
           <p class="hero-subtitle">
-            வரலாற்று நாவல்கள், செவ்விலக்கியம், சுயமுன்னேற்றம் மற்றும் கவிதைத் தொகுப்புகள். 
-            எந்தவொரு ஆன்லைன் கட்டண சிக்கலும் இன்றி, உங்கள் முகவரியை உள்ளிட்டு நேரடியாக வாட்ஸ்அப்பில் ஆர்டர் செய்து மகிழுங்கள்.
+            கடினமான பாடத்திட்டங்களையும் எளிதில் புரிந்துகொள்ளும் வகையில் வடிவமைக்கப்பட்ட TNPSC, TNUSRB மற்றும் TET சிறப்பு வழிகாட்டிகள். ஆன்லைன் கட்டணச் சிக்கலின்றி வாட்ஸ்அப்பில் ஒரு மெசேஜ் செய்தால் போதும், வெற்றிப் புத்தகம் உங்கள் இல்லம் தேடி வரும்!
           </p>
 
           <div class="hero-ctas">
@@ -1249,44 +1287,176 @@
           </div>
         </div>
 
-        <!-- Filter & Search Toolbar -->
-        <div class="filter-toolbar">
-          <!-- Category Pills -->
-          <div id="category-pills-wrap" class="category-pills" role="tablist" aria-label="புத்தகப் பிரிவுகள்">
+        <!-- Government Level Selector (State Govt vs Central Govt) -->
+        <div class="govt-level-wrapper" aria-label="அரசுப் பணிகள் தேர்வுப் பிரிவு">
+          <div class="govt-level-tabs" role="tablist">
+            <button type="button" id="tab-state-govt" class="govt-level-tab active" data-govt="state" role="tab" aria-selected="true" aria-controls="state-govt-view">
+              <span class="govt-tab-icon">🏛️</span>
+              <div class="govt-tab-text">
+                <span class="govt-tab-main">State Government (மாநில அரசுப் பணிகள்)</span>
+                <span class="govt-tab-sub">TNPSC • Police • State (TET &amp; பள்ளி) • Others</span>
+              </div>
+              <span class="govt-tab-badge">59 நூல்கள்</span>
+            </button>
+
+            <button type="button" id="tab-central-govt" class="govt-level-tab" data-govt="central" role="tab" aria-selected="false" aria-controls="central-govt-view">
+              <span class="govt-tab-icon">🇮🇳</span>
+              <div class="govt-tab-text">
+                <span class="govt-tab-main">Central Government (மத்திய அரசுப் பணிகள்)</span>
+                <span class="govt-tab-sub">UPSC • SSC • Railway (RRB) • Banking</span>
+              </div>
+              <span class="govt-tab-badge badge-coming-soon">Coming Soon</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- ==========================================
+             STATE GOVERNMENT MODULE VIEW
+             ========================================== -->
+        <div id="state-govt-view" class="govt-view-container active-view" role="tabpanel" aria-labelledby="tab-state-govt">
+          <!-- State Core Module Filter Toolbar -->
+          <div class="filter-toolbar state-core-toolbar">
+            <div class="state-module-header">
+              <div class="state-module-title">
+                <span class="state-module-icon">🏛️</span>
+                <span><strong>State Core Module</strong> — அரசுப் பணிப் புத்தகப் பிரிவுகள்:</span>
+              </div>
+              <span class="state-module-hint">பிரிவை கிளிக் செய்து புத்தகங்களை காண்க 👇</span>
+            </div>
+
+            <!-- Category Pills: All, TNPSC, Police, State, Others -->
+            <div id="category-pills-wrap" class="category-pills" role="tablist" aria-label="மாநில அரசுப் புத்தகப் பிரிவுகள்">
+              <!-- Dynamically populated by app.js -->
+            </div>
+
+            <!-- Sort & Stats Row -->
+            <div class="filter-meta-row">
+              <div id="results-count-display" class="results-stats">
+                மொத்தம் <span class="highlight-count">...</span> புத்தகங்கள்
+              </div>
+
+              <div class="sort-group">
+                <label for="sort-select">வரிசைப்படுத்து (Sort):</label>
+                <select id="sort-select" class="sort-select">
+                  <option value="featured">சிறப்பு நூல்கள் (Featured)</option>
+                  <option value="price-low">விலை: குறைந்தது முதல் (Price: Low to High)</option>
+                  <option value="price-high">விலை: அதிகமானது முதல் (Price: High to Low)</option>
+                  <option value="rating">மதிப்பீடு (Customer Rating)</option>
+                  <option value="discount">அதிக தள்ளுபடி (Highest Discount)</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <!-- Active Search Info Alert -->
+          <div id="active-search-info" class="active-search-info" role="status">
+            <div>
+              <span>தேடல் முடிவு: </span>
+              <strong id="search-query-label">""</strong>
+            </div>
+            <button type="button" id="reset-search-btn" class="reset-search-btn">Reset Search (Show All)</button>
+          </div>
+
+          <!-- Category Results Anchor & Header Banner -->
+          <div id="state-category-results" class="category-results-banner">
+            <div class="banner-icon-col">
+              <span id="category-banner-icon" class="banner-icon">📚</span>
+            </div>
+            <div class="banner-text-col">
+              <h3 id="category-banner-title" class="banner-title">மாநில அரசுப் போட்டித் தேர்வுகள் — அனைத்து நூல்கள்</h3>
+              <p id="category-banner-desc" class="banner-desc">தமிழ்நாடு அரசுப் பணிகளுக்கான அனைத்து TNPSC, Police, TET மற்றும் பள்ளிப் பாட வழிகாட்டிகள்</p>
+            </div>
+            <div class="banner-count-col">
+              <span id="category-banner-count" class="banner-badge">59 புத்தகங்கள்</span>
+            </div>
+          </div>
+
+          <!-- Books Grid Container -->
+          <div id="books-grid" class="books-grid" role="region" aria-live="polite">
             <!-- Dynamically populated by app.js -->
           </div>
-
-          <!-- Sort & Stats Row -->
-          <div class="filter-meta-row">
-            <div id="results-count-display" class="results-stats">
-              மொத்தம் <span class="highlight-count">...</span> புத்தகங்கள்
-            </div>
-
-            <div class="sort-group">
-              <label for="sort-select">வரிசைப்படுத்து (Sort):</label>
-              <select id="sort-select" class="sort-select">
-                <option value="featured">சிறப்பு நூல்கள் (Featured)</option>
-                <option value="price-low">விலை: குறைந்தது முதல் (Price: Low to High)</option>
-                <option value="price-high">விலை: அதிகமானது முதல் (Price: High to Low)</option>
-                <option value="rating">மதிப்பீடு (Customer Rating)</option>
-                <option value="discount">அதிக தள்ளுபடி (Highest Discount)</option>
-              </select>
-            </div>
-          </div>
         </div>
 
-        <!-- Active Search Info Alert -->
-        <div id="active-search-info" class="active-search-info" role="status">
-          <div>
-            <span>தேடல் முடிவு: </span>
-            <strong id="search-query-label">""</strong>
-          </div>
-          <button type="button" id="reset-search-btn" class="reset-search-btn">Reset Search (Show All)</button>
-        </div>
+        <!-- ==========================================
+             CENTRAL GOVERNMENT MODULE VIEW (COMING SOON)
+             ========================================== -->
+        <div id="central-govt-view" class="govt-view-container central-govt-view" role="tabpanel" aria-labelledby="tab-central-govt" style="display: none;">
+          <div class="central-hero-card">
+            <div class="central-badge-strip">
+              <span class="central-flag-icon">🇮🇳</span>
+              <span class="central-status-pill">புத்தகங்கள் தயாராகிக்கொண்டிருக்கின்றன • In Preparation</span>
+              <span class="central-coming-soon-pill">Coming Soon</span>
+            </div>
 
-        <!-- Books Grid Container -->
-        <div id="books-grid" class="books-grid" role="region" aria-live="polite">
-          <!-- Dynamically populated by app.js -->
+            <h3 class="central-hero-title">மத்திய அரசுப் போட்டித் தேர்வு வழிகாட்டிகள்</h3>
+            <p class="central-hero-subtitle">
+              மத்திய அரசுப் பணிகளுக்கான (Central Government Jobs) தேர்வுகளுக்கு தயாராகும் தமிழ்நாட்டு மாணவர்களுக்காக, எளிய முறையில் தமிழில் விளக்கும் பிரத்யேக வழிகாட்டி நூல்கள் மிக விரைவில் ராஜ் பப்ளிகேஷன் மூலம் வெளியிடப்பட உள்ளன!
+            </p>
+
+            <!-- Upcoming Exams Grid -->
+            <div class="central-exams-grid">
+              <div class="central-exam-card">
+                <div class="central-exam-icon">🎯</div>
+                <div class="central-exam-badge">தயாரிப்பில் உள்ளது</div>
+                <h4 class="central-exam-title">SSC (Staff Selection Commission)</h4>
+                <p class="central-exam-desc">CGL, CHSL, MTS, GD Constable தேர்வுகளுக்கான கணிதம், நுண்ணறிவு (Reasoning), பொது அறிவு (GK) பாடத் தொகுப்புகள்.</p>
+                <div class="central-exam-status">
+                  <span class="status-dot"></span>
+                  <span>விரைவில் வெளியீடு (Coming Soon)</span>
+                </div>
+              </div>
+
+              <div class="central-exam-card">
+                <div class="central-exam-icon">🚆</div>
+                <div class="central-exam-badge">தயாரிப்பில் உள்ளது</div>
+                <h4 class="central-exam-title">Railway (RRB)</h4>
+                <p class="central-exam-desc">RRB NTPC, Group D, ALP &amp; Technician தேர்வுகளுக்கான தமிழ் வழி முழுமையான பாட வழிகாட்டிகள் மற்றும் மாதிரி வினாத்தாள்கள்.</p>
+                <div class="central-exam-status">
+                  <span class="status-dot"></span>
+                  <span>விரைவில் வெளியீடு (Coming Soon)</span>
+                </div>
+              </div>
+
+              <div class="central-exam-card">
+                <div class="central-exam-icon">🏦</div>
+                <div class="central-exam-badge">தயாரிப்பில் உள்ளது</div>
+                <h4 class="central-exam-title">Banking &amp; Insurance (IBPS / SBI)</h4>
+                <p class="central-exam-desc">IBPS &amp; SBI Clerk, PO தேர்வுகளுக்கான Quantitative Aptitude, Reasoning Ability மற்றும் வங்கி விழிப்புணர்வு கையேடுகள்.</p>
+                <div class="central-exam-status">
+                  <span class="status-dot"></span>
+                  <span>விரைவில் வெளியீடு (Coming Soon)</span>
+                </div>
+              </div>
+
+              <div class="central-exam-card">
+                <div class="central-exam-icon">🛡️</div>
+                <div class="central-exam-badge">தயாரிப்பில் உள்ளது</div>
+                <h4 class="central-exam-title">UPSC &amp; மத்திய காவல் படைகள் (CAPF)</h4>
+                <p class="central-exam-desc">Civil Services (Prelims), CDS, NDA மற்றும் மத்திய துணை ராணுவப் படைத் தேர்வுகளுக்கான பிரத்யேக பொது ஆய்வுக் கையேடுகள்.</p>
+                <div class="central-exam-status">
+                  <span class="status-dot"></span>
+                  <span>விரைவில் வெளியீடு (Coming Soon)</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- WhatsApp Pre-Inquiry Notice & CTA -->
+            <div class="central-cta-box">
+              <div class="central-cta-text">
+                <h4>மத்திய அரசு புத்தகங்கள் வெளியானதும் உடனடியாக அறிந்துகொள்ள வேண்டுமா?</h4>
+                <p>வாட்ஸ்அப்பில் எங்களுடன் இணைந்திருங்கள். புத்தகங்கள் அச்சிடப்பட்டு தயாரானதும் முதல் அறிவிப்பு மற்றும் சிறப்பு அறிமுகச் சலுகை விவரங்கள் உங்களுக்கு அனுப்பப்படும்!</p>
+              </div>
+              <div class="central-cta-actions">
+                <a href="https://wa.me/918148966638?text=%E0%AE%B5%E0%AE%A3%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AE%AE%E0%AF%8D%20%E0%AE%B0%E0%AE%BE%E0%AE%9C%E0%AF%8D%20%E0%AE%AA%E0%AE%AA%E0%AF%8D%E0%AE%B3%E0%AE%BF%E0%AE%95%E0%AF%87%E0%AE%B7%E0%AE%A9%E0%AF%8D%2C%20%E0%AE%AE%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%BF%E0%AE%AF%20%E0%AE%85%E0%AE%B0%E0%AE%9A%E0%AF%81%E0%AE%AA%E0%AF%8D%20%E0%AE%AA%E0%AF%8B%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%AE%BF%E0%AE%A4%E0%AF%8D%20%E0%AE%A4%E0%AF%87%E0%AE%B0%E0%AF%8D%E0%AE%B5%E0%AF%81%20%E0%AE%AA%E0%AF%81%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%95%E0%AE%99%E0%AF%8D%E0%AE%95%E0%AE%B3%E0%AF%8D%20(Central%20Govt%20Exam%20Books)%20%E0%AE%B5%E0%AF%86%E0%AE%B3%E0%AE%BF%E0%AE%AF%E0%AF%80%E0%AE%9F%E0%AF%81%20%E0%AE%B5%E0%AE%BF%E0%AE%AA%E0%AE%B0%E0%AE%99%E0%AF%8D%E0%AE%95%E0%AE%B3%E0%AF%8D%20%E0%AE%A4%E0%AF%86%E0%AE%B0%E0%AE%BF%E0%AE%A8%E0%AF%8D%E0%AE%A4%E0%AF%81%20%E0%AE%95%E0%AF%8A%E0%AE%B3%E0%AF%8D%E0%AE%B3%20%E0%AE%B5%E0%AE%BF%E0%AE%B0%E0%AF%81%E0%AE%AE%E0%AF%8D%E0%AE%AA%E0%AF%81%E0%AE%95%E0%AE%BF%E0%AE%B1%E0%AF%87%E0%AE%A9%E0%AF%8D." target="_blank" rel="noopener" class="btn-whatsapp-lg js-whatsapp-link">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/></svg>
+                  <span>வாட்ஸ்அப்பில் முன்கூட்டியே அறிய (WhatsApp Inquiry)</span>
+                </a>
+                <button type="button" id="switch-to-state-btn" class="btn-secondary">
+                  <span>🏛️ மாநில அரசு புத்தகங்களைப் பார்க்க (State Books)</span>
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -1437,7 +1607,7 @@
     <div class="container">
       <div class="footer-grid">
         <div class="footer-col">
-          <img src="assets/images/logo.svg" alt="Raj Publication" style="height: 44px; margin-bottom: 16px;">
+          <img src="assets/images/logo-white.svg" alt="Raj Publication" style="height: 44px; margin-bottom: 16px; width: auto; max-width: 200px; display: block;">
           <p>
             ராஜ் பப்ளிகேஷன் — தமிழ்நாடு அரசுப் போட்டித் தேர்வுகளான TNUSRB காவலர் (Police Constable &amp; SI), ஆசிரியர் தகுதித் தேர்வு (TNTET), TNPSC மற்றும் 6-12 பள்ளிப் பாட சமச்சீர் தமிழ் வழிகாட்டி நூல்களின் முன்னணி வெளியீட்டாளர்.
           </p>
@@ -1749,6 +1919,7 @@
   </aside>
 
   <!-- Scripts -->
+  <script src="js/preloader.js"></script>
   <script src="js/config.js"></script>
   <script src="js/whatsapp-order.js"></script>
   <script src="js/app.js"></script>

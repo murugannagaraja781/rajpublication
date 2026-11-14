@@ -29,3 +29,14 @@ Capture.JPG
 test_1.jpg
 Screenshot_155244.png
 WhatsApp_img.jpeg
+
+# Antigravity Workspace Context & Private Credentials (DO NOT COMMIT)
+antigravity.md
+AGENTS.md
+GEMINI.md
+.agents/
+*.credentials*
+.env
+.env.*
+credentials.json
+credentials.md

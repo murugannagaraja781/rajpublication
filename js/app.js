@@ -5,6 +5,7 @@
 
 let allBooks = [];
 let filteredBooks = [];
+let activeGovt = 'state';
 let activeCategory = 'all';
 let searchQuery = '';
 let currentSort = 'featured';
@@ -19,8 +20,10 @@ document.addEventListener('DOMContentLoaded', async () => {
   applyStoreConfig(config);
 
   await loadBooksCatalog();
-  initEventListeners();
+  initGovtTabs();
   initCategoryPills();
+  initEventListeners();
+  updateCategoryBanner();
   applyFiltersAndRender();
 });
 
@@ -75,30 +78,106 @@ async function loadBooksCatalog() {
   }
 }
 
-// Setup Category Pills with dynamic book counts
+// Group Category Helper
+function getBookGroupCategory(book) {
+  if (book.groupCategory) return book.groupCategory;
+  const c = (book.category || '').toLowerCase();
+  if (c === 'tnpsc') return 'tnpsc';
+  if (c === 'police') return 'police';
+  if (c === 'tet' || c === 'school' || c === 'state') return 'state';
+  return 'others';
+}
+
+function matchesActiveCategory(book, cat) {
+  if (cat === 'all') return true;
+  const grp = getBookGroupCategory(book);
+  if (cat === 'tnpsc') {
+    return grp === 'tnpsc' || book.category === 'tnpsc';
+  }
+  if (cat === 'police') {
+    return grp === 'police' || book.category === 'police';
+  }
+  if (cat === 'state') {
+    return grp === 'state' || ['state', 'tet', 'school'].includes(book.category);
+  }
+  if (cat === 'others') {
+    return grp === 'others' || ['others', 'gk', 'competitive'].includes(book.category);
+  }
+  return book.category === cat || grp === cat;
+}
+
+// Government Level Switcher (State Govt vs Central Govt)
+function initGovtTabs() {
+  const stateBtn = document.getElementById('tab-state-govt');
+  const centralBtn = document.getElementById('tab-central-govt');
+  const stateView = document.getElementById('state-govt-view');
+  const centralView = document.getElementById('central-govt-view');
+  const switchBackBtn = document.getElementById('switch-to-state-btn');
+
+  function switchGovt(govt) {
+    activeGovt = govt;
+    if (stateBtn) {
+      stateBtn.classList.toggle('active', govt === 'state');
+      stateBtn.setAttribute('aria-selected', govt === 'state' ? 'true' : 'false');
+    }
+    if (centralBtn) {
+      centralBtn.classList.toggle('active', govt === 'central');
+      centralBtn.setAttribute('aria-selected', govt === 'central' ? 'true' : 'false');
+    }
+
+    if (govt === 'state') {
+      if (stateView) stateView.style.display = 'block';
+      if (centralView) centralView.style.display = 'none';
+      applyFiltersAndRender();
+    } else {
+      if (stateView) stateView.style.display = 'none';
+      if (centralView) {
+        centralView.style.display = 'block';
+        const headerOffset = 100;
+        const pos = centralView.getBoundingClientRect().top + window.pageYOffset - headerOffset;
+        window.scrollTo({ top: Math.max(0, pos), behavior: 'smooth' });
+      }
+    }
+  }
+
+  if (stateBtn) {
+    stateBtn.addEventListener('click', () => switchGovt('state'));
+  }
+  if (centralBtn) {
+    centralBtn.addEventListener('click', () => switchGovt('central'));
+  }
+  if (switchBackBtn) {
+    switchBackBtn.addEventListener('click', () => {
+      switchGovt('state');
+      scrollToCategoryResults();
+    });
+  }
+
+  window.switchToGovtTab = switchGovt;
+}
+
+// Setup Category Pills with dynamic book counts & smooth scroll
 function initCategoryPills() {
   const container = document.getElementById('category-pills-wrap');
   if (!container) return;
 
-  // Extract categories dynamically from loaded books
-  const dynamicCategories = [
-    { id: 'all', name: 'All Books' },
-    { id: 'police', name: 'Police / SI' },
-    { id: 'tet', name: 'TET (Paper 1 & 2)' },
-    { id: 'tnpsc', name: 'TNPSC' },
-    { id: 'school', name: 'School Books (6 - 12)' },
-    { id: 'gk', name: 'General Knowledge (GK)' }
+  const categories = [
+    { id: 'all', name: 'அனைத்தும் (All Books)', icon: '📚' },
+    { id: 'tnpsc', name: 'TNPSC', icon: '🎯' },
+    { id: 'police', name: 'Police', icon: '👮' },
+    { id: 'state', name: 'State', icon: '📖' },
+    { id: 'others', name: 'Others', icon: '💡' }
   ];
-  const categories = dynamicCategories;
 
   container.innerHTML = categories.map(cat => {
     const count = cat.id === 'all' 
       ? allBooks.length 
-      : allBooks.filter(b => b.category === cat.id).length;
+      : allBooks.filter(b => matchesActiveCategory(b, cat.id)).length;
 
     return `
-      <button type="button" class="category-pill ${cat.id === 'all' ? 'active' : ''}" data-category="${cat.id}">
-        <span>${cat.name}</span>
+      <button type="button" class="category-pill ${cat.id === activeCategory ? 'active' : ''}" data-category="${cat.id}">
+        <span class="pill-icon">${cat.icon}</span>
+        <span class="pill-name">${cat.name}</span>
         <span class="count">${count}</span>
       </button>
     `;
@@ -111,8 +190,71 @@ function initCategoryPills() {
       pill.classList.add('active');
       activeCategory = pill.dataset.category;
       applyFiltersAndRender();
+      updateCategoryBanner();
+      scrollToCategoryResults();
     });
   });
+}
+
+// Update Active Category Banner above book grid
+function updateCategoryBanner() {
+  const iconEl = document.getElementById('category-banner-icon');
+  const titleEl = document.getElementById('category-banner-title');
+  const descEl = document.getElementById('category-banner-desc');
+  const countEl = document.getElementById('category-banner-count');
+
+  const meta = {
+    all: {
+      icon: '📚',
+      title: 'மாநில அரசுப் போட்டித் தேர்வுகள் — அனைத்து நூல்கள்',
+      desc: 'தமிழ்நாடு அரசுப் பணிகளுக்கான அனைத்து TNPSC, Police, TET மற்றும் பள்ளிப் பாட வழிகாட்டிகள்'
+    },
+    tnpsc: {
+      icon: '🎯',
+      title: 'TNPSC (டி.என்.பி.எஸ்.சி) தேர்வுகள் — வழிகாட்டி நூல்கள்',
+      desc: 'Group 1, Group 2, Group 4, VAO மற்றும் பிற TNPSC தேர்வுகளுக்கான பிரத்யேக வெளியீடுகள்'
+    },
+    police: {
+      icon: '👮‍♂️',
+      title: 'Police (காவலர் & SI) தேர்வுகள் — வழிகாட்டி நூல்கள்',
+      desc: 'TNUSRB Police Constable மற்றும் Sub-Inspector (SI) தேர்வுகளுக்கான தலைசிறந்த நூல்கள்'
+    },
+    state: {
+      icon: '📖',
+      title: 'State — ஆசிரியர் தகுதித் தேர்வு (TET) & பள்ளிப் பாட நூல்கள்',
+      desc: 'TN-TET Paper 1, Paper 2 மற்றும் 6 முதல் 12 ஆம் வகுப்பு சமச்சீர் கல்வி வழிகாட்டிகள்'
+    },
+    others: {
+      icon: '💡',
+      title: 'Others — பொது அறிவு & பொதுப் போட்டித் தேர்வு நூல்கள்',
+      desc: 'அனைத்துப் போட்டித் தேர்வுகளுக்கும் பொதுவான GK, மாதிரி வினா வங்கிகள் மற்றும் சிறப்புத் தொகுப்புகள்'
+    }
+  };
+
+  const curr = meta[activeCategory] || meta.all;
+  if (iconEl) iconEl.textContent = curr.icon;
+  if (titleEl) titleEl.textContent = curr.title;
+  if (descEl) descEl.textContent = curr.desc;
+  if (countEl) {
+    const count = activeCategory === 'all'
+      ? allBooks.length
+      : allBooks.filter(b => matchesActiveCategory(b, activeCategory)).length;
+    countEl.textContent = `${count} புத்தகங்கள்`;
+  }
+}
+
+// Smooth scroll to category results anchor
+function scrollToCategoryResults() {
+  const target = document.getElementById('state-category-results') || document.getElementById('books-grid');
+  if (target) {
+    const headerOffset = 110;
+    const elementPosition = target.getBoundingClientRect().top;
+    const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+    window.scrollTo({
+      top: Math.max(0, offsetPosition),
+      behavior: 'smooth'
+    });
+  }
 }
 
 // Event Listeners (Search, Sort, Modals, Keyboard shortcuts)
@@ -232,12 +374,16 @@ function initEventListeners() {
         const bookId = item.dataset.bookId;
         const book = allBooks.find(b => b.id === bookId);
         if (book) {
+          if (activeGovt === 'central' && window.switchToGovtTab) {
+            window.switchToGovtTab('state');
+          }
           searchQuery = book.title.toLowerCase();
           if (headerSearchInput) headerSearchInput.value = book.title;
           if (catalogSearchInput) catalogSearchInput.value = book.title;
           activeCategory = 'all';
           const pills = document.querySelectorAll('.category-pill');
           pills.forEach(p => p.classList.toggle('active', p.dataset.category === 'all'));
+          updateCategoryBanner();
           applyFiltersAndRender();
           closeAllSuggestions();
           scrollToProduct(bookId);
@@ -257,6 +403,9 @@ function initEventListeners() {
   // Unified Search Handler (syncs both header and catalog search inputs)
   function handleSearchInput(value, source) {
     searchQuery = value.trim().toLowerCase();
+    if (searchQuery && activeGovt === 'central' && window.switchToGovtTab) {
+      window.switchToGovtTab('state');
+    }
     
     if (source !== 'header' && headerSearchInput && headerSearchInput.value !== value) {
       headerSearchInput.value = value;
@@ -362,6 +511,7 @@ function initEventListeners() {
       activeCategory = 'all';
       const pills = document.querySelectorAll('.category-pill');
       pills.forEach(p => p.classList.toggle('active', p.dataset.category === 'all'));
+      updateCategoryBanner();
       applyFiltersAndRender();
     });
   }
@@ -386,8 +536,8 @@ function initEventListeners() {
 // Filtering & Sorting Logic
 function applyFiltersAndRender() {
   filteredBooks = allBooks.filter(book => {
-    // 1. Category Filter
-    if (activeCategory !== 'all' && book.category !== activeCategory) {
+    // 1. Category Filter (Matches State Core Module subcategories: tnpsc, police, state, others, all)
+    if (!matchesActiveCategory(book, activeCategory)) {
       return false;
     }
 
@@ -560,6 +710,10 @@ window.resetAllFilters = function() {
   activeCategory = 'all';
   const pills = document.querySelectorAll('.category-pill');
   pills.forEach(p => p.classList.toggle('active', p.dataset.category === 'all'));
+  if (activeGovt === 'central' && window.switchToGovtTab) {
+    window.switchToGovtTab('state');
+  }
+  updateCategoryBanner();
   applyFiltersAndRender();
 };
 

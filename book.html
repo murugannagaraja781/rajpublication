@@ -40,7 +40,47 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/book-detail.css">
 </head>
-<body>
+<body class="preloader-active">
+
+  <!-- Initial Page Preloader with Circular Spinner around Logo -->
+  <div id="site-preloader" class="site-preloader" aria-label="Loading Raj Publication" role="status">
+    <div class="preloader-content">
+      <div class="preloader-logo-ring-wrap">
+        <!-- Circular Animated Spinner Ring -->
+        <svg class="preloader-ring-svg" viewBox="0 0 160 160" width="160" height="160" aria-hidden="true">
+          <defs>
+            <linearGradient id="preloaderGoldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#F59E0B" />
+              <stop offset="50%" stop-color="#FDE047" />
+              <stop offset="100%" stop-color="#D97706" />
+            </linearGradient>
+          </defs>
+          <circle class="ring-bg" cx="80" cy="80" r="70" fill="none" />
+          <circle class="ring-spinner" cx="80" cy="80" r="70" fill="none" />
+        </svg>
+
+        <!-- Pulsing Aura Halo -->
+        <div class="preloader-halo"></div>
+
+        <!-- Centered Logo Badge -->
+        <div class="preloader-logo-badge">
+          <img src="assets/images/logo-mark.png" alt="Raj Publication Logo" class="preloader-logo-img" width="68" height="56">
+        </div>
+      </div>
+
+      <!-- Brand Info & Loading Indicators -->
+      <div class="preloader-text-group">
+        <div class="preloader-brand-title">RAJ <span>PUBLICATION</span></div>
+        <div class="preloader-brand-sub">ராஜ் பப்ளிகேஷன் • BOOKS</div>
+        
+        <!-- Shimmer Progress Bar -->
+        <div class="preloader-bar-wrap">
+          <div class="preloader-bar-fill"></div>
+        </div>
+        <div class="preloader-status-text">புத்தக விவரங்கள் ஏற்றப்படுகின்றன...</div>
+      </div>
+    </div>
+  </div>
 
   <!-- Top Announcement Bar -->
   <aside class="announcement-bar" aria-label="அறிவிப்பு">
@@ -386,6 +426,7 @@
   </footer>
 
   <!-- Scripts -->
+  <script src="js/preloader.js"></script>
   <script src="js/config.js"></script>
   <script src="js/whatsapp-order.js"></script>
   <script src="js/book-detail.js"></script>
